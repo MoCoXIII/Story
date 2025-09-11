@@ -1,4 +1,6 @@
 # Story
-An interactive story I wrote (German)
+An interactive story I wrote.
 
-There is nothing here yet; I must first figure out why my code doesn't work.
+Destined to be written in many real languages and even some of my own.
+
+There is something on the way.
