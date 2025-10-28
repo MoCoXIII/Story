@@ -31,6 +31,18 @@ body {
     padding-right: 0px;
 }
 
+.link {
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+/* .standardlink {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
 h1 {
     font-size: 80px;
     text-align: center;
