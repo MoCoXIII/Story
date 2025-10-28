@@ -19,8 +19,10 @@ function display(data, chapterIndex) {
             element.innerHTML = text;
             const classes = snippet[1];
             if (classes) {
-                element.classList.add(classes);
-                if (classes.includes("emqjeciv")) {
+                for (let htmlclass of classes.split(/\s+/)) {
+                    element.classList.add(htmlclass);
+                }
+                if (classes.includes("emqjeciv") && classes.includes("translate")) {
                     element.innerHTML = translate(text);
                 }
                 if (classes.includes("newline")) {
