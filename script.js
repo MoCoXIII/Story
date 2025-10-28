@@ -32,6 +32,9 @@ function display(data, chapterIndex) {
             const link = snippet[2];
             if (link) {
                 let linker = document.createElement("a");
+                for (let htmlclass of element.classList) {
+                    linker.classList.add(htmlclass);
+                }
                 linker.href = link;
                 linker.appendChild(element);
                 chapterDiv.appendChild(linker);
