@@ -15,18 +15,24 @@ function display(data, chapterIndex) {
     for (let [elementType, texts] of chapter) {
         for (let snippet of texts) {
             let element = document.createElement(elementType);
-            element.innerHTML = snippet[0];
-            if (snippet[1]) {
-                element.classList.add(snippet[1]);
-                if (snippet[1].includes("emqjeciv")) {
-                    element.innerHTML = translate(snippet[0]);
+            const text = snippet[0];
+            element.innerHTML = text;
+            const classes = snippet[1];
+            if (classes) {
+                element.classList.add(classes);
+                if (classes.includes("emqjeciv")) {
+                    element.innerHTML = translate(text);
+                }
+                if (classes.includes("newline")) {
+                    chapterDiv.appendChild(document.createElement("br"));
                 }
             }
-            if (snippet[2]) {
-                let link = document.createElement("a");
-                link.href = snippet[2];
-                link.appendChild(element);
-                chapterDiv.appendChild(link);
+            const link = snippet[2];
+            if (link) {
+                let linker = document.createElement("a");
+                linker.href = link;
+                linker.appendChild(element);
+                chapterDiv.appendChild(linker);
                 continue;
             }
             chapterDiv.appendChild(element);

@@ -14,7 +14,7 @@
             ["SCHRIFTZEICHEN ", "emqjeciv"],
             ["vorkommen. Diese entsprechen aufgeschriebenem Text, den man als Leser, je nachdem, welche Entscheidungen man trifft, eventuell zu lesen lernt. Dies betrifft hauptsächlich Namensschilder, falls diese vorhanden sind. Für diese ist es anfänglich empfehlenswert, nur auf das erste Zeichen, sozusagen den Anfangsbuchstaben, zu achten. Dieser ist, zumindest für Namen, größtenteils unterschiedlich. Es sollte schnell möglich sein, die Namen aufgrund ihrer Länge und allgemeinen Form voneinander zu unterscheiden. "],
             ["Falls nicht, melde bitte wie und warum in der Bewertungsumfrage.", "", "https://docs.google.com/forms/d/e/1FAIpQLSdYmrX4XG1QXyBmuzREU2p4PUAIVmtxNIlt4oo-QJEAYuTW5g/viewform"],
-            ["Klicke diesen Satz an, um mehr zu erfahren.", "", "?c=help"]]]],
+            ["Klicke diesen Satz an, um mehr zu erfahren.", "newline", "?c=help"]]]],
     "0002": [],
     "help": [
         ["h2",[
