@@ -96,12 +96,8 @@ function translate(text) {
 }
 function replaceWithBase128Chars(base10int) {
     let result = "";
-    let decimalBase128Digits = [];
-    while (base10int > 0) {
-        decimalBase128Digits.push(base10int % 128);
-        base10int = Math.floor(base10int / 128);
-    }
-    decimalBase128Digits.reverse();
+    let decimalBase128Digits;
+    ({ decimalBase128Digits } = getBase128Digits(base10int));
     for (let decimalBase128Digit of decimalBase128Digits) {
         const hexDigit = 0x1E00 + decimalBase128Digit;
         console.log(hexDigit.toString(16).padStart(4, '0'));
@@ -109,4 +105,14 @@ function replaceWithBase128Chars(base10int) {
         result += base128Char;
     }
     return result;
+}
+
+function getBase128Digits(base10int) {
+    let decimalBase128Digits = [];
+    while (base10int > 0) {
+        decimalBase128Digits.push(base10int % 128);
+        base10int = Math.floor(base10int / 128);
+    }
+    decimalBase128Digits.reverse();
+    return { decimalBase128Digits };
 }
