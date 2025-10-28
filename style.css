@@ -18,13 +18,13 @@ body {
     font-family: "emqjeciv";
 }
 
-a {
-    color: black !important;
-    background-color: white !important;
+.clink {
+    color: black;
+    background-color: white;
     text-decoration: none;
 }
 
-a .emqjeciv {
+.clink .emqjeciv {
     padding-top: 3px;
     padding-bottom: 0px;
     padding-left: 0px;
