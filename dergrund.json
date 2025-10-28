@@ -3,20 +3,55 @@
         ["h1",[
             ["Der Grund"]]],
         ["span",[
-            ["Klicke auf Text mit invertierten Farben, um weitergeleitet zu werden.", "", "?c=0001"]]]],
+            ["Klicke auf Text mit invertierten Farben, um weitergeleitet zu werden.", "clink", "?c=0001"]]]],
+    "help": [
+        ["h2",[
+            ["Weitere Erklärungen"]]],
+        ["span",[
+            ["Du hast ja bereits verstanden, wie man hier navigiert. Dieses Buch ist "],
+            ["interaktiv", "link", "https://de.wiktionary.org/wiki/interaktiv"],
+            [", was heißt, dass du bestimmen kannst, wie die Geschichte weitergeht. "],
+            ["Links sehen in Dokumenten normalerweise "],
+            ["so", "standardlink", "https://google.com/"],
+            [" aus, aber ich habe sie "],
+            ["so", "link", "https://google.com/"],
+            [" formatiert, damit du nicht von den Farben abgelenkt wirst. Wenn du kursiv geschriebene Wörter oder Wortgruppen findest, kannst du diese anklicken. "],
+            ["Beachte jedoch, dass du durch "],
+            ["so markierte Textabschnitte", "clink"],
+            [" den Lauf der Geschichte ändern kannst."],
+            ["Jetzt kannst du mit dem restlichen Buch ", "newline"],
+            ["fortfahren", "clink", "?c=0002"],
+            [". Viel Spaß beim Suchen."]]]],
     "0001": [
         ["h2",[
             ["Hinweise für den Leser"]]],
         ["span",[
             ["Auf den ersten Blick wird dieses Buch wahrscheinlich etwas überfordernd sein, da man direkt ins Geschehen geworfen wird und unangekündigte Zeitsprünge auftreten. Sollte einem diese Art von Erzählung gefallen, könnte man "],
-            ["schon einmal loslesen, diese Erklärung überspringen und bei schließlich doch eintretender Verwirrung hierher zurückkehren.", "", "?c=0002"],
+            ["schon einmal loslesen, diese Erklärung überspringen und bei schließlich doch eintretender Verwirrung hierher zurückkehren.", "clink", "?c=0002"],
             [" Im Verlauf der Geschichte werden oft Schriftzeichen wie "],
             ["SCHRIFTZEICHEN ", "emqjeciv translate"],
             ["vorkommen. Diese entsprechen aufgeschriebenem Text, den man als Leser, je nachdem, welche Entscheidungen man trifft, eventuell zu lesen lernt. Dies betrifft hauptsächlich Namensschilder, falls diese vorhanden sind. Für diese ist es anfänglich empfehlenswert, nur auf das erste Zeichen, sozusagen den Anfangsbuchstaben, zu achten. Dieser ist, zumindest für Namen, größtenteils unterschiedlich. Es sollte schnell möglich sein, die Namen aufgrund ihrer Länge und allgemeinen Form voneinander zu unterscheiden. "],
-            ["Falls nicht, melde bitte wie und warum in der Bewertungsumfrage.", "", "https://docs.google.com/forms/d/e/1FAIpQLSdYmrX4XG1QXyBmuzREU2p4PUAIVmtxNIlt4oo-QJEAYuTW5g/viewform"],
-            ["Klicke diesen Satz an, um mehr zu erfahren.", "newline", "?c=help"]]]],
-    "0002": [],
-    "help": [
+            ["Falls nicht, melde bitte wie und warum in der Bewertungsumfrage.", "newline link", "https://docs.google.com/forms/d/e/1FAIpQLSdYmrX4XG1QXyBmuzREU2p4PUAIVmtxNIlt4oo-QJEAYuTW5g/viewform"],
+            ["Klicke diesen Satz an, um mehr zu erfahren.", "newline clink", "?c=help"]]]],
+    "0002": [
         ["h2",[
-            ["Weitere Erklärungen"]]]]
+            ["Wir Sind Noch"]]],
+        ["span",[
+            ["Wir saßen entspannt am Tisch in der Kantine und warteten, bis wir unser Essen aus der Küche abholen konnten. "],
+            ["QJOM", "emqjeciv"],
+            [" saß am Fenster und schaute gelegentlich heraus in die Sterne. Die Atmosphäre war gelassen, das Gemurmel der anderen Gäste füllte den Raum. "],
+            ["QJOM", "emqjeciv"],
+            [" stand auf und richtete einen fragenden Blick auf uns. „Wir haben die Nummer 225“, antwortete "],
+            ["VJIU", "emqjeciv"],
+            [", während ich nur lächelte und mit einem Nicken zustimmte. "],
+            ["QJOM", "emqjeciv"],
+            [" wandte sich zur Küchentür, trat ein und plauderte kurz mit dem Koch, bevor er die Tabletts mit seinem und den anderen Gerichten aufnahm. Als er zum Tisch zurück ging, hielt er die Tabletts vorsichtig, um nichts zu verschütten. Er blieb ohne Vorwarnung mitten im Raum stehen und schaute mit offenem Mund in unsere Richtung. "],
+            ["VJIU", "emqjeciv"],
+            [" stand frustriert auf und wollte ihm etwas abnehmen, wobei auch er erstarrte, als er in der Sonnenbrille von "],
+            ["QJOM", "emqjeciv"],
+            [" etwas zu sehen schien. Ich verfolgte ihre Blicke und sah aus dem Fenster. Die Fenster schienen in jener Nacht ungewöhnlich klar zu sein. Ein Schimmer von Sternen funkelte wie winzige Diamanten in der Ferne. Doch etwas zog meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckte. Mein Blick verharrte auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kroch in mir hoch, als ob etwas nicht stimmte. Die Luft schien stillzustehen, als ob die Zeit selbst eine Pause einlegte."]]],
+        ["h2",[
+            ["Angenommen,<br>Du Bist Angenommen"]]],
+        ["span",[
+            ["Der Bildschirm meines Computers flackerte leicht, als ich zwischen den Optionen hin und her blätterte."]]]]
 }
