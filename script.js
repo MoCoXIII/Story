@@ -6,13 +6,17 @@ fetch("dergrund.json")
 
 function display(data, chapterIndex) {
     let chapter = data[chapterIndex] || data["0000"];
-    let possibleNewChapterDiv = document.createElement("div")
-    possibleNewChapterDiv.id = "chapter"
-    let chapterDiv = document.getElementById("chapter") || possibleNewChapterDiv;
+    let newChapterDiv = document.createElement("div")
+    newChapterDiv.classList.add("chapter");
+    let chapterDiv = newChapterDiv;
     chapterDiv.innerHTML = "";
     document.body.appendChild(chapterDiv);
 
     for (let [elementType, texts] of chapter) {
+        if (texts === "") {
+            display(data, elementType);
+            continue;
+        }
         for (let snippet of texts) {
             let element = document.createElement(elementType);
             const text = snippet[0];

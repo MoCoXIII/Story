@@ -18,7 +18,8 @@
             [" formatiert, damit du nicht von den Farben abgelenkt wirst. Wenn du kursiv geschriebene Wörter oder Wortgruppen findest, kannst du diese anklicken. "],
             ["Beachte jedoch, dass du durch "],
             ["so markierte Textabschnitte", "clink"],
-            [" den Lauf der Geschichte ändern kannst."],
+            [" den Lauf der Geschichte ändern kannst.<br>"],
+            ["Um den Link zu einem bestimmten Kapitel zu erhalten, kopiere die ChapterID hinter ?c=... in der URL. Dort kannst du auch eine beliebige CID eingeben, um zu einem bestimmten Kapitel zu springen. Wenn mehrere Kapitel auf einer Seite zu sehen sind, kannst du auch auf den Titel eines unteren Kapitels drücken, um Kapitel oberhalb davon auszublenden und den Link zu aktualisieren."],
             ["Jetzt kannst du mit dem restlichen Buch ", "newline"],
             ["fortfahren", "clink", "?c=0002"],
             [". Viel Spaß beim Suchen."]]]],
@@ -50,6 +51,8 @@
             [" stand frustriert auf und wollte ihm etwas abnehmen, wobei auch er erstarrte, als er in der Sonnenbrille von "],
             ["QJOM", "emqjeciv"],
             [" etwas zu sehen schien. Ich verfolgte ihre Blicke und sah aus dem Fenster. Die Fenster schienen in jener Nacht ungewöhnlich klar zu sein. Ein Schimmer von Sternen funkelte wie winzige Diamanten in der Ferne. Doch etwas zog meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckte. Mein Blick verharrte auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kroch in mir hoch, als ob etwas nicht stimmte. Die Luft schien stillzustehen, als ob die Zeit selbst eine Pause einlegte."]]],
+        ["0003",""]],
+    "0003": [
         ["h2",[
             ["Angenommen,<br>Du Bist Angenommen"]]],
         ["span",[

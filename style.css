@@ -9,7 +9,7 @@ body {
     font-size: 18px;
 }
 
-#chapter {
+.chapter {
     max-width: 600px;
     margin: 0 auto;
 }
@@ -33,6 +33,11 @@ body {
 
 .link {
     font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+.unlink {
     color: white;
     text-decoration: none;
 }
