@@ -51,12 +51,12 @@ function display(data, chapterIndex) {
         const closestChapters = Object.keys(data).filter(key => levenshteinDistance(key, chapterIndex) <= 3).sort((a, b) => levenshteinDistance(a, chapterIndex) - levenshteinDistance(b, chapterIndex));
         for (let closestChapter of closestChapters.slice(0, 5)) {
             const chapterLink = document.createElement("span")
-            chapterLink.textContent = data[closestChapter][0][1][0][0];
+            chapterLink.innerHTML = data[closestChapter][0][1][0][0];
             chapterLink.classList.add("clink")
             const spoiler = document.createElement("details")
             spoiler.classList.add("spoiler")
             const summary = document.createElement("summary")
-            summary.textContent = closestChapter;
+            summary.innerHTML = closestChapter;
             spoiler.appendChild(summary)
             appendAndLink(spoiler, chapterLink, "?c=" + closestChapter);
             chapterDiv.appendChild(spoiler)
