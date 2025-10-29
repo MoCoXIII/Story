@@ -54,7 +54,15 @@
         ["0003",""]],
     "0003": [
         ["h2",[
-            ["Angenommen,<br>Du Bist Angenommen"]]],
+            ["Angenommen,<br>Du Bist Angenommen", "unlink", "?c=0003"]]],
         ["span",[
-            ["Der Bildschirm meines Computers flackerte leicht, als ich zwischen den Optionen hin und her blätterte."]]]]
+            ["Der Bildschirm meines Computers flackerte leicht, als ich zwischen den Optionen hin und her blätterte.<br>"],
+            ["Das Kreuzfahrtschiff", "clink", "?c=1000"],
+            [" hatte eine bessere Arbeitsumgebung und ein beträchtliches, stabiles Einkommen, wobei "],
+            ["Opulent", "link", "https://de.wiktionary.org/wiki/opulent"],
+            [" schließlich nicht ohne Grund der bestzahlendste Arbeitgeber aller Zeiten war.<br>"],
+            ["Auf dem Bergbauschiff", "clink", "?c=2000"],
+            [" bei TerraCore, einer staatlichen Bergbaufirma, wurde man nach Gewinnquote bezahlt, was bedeutet, dass der Firmengewinn einer Mission auf alle Angestellten aufgeteilt wurde.<br>"],
+            ["Die Stratosphere Corporation", "clink", "?c=3000"],
+            [" war aufstrebend, doch ihre Arbeit war mir völlig unbekannt."]]]]
 }
