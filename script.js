@@ -40,7 +40,7 @@ function display(data, chapterIndex) {
             }
             const link = snippet[2];
             if (link) {
-                appendAndLink(element, link);
+                appendAndLink(chapterDiv, element, link);
                 continue;
             }
             chapterDiv.appendChild(element);
@@ -50,22 +50,28 @@ function display(data, chapterIndex) {
     if (error) {
         const closestChapters = Object.keys(data).filter(key => levenshteinDistance(key, chapterIndex) <= 3).sort((a, b) => levenshteinDistance(a, chapterIndex) - levenshteinDistance(b, chapterIndex));
         for (let closestChapter of closestChapters.slice(0, 5)) {
-            const chapterlink = document.createElement("span")
-            chapterlink.textContent = closestChapter;
-            chapterlink.classList.add("clink")
-            appendAndLink(chapterlink, "?c=" + closestChapter);
+            const chapterLink = document.createElement("span")
+            chapterLink.textContent = data[closestChapter][0][1][0][0];
+            chapterLink.classList.add("clink")
+            const spoiler = document.createElement("details")
+            spoiler.classList.add("spoiler")
+            const summary = document.createElement("summary")
+            summary.textContent = closestChapter;
+            spoiler.appendChild(summary)
+            appendAndLink(spoiler, chapterLink, "?c=" + closestChapter);
+            chapterDiv.appendChild(spoiler)
             chapterDiv.appendChild(document.createElement("br"))
         }
     }
 
-    function appendAndLink(element, link) {
+    function appendAndLink(parent, element, link) {
         let linker = document.createElement("a");
         for (let htmlclass of element.classList) {
             linker.classList.add(htmlclass);
         }
         linker.href = link;
         linker.appendChild(element);
-        chapterDiv.appendChild(linker);
+        parent.appendChild(linker);
     }
 }
 
