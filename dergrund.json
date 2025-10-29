@@ -69,5 +69,53 @@
             ["Auf dem Bergbauschiff", "clink", "?c=2000"],
             [" bei TerraCore, einer staatlichen Bergbaufirma, wurde man nach Gewinnquote bezahlt, was bedeutet, dass der Firmengewinn einer Mission auf alle Angestellten aufgeteilt wurde.<br>"],
             ["Die Stratosphere Corporation", "clink", "?c=3000"],
-            [" war aufstrebend, doch ihre Arbeit war mir völlig unbekannt."]]]]
+            [" war aufstrebend, doch ihre Arbeit war mir völlig unbekannt."]]]],
+    "1000": [
+        ["h2",[
+            ["Der Kreuzer"]]],
+        ["span",[
+            ["Die Sonne steht hoch am Himmel, als ich an Bord des majestätischen Kreuzfahrtschiffs trete, bereit, meinen ersten Arbeitstag als Sicherheitsangestellter anzutreten. Der salzige Duft des Meeres weht mir ins Gesicht, während ich die prächtige Erscheinung des Schiffes bewundere, das nun mein Arbeitsplatz sein würde.<br>"],
+            ["„Nusova,“ begrüßt mich ein freundlicher Mann mittleren Alters, während er mir die Hand reicht. Sein Namensschild, das auf der linken Seite mit „➊“ beschriftet ist,  verrät, dass er "],
+            ["VJIU", "emqjeciv"],
+            [" heißt. „Willkommen an Bord.“ „Danke“, erwidere ich, während ich versuche, einen Blick ins Schiffsinnere zu werfen. Wir betreten das Büro für Sicherheit, in dem ich ein weiteres Mitglied unseres Teams kennenlerne: "],
+            ["QJOM", "emqjeciv"],
+            [", ein alter Schulfreund, begrüßt mich mit einem breiten Grinsen und einem festen Händedruck. Es fühlt sich seltsam vertraut an, ihn nach all den Jahren wiederzusehen, und ich bin, um ehrlich zu sein, ein wenig erleichtert, ein bekanntes Gesicht im Kollegium zu haben.<br>"],
+            ["Ich schaue mich im Sicherheitsbüro genauer um. Der Raum ist wie ein Klassenzimmer aufgebaut - wie ein Informatikraum, um etwas spezifischer zu sein. Auf jedem Tisch steht ein Monitor, dessen Kabel im jeweiligen Tisch verschwinden.<br>"],
+            ["„Wir können uns schon mal hinsetzen, bis der Einweiser hier ist.“ "],
+            ["QJOM", "emqjeciv"],
+            [" setzt sich in die letzte Reihe, die mit „Gruppe ➊“ beschriftet ist. Ich erinnere mich daran, im Arbeitsvertrag gelesen zu haben, dass ich ebenfalls der Gruppe ➊ zugeteilt wurde. Er fordert mich mit einer Handbewegung auf, ihm zu folgen. Die Tische haben jeweils nur einen Stuhl, weshalb ich mich an den Tisch links neben ihm setze. "],
+            ["VJIU", "emqjeciv"],
+            [" bleibt am Eingang stehen und begrüßt bereits die nächsten Neuankömmlinge.<br>"],
+            ["Stetig füllt sich der Raum mit Menschen, die sich, oft nach einer Überprüfung ihres digitalen Postfachs, auf ihre jeweiligen Plätze setzen. Die beiden äußeren Plätze auf unserer Bank sind bis jetzt frei geblieben. Ich vermute, dass "],
+            ["VJIU", "emqjeciv"],
+            [", aufgrund der ➊ an seinem Namensschild, auch Gruppe 1 zugeteilt wurde. Jedoch verwundert mich der weitere freie Platz neben mir, dem ich bis jetzt keine Person zuordnen kann.<br>"],
+            ["Ich drehe mich nach rechts zu "],
+            ["QJOM", "emqjeciv"],
+            [" und frage ihn, was er glaubt, wer das letzte Mitglied der Gruppe ➊ sein könnte. Er überlegt eine Weile, bis er schließlich schmunzelnd antwortet. „Ich glaube, es sind inzwischen alle hier.“ Er deutet auf den Eingang, von dem sich "],
+            ["VJIU", "emqjeciv"],
+            [" gerade abwendet und beginnt, in unsere Richtung zu gehen. Ich schaue zurück zu "],
+            ["QJOM", "emqjeciv"],
+            [" und dann wieder zu "],
+            ["VJIU", "emqjeciv"],
+            [". Er lässt sich rechts von "],
+            ["QJOM", "emqjeciv"],
+            [" nieder und lehnt sich zurück.<br>"],
+            ["Ich blicke wieder zum Eingang, an dem ein stämmiger Mann gerade die Tür schließt. Daraufhin betritt er ebenfalls das Büro und schließt auch hier die Tür. Die Gespräche im Raum verklingen langsam, als sich der Einweiser, dessen Namensschild mit „"],
+            ["NEVVZ", "emqjeciv"],
+            ["“ beschriftet ist, ans vorderste Ende des Raumes stellt."]]],
+        ["1001", ""]],
+    "1001": [
+        ["h2",[
+            ["Einweisung", "unlink", "?c=1001"]]],
+        ["span",[
+            ["„Sehr geehrtes Kollegium“, hört man ihn mit rauer Stimme sagen."]]]],
+    "2000": [
+        ["h2",[
+            ["Das Bergbauschiff"]]]],
+    "3000": [
+        ["h2",[
+            ["StratCorp™"]]],
+        ["span",[
+            ["IMUP NATL", "emqjeciv"],
+            ["..."]]]]
 }
