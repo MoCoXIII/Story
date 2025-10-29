@@ -5,7 +5,12 @@ fetch("dergrund.json")
     .then(data => display(data, chapterIndex));
 
 function display(data, chapterIndex) {
-    let chapter = data[chapterIndex] || data["0000"];
+    let chapter = data[chapterIndex];
+    let error = false;
+    if (!chapter) {
+        chapter = data["error"];
+        error = true;
+    }
     let newChapterDiv = document.createElement("div")
     newChapterDiv.classList.add("chapter");
     let chapterDiv = newChapterDiv;
@@ -35,19 +40,54 @@ function display(data, chapterIndex) {
             }
             const link = snippet[2];
             if (link) {
-                let linker = document.createElement("a");
-                for (let htmlclass of element.classList) {
-                    linker.classList.add(htmlclass);
-                }
-                linker.href = link;
-                linker.appendChild(element);
-                chapterDiv.appendChild(linker);
+                appendAndLink(element, link);
                 continue;
             }
             chapterDiv.appendChild(element);
         }
     }
+
+    if (error) {
+        const closestChapters = Object.keys(data).filter(key => levenshteinDistance(key, chapterIndex) <= 3).sort((a, b) => levenshteinDistance(a, chapterIndex) - levenshteinDistance(b, chapterIndex));
+        for (let closestChapter of closestChapters.slice(0, 5)) {
+            const chapterlink = document.createElement("span")
+            chapterlink.textContent = closestChapter;
+            chapterlink.classList.add("clink")
+            appendAndLink(chapterlink, "?c=" + closestChapter);
+            chapterDiv.appendChild(document.createElement("br"))
+        }
+    }
+
+    function appendAndLink(element, link) {
+        let linker = document.createElement("a");
+        for (let htmlclass of element.classList) {
+            linker.classList.add(htmlclass);
+        }
+        linker.href = link;
+        linker.appendChild(element);
+        chapterDiv.appendChild(linker);
+    }
 }
+
+function levenshteinDistance(a, b) {
+    const m = a.length;
+    const n = b.length;
+    const d = Array.from({ length: m + 1 }, (v) => Array.from({ length: n + 1 }, (v2) => 0));
+    for (let i = 1; i <= m; i++) {
+        d[i][0] = i;
+    }
+    for (let j = 1; j <= n; j++) {
+        d[0][j] = j;
+    }
+    for (let i = 1; i <= m; i++) {
+        for (let j = 1; j <= n; j++) {
+            const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+            d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost);
+        }
+    }
+    return d[m][n];
+}
+
 
 function translate(text) {
     const translator = {

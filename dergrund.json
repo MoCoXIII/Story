@@ -1,4 +1,9 @@
 {
+    "error": [
+        ["h1",[
+            ["404"]]],
+        ["span",[
+            ["Das gewünschte Kapitel konnte nicht gefunden werden. Entweder existiert es noch nicht - wird also demnächst hinzugefügt -, oder die von dir eingegebene CID enthält einen Tippfehler.<br>Existierende Kapitel, die deiner Anfrage ähnlich sind, sollten folgend aufgelistet sein.<br><br>"]]]],
     "0000": [
         ["h1",[
             ["Der Grund"]]],
