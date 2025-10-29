@@ -8,7 +8,7 @@
         ["h1",[
             ["Der Grund"]]],
         ["span",[
-            ["Klicke auf Text mit invertierten Farben, um weitergeleitet zu werden.", "clink", "?c=0001"]]]],
+            ["Klicke auf Text mit invertierten Farben, um weitergeleitet zu werden.", "clink", "?c=0a"]]]],
     "help": [
         ["h2",[
             ["Weitere Erklärungen"]]],
@@ -26,20 +26,20 @@
             [" den Lauf der Geschichte ändern kannst.<br>"],
             ["Um den Link zu einem bestimmten Kapitel zu erhalten, kopiere die ChapterID hinter ?c=... in der URL. Dort kannst du auch eine beliebige CID eingeben, um zu einem bestimmten Kapitel zu springen. Wenn mehrere Kapitel auf einer Seite zu sehen sind, kannst du auch auf den Titel eines unteren Kapitels drücken, um Kapitel oberhalb davon auszublenden und den Link zu aktualisieren."],
             ["Jetzt kannst du mit dem restlichen Buch ", "newline"],
-            ["fortfahren", "clink", "?c=0002"],
+            ["fortfahren", "clink", "?c=pre"],
             [". Viel Spaß beim Suchen."]]]],
-    "0001": [
+    "0a": [
         ["h2",[
             ["Hinweise für den Leser"]]],
         ["span",[
             ["Auf den ersten Blick wird dieses Buch wahrscheinlich etwas überfordernd sein, da man direkt ins Geschehen geworfen wird und unangekündigte Zeitsprünge auftreten. Sollte einem diese Art von Erzählung gefallen, könnte man "],
-            ["schon einmal loslesen, diese Erklärung überspringen und bei schließlich doch eintretender Verwirrung hierher zurückkehren.", "clink", "?c=0002"],
+            ["schon einmal loslesen, diese Erklärung überspringen und bei schließlich doch eintretender Verwirrung hierher zurückkehren.", "clink", "?c=pre"],
             [" Im Verlauf der Geschichte werden oft Schriftzeichen wie "],
             ["SCHRIFTZEICHEN ", "emqjeciv translate"],
             ["vorkommen. Diese entsprechen aufgeschriebenem Text, den man als Leser, je nachdem, welche Entscheidungen man trifft, eventuell zu lesen lernt. Dies betrifft hauptsächlich Namensschilder, falls diese vorhanden sind. Für diese ist es anfänglich empfehlenswert, nur auf das erste Zeichen, sozusagen den Anfangsbuchstaben, zu achten. Dieser ist, zumindest für Namen, größtenteils unterschiedlich. Es sollte schnell möglich sein, die Namen aufgrund ihrer Länge und allgemeinen Form voneinander zu unterscheiden. "],
             ["Falls nicht, melde bitte wie und warum in der Bewertungsumfrage.", "newline link", "https://docs.google.com/forms/d/e/1FAIpQLSdYmrX4XG1QXyBmuzREU2p4PUAIVmtxNIlt4oo-QJEAYuTW5g/viewform"],
             ["Klicke diesen Satz an, um mehr zu erfahren.", "newline clink", "?c=help"]]]],
-    "0002": [
+    "pre": [
         ["h2",[
             ["Wir Sind Noch"]]],
         ["span",[
@@ -56,21 +56,21 @@
             [" stand frustriert auf und wollte ihm etwas abnehmen, wobei auch er erstarrte, als er in der Sonnenbrille von "],
             ["QJOM", "emqjeciv"],
             [" etwas zu sehen schien. Ich verfolgte ihre Blicke und sah aus dem Fenster. Die Fenster schienen in jener Nacht ungewöhnlich klar zu sein. Ein Schimmer von Sternen funkelte wie winzige Diamanten in der Ferne. Doch etwas zog meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckte. Mein Blick verharrte auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kroch in mir hoch, als ob etwas nicht stimmte. Die Luft schien stillzustehen, als ob die Zeit selbst eine Pause einlegte."]]],
-        ["0003",""]],
-    "0003": [
+        ["0",""]],
+    "0": [
         ["h2",[
-            ["Angenommen,<br>Du Bist Angenommen", "unlink", "?c=0003"]]],
+            ["Angenommen,<br>Du Bist Angenommen", "unlink", "?c=0"]]],
         ["span",[
             ["Der Bildschirm meines Computers flackerte leicht, als ich zwischen den Optionen hin und her blätterte.<br>"],
-            ["Das Kreuzfahrtschiff", "clink", "?c=1000"],
+            ["Das Kreuzfahrtschiff", "clink", "?c=1"],
             [" hatte eine bessere Arbeitsumgebung und ein beträchtliches, stabiles Einkommen, wobei "],
             ["Opulent", "link", "https://de.wiktionary.org/wiki/opulent"],
             [" schließlich nicht ohne Grund der bestzahlendste Arbeitgeber aller Zeiten war.<br>"],
-            ["Auf dem Bergbauschiff", "clink", "?c=2000"],
+            ["Auf dem Bergbauschiff", "clink", "?c=2"],
             [" bei TerraCore, einer staatlichen Bergbaufirma, wurde man nach Gewinnquote bezahlt, was bedeutet, dass der Firmengewinn einer Mission auf alle Angestellten aufgeteilt wurde.<br>"],
-            ["Die Stratosphere Corporation", "clink", "?c=3000"],
+            ["Die Stratosphere Corporation", "clink", "?c=3"],
             [" war aufstrebend, doch ihre Arbeit war mir völlig unbekannt."]]]],
-    "1000": [
+    "1": [
         ["h2",[
             ["Der Kreuzer"]]],
         ["span",[
@@ -103,16 +103,100 @@
             ["Ich blicke wieder zum Eingang, an dem ein stämmiger Mann gerade die Tür schließt. Daraufhin betritt er ebenfalls das Büro und schließt auch hier die Tür. Die Gespräche im Raum verklingen langsam, als sich der Einweiser, dessen Namensschild mit „"],
             ["NEVVZ", "emqjeciv"],
             ["“ beschriftet ist, ans vorderste Ende des Raumes stellt."]]],
-        ["1001", ""]],
-    "1001": [
+        ["1a", ""]],
+    "1a": [
         ["h2",[
-            ["Einweisung", "unlink", "?c=1001"]]],
+            ["Einweisung", "unlink", "?c=1a"]]],
         ["span",[
             ["„Sehr geehrtes Kollegium“, hört man ihn mit rauer Stimme sagen."]]]],
-    "2000": [
+    "2": [
         ["h2",[
-            ["Das Bergbauschiff"]]]],
-    "3000": [
+            ["Das Bergbauschiff"]]],
+        ["span",[
+            ["Das Schiff ist, entgegen meiner Erwartungen, überraschend ästhetisch. Ein Modell von PMMK eben, spärlich eingerichtet und somit innerlich einer Raumstation aus dem 2016 Videospiel „No Man’s Sky“ ähnelnd. Außen befindet sich - vermutlich dem Modellnamen entsprechend - groß aufgedruckt der Schriftzug „"],
+            ["TCMINERV/16/-/16/", "emqjeciv translate"],
+            ["“.<br>"],
+            ["Am Empfang hat man mich enthusiastisch willkommen geheißen und direkt zum Zentralraum begleitet. Dieser ist ein relativ großer Raum, der seinem Namen beinahe nicht würdig ist, da er sich in einer der Ecken des Schiffes befindet. Zudem liegt er auf dem untersten Deck und hat nur ein relativ großes Fenster, das ungefähr von Hüft- bis Augenhöhe reicht, direkt links von der Eingangstür und kleineren, nicht einmal halb so großen Fenstern über den der Eingangstür gegenüberliegende Tische, an denen drei Wartungstechniker arbeiten. Ich setze mich zu ihnen, bis das restliche Security-Team eintrifft.<br>"],
+            ["„Hey, habt ihr den neuen Außenbordsensor gesehen? Der hat 'ne Macke - immer wenn er zur Sonne ausgerichtet ist, glaubt er, wir wären unter Beschuss“, scherzt "],
+            ["PIWOU", "emqjeciv"],
+            [", während er auf seiner Armbanduhr nach Neuigkeiten Ausschau hält.<br>"],
+            ["„Wahrscheinlich hält er das Leuchten der Sonne für den Antrieb einer Rakete“, lacht "],
+            ["KUPE", "emqjeciv"],
+            [", während er ebenfalls seine Uhr überprüft.<br>"],
+            ["„Keine Sorge, wenn die Aliens kommen, wissen wir wenigstens, dass sie unseren Namen auf Metallplatten finden“, wirft "],
+            ["DUPTVEPVOP", "emqjeciv"],
+            [" ein, ohne ein Schmunzeln unterdrücken zu können.<br>"],
+            ["„Ist was passiert, als ich weg war?“, fragt "],
+            ["VJIU", "emqjeciv"],
+            [" und lässt sich auf einem der freien Stühle nieder.<br>"],
+            ["„Nichts Ernstes. Nur eine kleinere Fehlfunktion im Maschinenraum vor drei Wochen“, antwortet "],
+            ["KUPE", "emqjeciv"],
+            [".<br>"],
+            ["„Wie geht’s dir eigentlich so, nach deinem Urlaub?“, fragt "],
+            ["PIWOU", "emqjeciv"],
+            [" und blickt neugierig zu "],
+            ["VJIU", "emqjeciv"],
+            [". „Genau wie vorher, nur, dass die Kabinen der Gruppe Vier jetzt noch unkomfortabler wirken“, meint "],
+            ["VJIU", "emqjeciv"],
+            [" lachend. „Mal sehen, ob die Einser besser sind!“ scherzt er. „Wisst ihr eigentlich, wann die Anderen endlich hier sind?“ Meine Frage lässt die Gruppe eine Weile überlegen. Schließlich beginnt "],
+            ["VJIU", "emqjeciv"],
+            [" mit einer Antwort. „Soweit ich mitbekommen habe, sind für heute drei Neuankömmlinge für Gruppe Eins geplant. Du bist der erste, der hier ist, also sollten die anderen auch bald da sein, vermute ich.“ „Und wir werden mal wieder drei Wochen brauchen, bis wir die Namen zuordnen zu können, ohne das Schild jedes mal lesen zu müssen“, scherzt "],
+            ["DUPTVEPVOP", "emqjeciv"],
+            [". Die Namensschilder sind im internationalen Bitalphabet geschrieben, um einfach auf günstigen 7-Segment Displays dargestellt werden zu können. Geizige Firmen eben. So steht auf meinem Namensschild „"],
+            ["NUSOVA", "emqjeciv"],
+            ["“, was vermutlich die geldsparende Schreibweise von „Nusova“ ist.<br>"],
+            ["Ich höre die Tür aufschwenken und schaue erstaunt in ihre Richtung - „Qjom?!“, frage ich erstaunt. „Du, hier?“ „Nusova!“ "],
+            ["QJOM", "emqjeciv"],
+            [" geht auf mich zu. „Lange nicht gesehen! Schicke Anzüge haben wir hier, oder?“ Mein alter Schulfreund deutet mit den Händen auf seinen Anzug.<br>"],
+            ["„Nicht ganz mein Stil, diese Anzüge, aber ziemlich gut gemacht.“ Im Augenwinkel erkenne ich das typische Leuchten eines Namensschilds im dunklen Flur. „"],
+            ["OTECIME", "emqjeciv"],
+            ["“. Sie betritt den Raum so unauffällig, dass ich meine, die anderen haben sie gar nicht bemerkt.<br>"],
+            ["„Was genau ist da eigentlich vor drei Wochen im Maschinenraum passiert?“, fragt VJIU in die Gruppe.<br>"],
+            ["„Hat das etwas mit der Grafik da oben zu tun?“, entgegnet "],
+            ["QJOM", "emqjeciv"],
+            [" und richtet seinen Blick auf den großen Monitor. „Ja, da leuchten alle Teile grün.“ "],
+            ["VJIU", "emqjeciv"],
+            [" blickt verwirrt auf "],
+            ["PIWOU", "emqjeciv"],
+            [", dann auf die schematischen Zeichnungen. „Vor ein paar Monaten wurde ein neuer, effizienterer Generator eingebaut“, wirft "],
+            ["PIWOU", "emqjeciv"],
+            [" ein, „sodass die Sensoren bis zum Softwareupdate vor zwei Wochen ‘für den Generator gefährlich niedrige Temperaturen’ gemeldet haben, weil sie noch auf den alten Generator eingestellt waren.“<br>"],
+            ["„Im Ernst, ich war kurz davor, meine Jacke zu holen, als ich von den ‘gefährlich niedrigen Temperaturen’ gehört habe“, fügt "],
+            ["PIWOU", "emqjeciv"],
+            [" mit einem Augenzwinkern hinzu. „Das erklärt’s“, sagt "],
+            ["VJIU", "emqjeciv"],
+            [" und entspannt sich merklich. Ich nicke zustimmend.<br>"],
+            ["„Jetzt, da wir alle da sind, fangen wir mit der Arbeit an, korrekt?“ "],
+            ["OTECIME", "emqjeciv"],
+            [" scheint wirklich unauffällig gewesen zu sein, da "],
+            ["VJIU", "emqjeciv"],
+            [" aufschreckt. Er schaut sich kurz im Raum um, bis er nach einiger Überlegung antwortet. „Einer überwacht alles auf dem Monitor und die Anderen verteilen sich auf ihre Wachposten. Uns stehen die Brücke und die Ladebucht als reguläre Wachposten zur Verfügung. Wir haben im Maschinenraum 1 in letzter Zeit auch leichte Temperaturschwankungen festgestellt, die bis jetzt noch nicht untersucht wurden. Wer jeweils was übernimmt, ist uns überlassen.“ „Klingt logisch. Ich bleibe definitiv hier und passe auf“ "],
+            ["QJOM", "emqjeciv"],
+            [" dreht sich zum Bildschirm. „So sehe ich hier immer, wo ihr seid.“<br>"],
+            ["Wir stehen auf und gehen zur Tür, während "],
+            ["QJOM", "emqjeciv"],
+            [" wieder anfängt, mit den Kollegen zu reden und gelegentlich den Bildschirm kontrolliert.<br>"],
+            ["„Ihr findet mich auf der Brücke.“, versichert "],
+            ["OTECIME", "emqjeciv"],
+            [", tritt in den Flur zum Aufzug und fährt hoch. „Und, wo gehst du hin?“ "],
+            ["VJIU", "emqjeciv"],
+            [" scheint eine Antwort von mir zu erwarten. „Ich weiß nicht, lass mich nachschauen.“ Ich ziehe einen Lageplan aus der Tasche und überlege.<br>"],
+            ["„Kannst du das lesen?“, frage ich meinen Kollegen. „Ja, natürlich. Hier ist die Brücke“, er zeigte auf den Schriftzug - „"],
+            ["BRÜCKE", "emqjeciv translate"],
+            ["“ - „und hier, bei »"],
+            ["MASCHINENRAUM/1/", "emqjeciv translate"],
+            ["« ist der Maschinenraum. Ganz am Heck findest du die Ladebucht, »"],
+            ["LADEBUCHT", "emqjeciv translate"],
+            ["«.“<br>"],
+            ["Die Brücke", "unlink", "?c=2x"],
+            [" ist bereits besetzt und "],
+            ["der Maschinenraum", "clink", "?c=21"],
+            [" ist sowieso immer abgeschlossen, was auf einen technischen Fehler mit dem Sensor oder der Belüftung hindeutet, solange darin niemand wohnt, wobei das zwar eher eine Aufgabe für unsere Mechaniker wäre. Aber das einfache Kontrollieren sollte noch in meinem Aufgabenbereich liegen. "],
+            ["Die Ladebucht", "clink", "?c=22"],
+            [" könnte auch so einige Überraschungen bereithalten, falls etwas mit der Ware los ist. Mir fällt eine dünne, rote Linie auf, die die Flure der unteren Decks durchläuft. "],
+            ["Eine Patrouille", "clink", "?c=23"],
+            [" wäre also auch eine Option - und würde sogar viele der langen Gänge umfassen, sodass irgendwas Spannendes garantiert ist."]]]],
+    "3": [
         ["h2",[
             ["StratCorp™"]]],
         ["span",[
