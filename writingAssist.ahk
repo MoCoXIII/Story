@@ -3,6 +3,7 @@
 ; Replace "" with proper German quotes („ and “)
 :*:_""::„“
 
-:*:_break::"],`n["
+:*:_br::<br>"],`n["
+:*:_vis::"],`n["
 
 :*:_name::"],`n["", "emqjeciv"],`n["
