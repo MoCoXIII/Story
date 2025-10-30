@@ -42,20 +42,7 @@
     "pre": [
         ["h2",[
             ["Wir Sind Noch"]]],
-        ["span",[
-            ["Wir saßen entspannt am Tisch in der Kantine und warteten, bis wir unser Essen aus der Küche abholen konnten. "],
-            ["QJOM", "emqjeciv"],
-            [" saß am Fenster und schaute gelegentlich heraus in die Sterne. Die Atmosphäre war gelassen, das Gemurmel der anderen Gäste füllte den Raum. "],
-            ["QJOM", "emqjeciv"],
-            [" stand auf und richtete einen fragenden Blick auf uns. „Wir haben die Nummer 225“, antwortete "],
-            ["VJIU", "emqjeciv"],
-            [", während ich nur lächelte und mit einem Nicken zustimmte. "],
-            ["QJOM", "emqjeciv"],
-            [" wandte sich zur Küchentür, trat ein und plauderte kurz mit dem Koch, bevor er die Tabletts mit seinem und den anderen Gerichten aufnahm. Als er zum Tisch zurück ging, hielt er die Tabletts vorsichtig, um nichts zu verschütten. Er blieb ohne Vorwarnung mitten im Raum stehen und schaute mit offenem Mund in unsere Richtung. "],
-            ["VJIU", "emqjeciv"],
-            [" stand frustriert auf und wollte ihm etwas abnehmen, wobei auch er erstarrte, als er in der Sonnenbrille von "],
-            ["QJOM", "emqjeciv"],
-            [" etwas zu sehen schien. Ich verfolgte ihre Blicke und sah aus dem Fenster. Die Fenster schienen in jener Nacht ungewöhnlich klar zu sein. Ein Schimmer von Sternen funkelte wie winzige Diamanten in der Ferne. Doch etwas zog meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckte. Mein Blick verharrte auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kroch in mir hoch, als ob etwas nicht stimmte. Die Luft schien stillzustehen, als ob die Zeit selbst eine Pause einlegte."]]],
+        ["232d", ""],
         ["0",""]],
     "0": [
         ["h2",[
@@ -196,6 +183,263 @@
             [" könnte auch so einige Überraschungen bereithalten, falls etwas mit der Ware los ist. Mir fällt eine dünne, rote Linie auf, die die Flure der unteren Decks durchläuft. "],
             ["Eine Patrouille", "clink", "?c=23"],
             [" wäre also auch eine Option - und würde sogar viele der langen Gänge umfassen, sodass irgendwas Spannendes garantiert ist."]]]],
+    "21": [
+        ["h2",[
+            ["Aufsicht Am Maschinenraum"]]],
+        ["span",[
+            ["„Ich gehe zum Maschinenraum, vielleicht hat der neue Generator doch noch ein paar Macken übrig.“<br>"],
+            ["VJIU", "emqjeciv"],
+            [" scheint nicht begeistert zu sein. „Das glaube ich eher nicht. Da wirst du eher einschlafen, bevor du ein echtes Sicherheitsrisiko findest“, meint er enttäuscht, „Aber wenn du das übernimmst, gehe ich zur Ladebucht.“ Der Maschinenraum 1 liegt bei uns auf dem untersten Deck, sodass ich nur etwa 50 Meter laufen muss, um ihn zu erreichen. Also drehe ich mich nach rechts und gehe den Flur entlang, bis ich ungefähr in der Mitte des Ganges nach links abbiege. Ich sehe die Tür des Maschinenraums ungefähr 15 Meter entfernt an der linken Wand. Ich nähere mich der Tür, wobei mir ein leises, sich wiederholendes Klicken auffällt, das immer lauter wird, je weiter ich mich nähere. Ich hebe mein Funkgerät, drücke den Sprechknopf und berichte: „N bei MR1: Wiederholtes, dumpfes Klicken aus MR1“. Ich höre sofort eine Antwort. „Q aus ZR: Wahrscheinlich ist das die Ursache für die Schwankungen. Notiert. Schau am besten nach, was das ist, bevor wir unsere Techniker lossenden.“<br>"],
+            ["Ich nähere mich der Tür, während ich meinen Generalschlüssel aus der Tasche hole. Die Tür öffnet sich geräuschlos, das Licht geht automatisch an und ich sehe den Grund für das Klicken. „N in MR1 bei G1: Temperatursensor G1 hat sich gelöst, wird von G1’ Kühlung geschaukelt - versuche, ihn temporär zu befestigen.“<br>"],
+            ["Ich bemerke eine kleine Schraube, die auf dem Boden vor dem Generator liegt. Nachdem ich sie aufhebe, nehme ich eins der Mehrzweckwerkzeuge aus dem Schrank und schraube den kleinen Sensor mit der Schraube wieder an. Das Funkgerät piept kurz. „Q aus ZR: Temperaturschwankungen von G1 sind verschwunden. N, kannst zurückkehren.“<br>"],
+            ["Ich verlasse den Maschinenraum wieder, drücke die Tür zu und schließe ab. Auf dem Weg zurück zum Zentralraum begegne ich niemandem.<br>"],
+            ["„Warum auch?“ Die Stimme von "],
+            ["QJOM", "emqjeciv"],
+            [" klingt erleichtert. „Und, worum geht’s?“, frage ich. Er wendet sich mir voller Vorfreude zu. „Das erzähle ich dir später - ich kann dich ja schließlich nicht während der Schicht einfach hier rumsitzen lassen. Also, auf zur Patrouille mit dir!“ Er konnte ein lautes Lachen anscheinend nicht unterdrücken. „Treffen wir uns nach Schichtende in der Kantine - und ich sage der restlichen Gruppe 1 in der Zwischenzeit Bescheid, dass sie ebenfalls eingeladen sind!“"]]],
+        ["23a", ""]],
+    "22": [
+        ["h2",[
+            ["Aufsicht an der Ladebucht"]]],
+        ["span",[
+            ["Mein Blick fällt auf "],
+            ["VJIU", "emqjeciv"],
+            [", wobei ich erkenne, dass seine Aufmerksamkeit auf die Markierung vom Maschinenraum gerichtet ist.<br>"],
+            ["„An der Ladebucht gibt es bestimmt etwas zu tun“, meine ich. "],
+            ["VJIU", "emqjeciv"],
+            [" lächelt. „Super, dann bleibe ich am Maschinenraum“, freut er sich. „und schlafe erstmal.“<br>"],
+            ["Ich fahre mit dem Fahrstuhl aufs mittlere Deck, auf dem es eifrig zugeht. Einige Arbeiter kommen mir entgegen, laufen jedoch an mir vorbei. Gabelstapler und Kräne manövrieren durch die Hallen, Förderbänder und Rollenbahnen ziehen sich an den Decken entlang. Arbeiter mit Handwagen und Sackkarren bewegen sich von der Ladeluke in Richtung Lager. Ich gehe auf den Wachturm zu, steige die Treppen hinauf und begrüße Security 4-2, "],
+            ["JISCISV", "emqjeciv"],
+            [". Die erstmalige Begrüßung, soweit sie mir erklärt wurde, verläuft genau wie unter Sicherheitsangestellten geplant. „Jiscisv“ „Nusova“<br>"],
+            ["„Guten Wechsel“, betont er mit einem Nicken. „Die Schalttafel ist an, du musst dich nur noch anmelden. Alles ist schon eingeschaltet.“<br>"],
+            ["„Verstanden“, versichere ich ihm und übernehme die Sicherheitskontrolle.<br>"],
+            ["Arbeiter bewegen Pakete von außerhalb des Schiffes zum Eingang, Gabelstapler heben die Ware auf Förderbänder, die die Kisten in Lagerhallen befördern. In den Lagerhallen werden Pakete von weiteren Gabelstaplern den Förderbändern entnommen und in Regalen gestapelt. Andere Gabelstapler platzieren einzelne Kisten in Fahrstühle, die diese zu Werkstätten auf tiefer gelegenen Decks liefern.<br>"],
+            ["Alle Hallen werden von großen Flutscheinwerfern beleuchtet, sodass alles für jeden sichtbar ist - erst recht für die Wachleute. Die Flutlichter können von der Konsole im Wachturm in Ausrichtung, Helligkeit und Farbe einzeln gesteuert werden. Die Konsole selbst ist ein leicht angewinkelter, mattgrauer Schreibtisch, mit einem Display, das die gesamte Fläche überspannt.<br>"],
+            ["Eine Sache passt mir da aber nicht. Der Schreibtisch ist mattgrau, aber gleichzeitig völlig Display. Das Display ist aus. "],
+            ["JISCISV", "emqjeciv"],
+            [" meinte, alles sei bereits eingeschaltet. Hat sich der Bildschirm nur ausgestellt? Ich versuche den Anschalter zu betätigen, aber nichts passiert. Ist der Strom aus? Ich betrachte die Lampe über mir, die den Kontrollturm von innen beleuchten soll und über keinen Schalter verfügt - sie sollte also permanent leuchten - was nicht der Fall ist. Warum ist der Strom aus? Während ich nach Gründen suche, warum der Strom weg ist, empfange ich drei Funksprüche, die alles erklären.<br>"],
+            ["„Q bei ZR: Stromausfall in hinteren Teilen des Schiffes, der Hauptgenerator scheint ausgefallen zu sein.“<br>"],
+            ["„O bei HQ: Hier ist auch kein Strom mehr, die Navigationssysteme sind ausgefallen.“<br>"],
+            ["„V bei MR1: G1 ist plötzlich leise. Viel zu leise. Ich schaue na-“<br>"],
+            ["Der Funkspruch beendet sich mit einem leisen Piepen und kurz darauf erschüttert ein ohrenbetäubendes Krachen das Schiff. Ein Unterton von Angst, Überraschung, Panik und erzwungener Professionalität erfüllt die darauf eingehende Nachricht.<br>"],
+            ["„Q bei ZR: Wir haben den Kontakt zu V, G1 und jeglichen sich in MR1 befindlichen Geräten verloren. Weiß jemand was genau da los ist? Die Kameras sind ebenfalls ausgefallen.“<br>"],
+            ["Der Funkspruch wird von einem lauten Rauschen begleitet, aber man kann die Nachricht noch verstehen. Ich schalte die Kontrolltafel auf Batteriebetrieb um. Der Bildschirm leuchtet rot auf - eine Nachricht erscheint. Eine Nachricht, wie man sie bisher nur in Filmen gesehen hat.<br>"],
+            ["WIR ÜBERNEHMEN DIE KONTROLLE.", "emqjeciv2 translate red"],
+            ["WIDERSTAND IST ZWECKLOS.", "emqjeciv2 translate red newline"],
+            ["JEGLICHE VERSUCHE DER KOMMUNIKATION WERDEN UNTERDRÜCKT.", "emqjeciv2 translate red newline"],
+            ["GEBEN SIE AUF ODER WIR ÜBERNEHMEN GEWALTSAM DIE KONTROLLE.", "emqjeciv2 translate red newline"],
+            ["JEGLICHE RETTUNGSVERSUCHE WERDEN SCHEITERN.", "emqjeciv2 translate red newline"],
+            ["KOOPERATION WIRD BELOHNT.", "emqjeciv2 translate red newline"],
+            ["WIDERSTAND WIRD VERNICHTET.", "emqjeciv2 translate red newline"],
+            ["WARTEN SIE AUF UNSERE FORDERUNGEN.", "emqjeciv2 translate red newline"],
+            ["<br>"],
+            ["Ich schaue mich um, auf der Suche nach jemandem, der diese Schrift lesen kann. Unten in der großen Halle sehe ich Security 4-2, der aus seiner Pause zurück in die Halle stürmt und versucht, den verwirrten Arbeitern die Situation zu erklären, als das Licht wieder anspringt.<br>"],
+            ["Ich rufe ihn zu mir. „Jiscisv!“ Er schaut hoch zum Wachturm, als würde er fragen, was ich jetzt von ihm wolle. „Ich brauche dich hier oben - dringend!“<br>"],
+            ["Er scheint das rote Leuchten im Raum erkannt zu haben, denn er sprintet die Treppen hoch und betrachtet den roten Bildschirm. „Warum hast du mir das nicht gleich gesagt?!“ Er schaut den Schreibtisch entsetzt an. Ich versuche, mich zu rechtfertigen. „Ich bin neu im Großgeschäft - ich kann das gar nicht lesen.“ Er reicht mir eine Visitenkarte mit der Aufschrift »Wirtschaft Grundkurs«. „Hier findest du alles, was du brauchst.“<br>"],
+            ["Er schaut wieder auf den Bildschirm. „Das“, er zeigt auf die angezeigte Nachricht, „ist eine Drohung. Piratenschrift.“<br>"],
+            ["„Wir übernehmen die Kontrolle.<br>Widerstand ist zwecklos.<br>Jegliche Versuche der Kommunikation werden unterdrückt.<br>Geben Sie auf oder wir übernehmen gewaltsam die Kontrolle.<br>Jegliche Rettungsversuche werden scheitern.<br>Kooperation wird belohnt.<br>Widerstand wird vernichtet.<br>Warten Sie auf unsere Forderungen.“<br>", "red"],
+            ["„»Widerstand zwecklos.« Das kaufe ich denen nicht ab.“ "],
+            ["JISCISV", "emqjeciv"],
+            [" spricht in sein Funkgerät. „J aus LB: Verbindet mich mit "],
+            ["Admiral Vun", "clink", "?c=221"],
+            [".“<br>"],
+            ["„Und du“ Er schaut mir warnend entgegen. „schaust zum "],
+            ["Maschinenraum", "clink", "?c=222"],
+            [".“"]]]],
+    "221": [
+        ["h2",[
+            ["Admiral "],
+            ["VUN", "emqjeciv"]]],
+        ["span",[
+            ["Ich höre dem Funkspruch von "],
+            ["JISCISV", "emqjeciv"],
+            [", einem Sicherheitsangestellten des "],
+            ["TCMINERV/16/-/16/", "emqjeciv translate"],
+            [", aufmerksam zu.<br>"],
+            ["Die Übernahme des "],
+            ["TCMINERV/16/-/16/", "emqjeciv translate"],
+            [" durch Piraten ist - laut "],
+            ["JISCISV", "emqjeciv"],
+            [" - einigermaßen ernst zu nehmen. Obwohl sie die Funkverbindung nicht blockieren konnten, haben sie doch das Schiff für eine ganze Minute ohne Stromversorgung gelassen, bis die Notfallgeneratoren angesprungen sind. Sie haben es also noch nicht ganz unter Kontrolle.<br>"],
+            ["Ich betrete den Befehlssaal, bereit, meine Flotte zu verteidigen. „Wir haben die Kontrolle über den TCMV16-16 zwar noch nicht verloren, jedoch könnte es jeden Moment soweit sein. Setzen Sie alle verfügbaren Mittel ein und senden Sie schleunigst Unterstützung.“<br>"],
+            ["Ich bin der Admiral, der für die gesamte Flotte der "],
+            ["DEUTSCHEN REGIERUNG", "emqjeciv translate"],
+            [" verantwortlich ist. Der Gedanke, dass eines der Schiffe von Piraten infiltriert und übernommen werden könnte, ist für mich inakzeptabel.<br>"],
+            ["Die Stimme des Kapitäns schallt aus den Schiffslautsprechern. „Nehme Kurs auf TerraCore Miner V16-16, voraussichtliche Ankunft in 10 Wochen.“ So lange muss sich die Crew des "],
+            ["TCMINERV/16/-/16/", "emqjeciv translate"],
+            [" wohl noch gedulden. Ich leite unverzüglich eine Untersuchung ein, um herauszufinden, wie der "],
+            ["TCMINERV/16/-/16/", "emqjeciv translate"],
+            [" angegriffen wurde und wie wir zukünftige Angriffe verhindern können. Als erstes lasse ich sämtliche verfügbaren Daten über den Angriff zusammentragen, angefangen von den Aufzeichnungen der Sensoren bis hin zu den Berichten der Besatzungsmitglieder. „Berichten Sie mir alles, was Sie wissen“, fordere ich die leitenden Offiziere auf. „Wir müssen jede Einzelheit verstehen, um angemessen darauf reagieren zu können.“<br>"],
+            ["Der Chefingenieur meldet sich zu Wort. „Wir haben die Unfallstelle untersucht und vermuten auf Basis aller Hinweise, die wir bis jetzt vom TCMV16-16 erhalten konnten, dass der Energieausfall durch einen verdächtigen Chip in einem Generator, der vor Kurzem ausgetauscht wurde, verursacht wurde, der vermutlich beabsichtigt die gesamte Energie des Schiffes in einen instabilen Massenenergiespeicher gepumpt hat. Dieser scheint einen Schwellenwert überschritten oder ernsthaften Schaden erlitten zu haben, der ihn in kürzester Zeit durch das restliche Stromnetz kurzschloss und zur Explosion brachte.“<br>"],
+            ["Ich runzle die Stirn, als ich die Ernsthaftigkeit der Situation erkenne. Ein schädliches Teil in einer neuen Maschine ist eine Bedrohung von ganz anderer Natur als ein herkömmlicher Angriff. „Wie konnte das passieren?“, frage ich den Chefingenieur.<br>"],
+            ["„Es scheint, dass der neue Generator nicht auf seinen Ursprung geprüft und so bereits vor Eintritt ins Schiff durch eine Falle ersetzt worden sein könnte“, erklärt er. „Als er schlussendlich eingebaut war, dauerte es einige Monate, bis man den Fehler bemerken sollte. Ein garantiertes Zeichen eines lange geplanten Angriffs auf das Schiff, wenn Sie mich fragen.“<br>"],
+            ["Ich überlege fieberhaft, wie wir dieses Problem angehen können. Wir müssen sicherstellen, dass es nicht noch weitere dieser Defekte gibt, bevor wir das Schiff wieder unter unsere Kontrolle bringen können.<br>"],
+            ["„Sperren Sie alle nicht-essentiellen Systeme“, befehle ich. „Wir müssen jegliche defekten Geräte abschirmen und verhindern, dass so etwas erneut geschieht.“<br>"],
+            ["Während das Technikteam damit beschäftigt ist, die Nachricht an alle Verantwortlichen im "],
+            ["TCMINERV/16/-/16/", "emqjeciv translate"],
+            [" weiterzuleiten, überwache ich persönlich die Situation im Kontrollraum und halte Kontakt mit dem "],
+            ["TCMINERV/16/-/16/", "emqjeciv translate"],
+            [", um die Brücke über unsere Vermutungen und Bemühungen auf dem Laufenden zu halten. Schließlich erhalten wir einen Durchbruch. „Admiral“, ruft der Chefingenieur. „Wir haben alle nicht-essentiellen Systeme erfolgreich abstellen lassen. Wir müssen jedoch sicherstellen, dass nicht auch die essentiellen Teile betroffen sind. Es gibt mehrere Möglichkeiten, wie wir das anstellen könnten. Wir könnten "],
+            ["alle Modifikationen und relativ neuen Teile im Schiff absuchen lassen", "clink", "?c=2211"],
+            [". Falls wir auf ‘Nummer Sicher’ gehen wollen, könnten wir auch "],
+            ["die Systeme herunterfahren", "clink", "?c=2212"],
+            [", um die Aufladung der Energiespeicher und mögliche Kurzschlüsse zu stoppen, um dann das Schiff schrittweise wieder in Betrieb zu nehmen, wenn die dafür erforderlichen Teile überprüft wurden. Jedoch würde das das Schiff bewegungs- und verteidigungsunfähig gegenüber möglichen Piratenangriffen machen, bis wir dort ankommen. Welchen Kompromiss möchten Sie eingehen, Admiral?“<br>"],
+            ["Ich überlege eine Weile. Beide Optionen klingen unangenehm. Eine sichert das Schiff von innen, riskiert dabei allerdings Angriffe von außen und könnte das Schiff für Monate und im schlimmsten Fall - im Falle eines Angriffs - für immer aus dem Geschäft nehmen. Die andere lässt dem Schiff zwar seine Selbstverteidigung, riskiert jedoch weitere Zwischenfälle, falls auch wichtigste Systeme betroffen sind. Nach einigem Auswiegen der Optionen treffe ich eine schwierige Entscheidung."]]]],
+    "2211": [
+        ["h2",[
+            ["Aktive Untersuchung"]]],
+        ["span",[
+            [""]]]],
+    "2212": [
+        ["h2",[
+            ["Die Systeme Herunterfahren"]]],
+        ["span",[
+            [""]]]],
+    "222": [
+        ["h2",[
+            ["Der Ort des Geschehens"]]],
+        ["span",[
+            ["„… oder was davon noch übrig ist.“<br>"],
+            ["Er hält sich das Funkgerät wieder ans Ohr. …"]]]],
+    "23": [
+        ["h2",[
+            ["Zur Patrouille"]]],
+        ["span",[
+            ["Nach einigem Auswiegen der Optionen entschließe ich mich, zu patrouillieren. „Na, die werden einen einzigen Wachmann im Laderaum wohl kaum vermissen. Für die Patrouille ist auf deiner Karte diese rote Linie eingezeichnet.“  zeigt auf eine dünne, rote Linie, die mit Pfeilspitzen versehen ist. „Wenn du der Linie durch das untere Schiff folgst, solltest du gegen Schichtende, je nachdem, wie schnell du läufst, einige Male wieder hier gewesen sein. Solltest du das Gefühl haben, hier unten sei nichts los, kannst du auch weiter oben der orangen Linie folgen. Dann solltest du gegen Schichtende zum ersten Mal hier wieder ankommen. Ich muss sagen, das haben die Schichtplaner sehr gut koordiniert.“"]]],
+        ["23a", ""]],
+    "23a": [
+        ["h2",[
+            ["Auf Patrouille", "unlink", "?c=23a"]]],
+        ["span",[
+            ["„Na dann mal los.“ Ich orientiere mich entlang der Pfeile auf der Linie. „Hier lang also.“ Das unterste Deck ist kleiner als die Obigen, da man bei diesem Schiff zwar hauptsächlich auf Funktion geachtet zu haben scheint, aber Designer vermutlich trotzdem nicht vernachlässigt wurden. So geht es schnell, das unterste Deck ein Mal zu durchlaufen, ohne jemandem zu begegnen, da hier sowieso kaum jemand arbeitet - und die, die hier arbeiten, direkt vom Fahrstuhl in die Zentrale gehen, ohne das restliche Deck zu beachten. Höchstens Mechanikern, die etwas an der Schiffshülle reparieren oder ausbessern, würde man hier begegnen, aber auch diese haben momentan anscheinend keinen Grund hier zu sein. Kurz bevor ich wieder am Fahrstuhl vorbeiliefe, teilt sich "],
+            ["die rote Linie", "clink", "?c=231"],
+            [" von "],
+            ["der orangen, welche die Treppen hinauf läuft", "clink", "?c=232"],
+            ["."]]]],
+    "231": [
+        ["h2",[
+            ["Rote Linie"]]],
+        ["span",[
+            ["Ich folge der roten Linie und bleibe auf dem untersten Deck. Der Weg führt mich in Richtung Maschinenraum.<br>"],
+            ["Als ich mich dem Maschinenraum 1 nähere, spüre ich eine gewisse Spannung in der Luft. Die Geräusche der Maschinen werden lauter. Ich betrete den Raum und werfe einen prüfenden Blick auf die verschiedenen Maschinen und Kontrollanzeigen, wobei mir auffällt, dass die Tür eigentlich Verriegelt sein sollte - und dass "],
+            ["VJIU", "emqjeciv"],
+            [" nicht hier ist.<br>"],
+            ["Ich werfe einen prüfenden Blick in alle Ecken des Maschinenraums, doch von "],
+            ["VJIU", "emqjeciv"],
+            [" gibt es keine Spur. Die üblichen Geräusche und Bewegungen des Maschinenraums gehen unvermindert weiter, aber das Fehlen meines Kollegen wirft Fragen auf.<br>"],
+            ["Entschlossen beschließe ich, den Maschinenraum genauer zu durchsuchen. Ich gehe zu verschiedensten Kontrollstationen und überprüfe die Anzeigen auf mögliche Probleme oder Unregelmäßigkeiten, die ihn weggeschickt haben könnten. Alles scheint normal zu sein. Die Temperaturen liegen im normalen Bereich und die anderen Anzeigen zeigen keinen Alarm an. Ich überprüfe auch die Überwachungskameras, die den Bereich um den Maschinenraum überwachen, aber auch an ihnen ist nichts Auffälliges zu erkennen. Man müsste die Aufnahmen überprüfen. Ich frage einige der Ingenieure, die in der Nähe arbeiten, ob sie "],
+            ["VJIU", "emqjeciv"],
+            [" gesehen haben, aber niemand scheint ihn bemerkt zu haben. Einige zucken nur mit den Schultern, während andere behaupten, sie hätten ihn schon seit Stunden nicht mehr gesehen. Angesichts der Tatsache, dass die Schicht bereits weit fortgeschritten ist und "],
+            ["VJIU", "emqjeciv"],
+            [" nicht auffindbar ist, beschließe ich, "],
+            ["QJOM", "emqjeciv"],
+            [" darüber zu informieren."]]],
+        ["231a", ""]],
+    "231a": [
+        ["h2",[
+            ["Verschwunden"]]],
+        ["span",[
+            [""]]]],
+    "232": [
+        ["h2",[
+            ["Orange Linie"]]],
+        ["span",[
+            ["Die Treppen sind aus dünnen, aber nicht zu dünnen, gitterartigen Metallplatten gefertigt. Wahrscheinlich erneut einer der vielen Wege, dem Unternehmen etwas Geld zu ersparen. Jedoch kann man durch die Gitter das gesamte Treppenhaus hinaufsehen - und es sieht aus wie ohne Ende.<br>"],
+            ["Das Schiff ist gigantisch. Unzählige Decks, das oberste davon zwar nur die Brücke, aber immerhin unglaublich viele davon. Jedes drei bis vier Meter hoch, also eine Gesamthöhe von mehreren Kilometern - so hoch, wie nur ganz seltene Exemplare der planetaren Schiffe lang sind.<br>"],
+            ["Ich trete die Treppen zum zweiten Deck hinauf. Ich muss sagen, dass ich erwartet hatte, dass ich die Treppen für wackeliger gehalten habe, als sie es sind - so dünn wie sie gefertigt wurden. Das zweite Deck ist nicht weit entfernt, also erreiche ich es in wenigen Sekunden. Die schwere Brandschutztür lässt sich zu meinem Glück per Knopfdruck öffnen, da es andernfalls äußerst schwierig scheint, sie manuell auf zu bekommen. Jedoch gleitet sie auf Knopfdruck auf, als sei sie aus Aerogel - was sie offensichtlich nicht ist, da sie einerseits metallisch glänzt und andererseits die Erbauer dieses Schiffes sowieso zu geizig gewesen sein mussten, sich solch teure Türen anzuschaffen. So setze ich meine Patrouille fort.<br>"],
+            ["Entlang des Ganges passiere ich geschäftig aussehende Crewmitglieder, die ihren Aufgaben nachgehen. Einige nicken mir freundlich zu, während andere vertieft in ihre Arbeit sind und kaum Notiz von meiner Anwesenheit nehmen, und ich Ausschau nach Anzeichen von Unregelmäßigkeiten oder potenziellen Gefahren halte.<br>"],
+            ["Die orange Linie führt mich durch labyrinthartige Korridore, vorbei an verschlossenen Türen und Werkstätten, die ein dumpfes Summen von sich geben. Als ich mich dem Bereich der Ladebucht nähere, halte ich inne und lausche aufmerksam den Geräuschen um mich herum. Alles scheint normal zu sein. Ich schaue aus dem Beobachtungsfenster hinab in die Ladebucht, wobei mir keine Unregelmäßigkeiten auffallen - obwohl das sowieso momentan jemand für mich übernehmen würde, da die Ladebucht bedingungslos immer mehrfach besetzt sein sollte, falls ich die Worte von "],
+            ["VJIU", "emqjeciv"],
+            [" richtig deute.<br>"],
+            ["Während ich meinen Weg fortsetze, befällt mich der Gedanke, dass jedes Deck dieses Schiffes als eine Welt für sich gesehen werden kann. Als ich an einer Gabelung des Korridors ankomme, muss ich einen Moment innehalten und auf meine Karte blicken, um sicherzustellen, dass ich dem richtigen Weg folge.<br>"],
+            ["Die orange Linie führt mich weiter durch die verwinkelten Passagen, vorbei an Mannschaftsquartieren und Gemeinschaftsräumen, in denen das Werken der Besatzung deutlich spürbar ist. Ich begegne Ingenieuren, die eifrig an technischen Geräten arbeiten, und Matrosen, die schwere Ladung durch die Gänge tragen - manchmal auch auf Wägen schieben. Jeder scheint seinen Teil zum reibungslosen Ablauf des Schiffes beizutragen.<br>"],
+            ["Ich werfe einen Blick auf meine Uhr. Die halbe Schicht liegt noch vor mir. Also bleibt mir genug Zeit, "],
+            ["die nächsten beiden Stockwerke zu durchlaufen", "clink", "?c=232-a"],
+            [", um dann endlich "],
+            ["in meine Kabine zurückkehren", "clink", "?c=232a"],
+            [" zu können."]]]],
+    "232-a": [
+        ["h2",[
+            ["Mehr Patrouille"]]],
+        ["span",[
+            ["…<br>"],
+            ["Als ich die Uhr über dem Türrahmen erblicke, fällt mir auf, dass meine Schicht in wenigen Minuten endet. So begebe ich mich auf den Weg zurück."]]],
+        ["232a", ""]],
+    "232a": [
+        ["h2",[
+            ["Aufgang", "unlink", "?c=232a"]]],
+        ["span",[
+            ["QJOM", "emqjeciv"],
+            [" meinte, wir treffen uns nach der Schicht in der Kantine. Wahrscheinlich sind die anderen auch bereits auf dem Weg, falls "],
+            ["QJOM", "emqjeciv"],
+            [" es ihnen gegenüber ebenfalls erwähnt hat.<br>"],
+            ["Also gehe ich, da man nicht außerhalb der Arbeitszeiten in Uniform unterwegs sein sollte, vorerst zurück zu den Fahrstühlen und fahre auf das Kabinendeck, um mir Zivilkleidung anzuziehen.<br>"],
+            ["Ich hole meine Schlüsselkarte aus der Tasche und lese „Security 1-3“. Direkt neben dem Raum mit der Aufschrift „Security 1-1“, gegenüber von „Security 1-4“, finde ich meine Kabine. Ich halte die Zimmerkarte an das Schloss, die Tür schwenkt selbstständig auf und ich schaue hinein."]]],
+        ["232b", ""]],
+    "232b": [
+        ["h2",[
+            ["Meine Kabine", "unlink", "?c=232b"]]],
+        ["span",[
+            ["Beim Öffnen der Tür begrüßt mich ein warmes Licht, das durch das Bullauge hereinfällt und den Raum in eine sanfte Atmosphäre taucht. Die Wände sind in einem neutralen Farbton gehalten - ein Versuch, die begrenzte Größe optisch zu erweitern.<br>"],
+            ["Trotz des geringen Platzes haben meine wenigen persönlichen Gegenstände direkt einen festen Platz gefunden. Ein schlichter Schreibtisch mit einem Monitor steht an der linken Wand. Darauf stapeln sich Blätter, die nur darauf warten, überarbeitet zu werden. Auf der anderen Seite des Raumes, durch eine dünne Wand vom Arbeitsbereich getrennt, steht ein Bett. Die Bettwäsche ist einfach, aber makellos, das Bett ordentlich gemacht.<br>"],
+            ["Eine schmale, aber praktische Schrankwand enthält meine Uniformen und wenigen persönlichen Kleidungsstücke. Neben dem Bett befindet sich ein kleines Regal mit ein paar Büchern, die ich vielleicht in den nächsten Monaten lesen könnte. Auf der gegenüberliegenden Seite stehen ein schmaler Kühlschrank und eine Mikrowelle.<br>"],
+            ["Ich öffne die Schrankwand und nehme mir einen schwarzen Hoodie und eine ebenfalls schwarze Hose. Wenige Augenblicke später verlasse ich die Kabine bereits in meiner Zivilkleidung und eile zur Kantine, in der die Anderen bestimmt schon warten."]]],
+        ["232c", ""]],
+    "232c": [
+        ["h2",[
+            ["Besprechung in der Kantine", "unlink", "?c=232c"]]],
+        ["span",[
+            ["Ich steige in den Aufzug und fahre auf das oberste Deck. Die Kantine befindet sich dort am Heck des Schiffes, sodass man durch die nach hinten gerichteten Fenster einen unglaublichen Ausblick in die Sterne hat. Ich betrete die Kantine und sehe die Anderen an einem Tisch direkt an den Fenstern sitzen. "],
+            ["QJOM", "emqjeciv"],
+            [" sieht mich als erster und unterbricht seine Unterhaltung mit "],
+            ["VJIU", "emqjeciv"],
+            [", steht auf, worauf die Anderen auch aufstehen und winkt mich in die Richtung des Tresens. Wir bestellen als Gruppe und kehren zu unserem Tisch zurück.<br>"],
+            ["Wir sitzen also am Tisch in der Kantine und warten, bis wir unser Essen aus der Küche abholen können. "],
+            ["QJOM", "emqjeciv"],
+            [" spricht mit "],
+            ["VJIU", "emqjeciv"],
+            [" weiter über den Generator und witzelt, wie wenig die Installateure bezahlt worden sein müssen, um den Temperatursensor nicht korrekt anzubringen."]]],
+        ["232d", ""],
+        ["232e", ""]],
+    "232d": [
+        ["span",[
+            ["Die seltsame Timeline", "norender"],
+            ["QJOM", "emqjeciv"],
+            [" sitzt am Fenster und schaut gelegentlich heraus in die Sterne. Die Atmosphäre ist gelassen, das Gemurmel der anderen Gäste füllt den Raum.<br>"],
+            ["QJOM", "emqjeciv"],
+            [" steht nach einiger Zeit der Stille auf und richtet einen fragenden Blick auf uns. „Wir haben die Nummer 225“, antwortet "],
+            ["VJIU", "emqjeciv"],
+            [", während wir Anderen nur lächeln und mit einem Nicken zustimmen.<br>"],
+            ["QJOM", "emqjeciv"],
+            [" wendet sich zur Küchentür, tritt ein und plaudert kurz mit dem Koch, bevor er die Tabletts mit seinem und den anderen Gerichten aufnimmt. Als er zum Tisch zurückgeht, hält er die Tabletts vorsichtig, um nichts zu verschütten. Er bleibt ohne Vorwarnung mitten im Raum stehen und schaut erstaunt in unsere Richtung. "],
+            ["OTECIME", "emqjeciv"],
+            [" verfolgt seinen Blick und schaut aus dem Fenster. "],
+            ["VJIU", "emqjeciv"],
+            [" steht frustriert auf und will ihm etwas abnehmen, wobei auch er erstarrt, als er in der Sonnenbrille von "],
+            ["QJOM", "emqjeciv"],
+            [" etwas zu sehen scheint. Ich verfolge ebenfalls ihre Blicke und sehe aus dem Fenster. Ein Schimmer von Sternen funkelt wie winzige Diamanten in der Ferne. Doch etwas zieht meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckt.<br>"],
+            ["Mein Blick verharrt auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kriecht in mir hoch, als ob etwas nicht stimmt. Die gesamte Kantine wird leiser, als mehr und mehr Leute erstaunt aus den Fenstern blicken. Die Luft scheint stillzustehen, als ob die Zeit selbst eine Pause einlegt.<br>"]]]],
+    "232e": [
+        ["span",[
+            ["Dieses funkelnde Etwas in der Ferne scheint größer zu werden - und das unglaublich schnell. „Überprüfen die auf der Brücke denn gar nicht, ob uns Asteroiden über den Weg laufen?“ "],
+            ["QJOM", "emqjeciv"],
+            [" wirft besorgte Blicke zu "],
+            ["OTECIME", "emqjeciv"],
+            [", die ihre Schicht auf der Brücke verbracht hat. „Doch, das tun sie - das habe ich heute selbst miterlebt.“ „Und wie erklärt sich dann das Ding da?!“ "],
+            ["VJIU", "emqjeciv"],
+            [" hat sich inzwischen umgedreht und schaut, wie alle Anderen in der Kantine, panisch aus den großen Heckfenstern. „Kollegen?“ Die Gruppe schaut "],
+            ["OTECIME", "emqjeciv"],
+            [" entsetzt an. „Ich vermute, dass das da kein normaler Asteroid ist.“ Inzwischen kann man die Oberfläche des Objektes genauer erkennen - wenn man das so nennen darf. Es ist nämlich unfassbar - glatt? Nur ein leichtes Schimmern von etwas, das wie flüssiges Gallium aussieht, lässt sich erkennen. „Das Ding ist ja aus Metall“, meine ich entsetzt. „Und es dreht sich. Schnell.“ Die Worte von "],
+            ["OTECIME", "emqjeciv"],
+            [" sorgen dafür, dass wir alle einen erneuten Blick auf das seltsame Objekt werfen, das inzwischen deutlich erkennbar entlang seines Äquators ausgebeult ist. Jedoch, je länger wir hinschauen, wird es immer schwieriger, genauere Details des Objekts zu erkennen. „Beschlagen etwa die Scheiben?“ „Das ist mir auch aufgefallen, aber das kann eigentlich gar nicht sein. Schließlich gibt es auf der anderen Seite der Scheibe nichts, das daran kondensieren könnte.“ Wir richten alle verwirrte Blicke in die Runde. „Was glaubt ihr, ist das?“ „Nichts Gutes, vermute ich.“ Ich richte meinen Blick wieder auf das seltsame Objekt. „Wo ist es hin?!“ "],
+            ["VJIU", "emqjeciv"],
+            [" klingt erschüttert. Aber das frage ich mich auch - es ist einfach verschwunden, als ich wegsah. Die Fenster werden immer grauer. „Und die Fenster, was ist mit denen los?“ Ich bringe meine Hand näher an die Scheibe, um zu fühlen, ob sie plötzlich kalt geworden und eventuell durch Kondensation des Wassers aus der innenliegenden Luft beschlagen ist. Allerdings sind die Fenster warm - und …"]]],
+        ["232f", ""]],
+    "232f": [
+        ["h2",[
+            ["Metallisch", "unlink", "?c=232f"]]],
+        ["span",[
+            ["QJOM", "emqjeciv"],
+            [" kann es nicht fassen. „Wie, um alles in der Welt, soll das denn passiert sein?!“, sagt er entsetzt. „Und das direkt vor unseren Augen!“"]]]],
     "3": [
         ["h2",[
             ["StratCorp™"]]],
