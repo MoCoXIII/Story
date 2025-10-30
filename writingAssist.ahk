@@ -5,6 +5,7 @@
 
 :*:_br::<br>"],`n["
 :*:_vis::"],`n["
+:*:_app::,`n[""]
 
 :*:_name::"],`n["", "emqjeciv"],`n["
 :*:_trans::"],`n["", "emqjeciv translate"],`n["
