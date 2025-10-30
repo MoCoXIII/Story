@@ -9,5 +9,5 @@
 :*:_name::"],`n["", "emqjeciv"],`n["
 :*:_trans::"],`n["", "emqjeciv translate"],`n["
 
-:*:_chapfit::`n"": [`n["h2",[`n[""]]]],
-:*:_chapnew::,`n"": [`n["h2",[`n[""]]]]
+:*:_chapfit::`n"": [`n["h2",[`n[""]]],`n["span",[`n[""]]]],
+:*:_chapnew::,`n"": [`n["h2",[`n[""]]],`n["span",[`n[""]]]]
