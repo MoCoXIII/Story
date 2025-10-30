@@ -57,11 +57,9 @@ body {
     text-decoration: none;
 }
 
-/* .standardlink {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-} */
+.norender {
+    display: none;
+}
 
 h1 {
     font-size: 80px;
