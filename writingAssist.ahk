@@ -2,6 +2,8 @@
 
 ; Replace "" with proper German quotes („ and “)
 :*:_""::„“
+:*:_bold::<bold></bold>
+:*:?""::\"\"
 
 :*:_br::<br>"],`n["
 :*:_vis::"],`n["
