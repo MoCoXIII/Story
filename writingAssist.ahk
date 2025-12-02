@@ -8,6 +8,7 @@
 :*:_br::<br>"],`n["
 :*:_vis::"],`n["
 :*:_app::,`n[""]
+:*:_capp::,`n["cid", ""]
 
 :*:_name::"],`n["", "emqjeciv"],`n["
 :*:_trans::"],`n["", "emqjeciv translate"],`n["
