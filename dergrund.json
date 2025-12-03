@@ -364,6 +364,8 @@
             ["…<br>"],
             ["Als ich die Uhr über dem Türrahmen erblicke, fällt mir auf, dass meine Schicht in wenigen Minuten endet. So begebe ich mich auf den Weg zurück."]]],
         ["232a", ""]],
+    "232-": [
+        ["232a", ""]],
     "232a": [
         ["h2",[
             ["Aufgang", "unlink", "?c=232a"]]],
