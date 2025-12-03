@@ -1,5 +1,21 @@
 let urlParams = new URLSearchParams(window.location.search);
 let chapterIndex = urlParams.get('c') || "0000";
+
+document.addEventListener("DOMContentLoaded", function () {
+    let darkModeToggle = document.createElement("div");
+    darkModeToggle.classList.add("dark-mode-toggle");
+    let dark = true;
+    let textSpan = document.createElement("span");
+    textSpan.innerHTML = `${dark ? "Dark" : "Light"} Mode`;
+    darkModeToggle.appendChild(textSpan);
+    darkModeToggle.addEventListener("click", function () {
+        dark = !dark;
+        textSpan.innerHTML = `${dark ? "Dark" : "Light"} Mode`;
+        document.documentElement.classList.toggle("light-mode");
+    });
+    document.body.insertAdjacentElement("afterbegin", darkModeToggle);
+});
+
 fetch("dergrund.json")
     .then(response => response.json())
     .then(data => display(data, chapterIndex));

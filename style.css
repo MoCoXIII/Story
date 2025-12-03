@@ -11,9 +11,25 @@
     src: url('emqjeciv3.ttf') format('truetype');
 }
 
+:root {
+    --text-color: white;
+    --background-color: black;
+    --danger-color: red;
+}
+
+.light-mode {
+    --text-color: black;
+    --background-color: white;
+}
+
+.dark-mode-toggle {
+    text-align: center;
+    cursor: pointer;
+}
+
 body {
-    color: white;
-    background-color: black;
+    color: var(--text-color);
+    background-color: var(--background-color);
     font-size: 18px;
     text-align: justify;
 }
@@ -34,8 +50,8 @@ body {
 }
 
 .clink {
-    color: black;
-    background-color: white;
+    color: var(--background-color);
+    background-color: var(--text-color);
     text-decoration: none;
 }
 
@@ -48,12 +64,12 @@ body {
 
 .link {
     font-style: italic;
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .unlink {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -72,7 +88,7 @@ h2 {
 }
 
 .red {
-    color: red;
+    color: var(--danger-color);
 }
 
 bold {
