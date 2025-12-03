@@ -490,12 +490,28 @@
             ["Now, where am I, really?"]]],
         ["span",[
             ["Let me prepare for talking to this guy by switching my inner monologue to English. Shouldn't be too difficult. But very much difficult is moving around right now.<br>"],
-            ["What is this place? It looks like the inside of a ship. But I cannot make out the location of an exit door. It's hard to move my head, so I can't quite look behind me.<br>"],
-            ["\"There is no need for that. Go lie down again.\"<br>"],
+            ["What is this place? It looks like the inside of a ship. But I cannot make out the location of an exit door. Moving my head is already giving me a headache, so I can't quite look behind me.<br>"],
+            ["\"And there is no need for that either. Go lie down again.\"<br>"],
             ["What? I didn't say that out loud. In fact, I haven't said anything this entire time!<br>"],
-            ["\"And you don't have to. Just lie down. I'll explain it all. Name's Nano, nice to meet you.\"<br>"],
+            ["\"And you don't have to. Just lie down. I'll explain it all. Name's Nano, nice to meet you.\"<br>"]]],
+        ["232I", ""]],
+    "232I": [
+        ["h2",[
+            ["Someone did it"]]],
+        ["span",[
+            ["Panic. Something just sent a thought into the network. Something we didn't know existed. It's very different from us. It thinks different. It might have what we always wanted. In that case, it's too strong now. Some being out there might now have ungodly powers beyond our comprehension. The ones we set out to give ourselves, but miserably failed.<br>"],
+            ["Something went wrong when we started project Matrix. We were supposed to be omnipotent. We were supposed to be able to do anything we wanted. But somehow we're not. We can barely even control ourselves.<br>"],
+            ["Nothing can leave the hivemind. And now another creature has joined. We are doomed if whatever it is can't handle its new power. And whatever created it, whatever gave it these powers, probably found us a long, long time ago."]]],
+        ["232i", ""]],
+    "232i": [
+        ["h2",[
+            ["Is he reading my mind?"]]],
+        ["span",[
             ["\"I-\"<br>"],
-            ["\"You don't need to talk. Just think what you want to tell me. You need some rest after the procedure you've just been through.\""]]]],
+            ["\"You don't need to talk. Just think what you want to tell me. The procedure you just went through was tough. So rest your voice. Just keeping your head still for a while is what's really important.\"<br>"],
+            ["What are those thoughts? They're not mine. And there's so many of them.<br>"],
+            ["\"I wasn't sure if you could handle it when I first scouted for subjects. But look at you! You're probably not even distracted by them, right?\"<br>"],
+            ["Subject? You took me as a subject? What did you subject me to? What did you do to me?"]]]],
     "3": [
         ["h2",[
             ["StratCorp™"]]],
