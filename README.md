@@ -1,6 +1,6 @@
 # Story
-An interactive story I wrote.
+An interactive story I'm writing.
 
-Destined to be written in many real languages and even some of my own.
+You are offered some jobs as a security guard. Usually, you're free to roam around and check for anomalies. Sometimes things go wrong. Sometimes you're lucky. Sometimes things happen differently when you take a different path from usual.
 
-There is more on the way, as I'm currently moving the google doc to here.
+You are faced with something terrifying, unbelievable, disastrous, and maybe even great. It's your decision.
