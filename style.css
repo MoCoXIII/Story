@@ -2,24 +2,33 @@
     font-family: "emqjeciv";
     src: url('emqjeciv.ttf') format('truetype');
 }
+
 @font-face {
     font-family: "emqjeciv2";
     src: url('emqjeciv2.ttf') format('truetype');
 }
+
 @font-face {
     font-family: "emqjeciv3";
     src: url('emqjeciv3.ttf') format('truetype');
 }
 
 :root {
+    --max-width: 600px;
     --text-color: white;
     --background-color: black;
     --danger-color: red;
+    --sent-color: grey;
+    --received-color: blue;
+    --sms-color: green;
 }
 
 .light-mode {
     --text-color: black;
     --background-color: white;
+    --sent-color: lightgrey;
+    --received-color: dodgerblue;
+    --sms-color: limegreen;
 }
 
 .dark-mode-toggle {
@@ -35,16 +44,18 @@ body {
 }
 
 .chapter {
-    max-width: 600px;
+    max-width: var(--max-width);
     margin: 0 auto;
 }
 
 .emqjeciv {
     font-family: "emqjeciv";
 }
+
 .emqjeciv2 {
     font-family: "emqjeciv2";
 }
+
 .emqjeciv3 {
     font-family: "emqjeciv3";
 }
@@ -75,6 +86,46 @@ body {
 
 .norender {
     display: none;
+}
+
+.bubble {
+    display: block;
+    max-width: calc(var(--max-width) * 2 / 5);
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.left {
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.right {
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bubble.sent {
+    background-color: var(--sent-color);
+    border-bottom-right-radius: 0px;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bubble.received {
+    background-color: var(--received-color);
+    border-bottom-left-radius: 0px;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.bubble.sms {
+    background-color: var(--sms-color);
 }
 
 h1 {

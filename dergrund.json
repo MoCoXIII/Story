@@ -519,5 +519,13 @@
             ["StratCorp™"]]],
         ["span",[
             ["IMUP NATL", "emqjeciv"],
-            ["..."]]]]
+            ["..."]]]],
+    "test": [
+        ["h2",[
+            ["Test"]]],
+        ["span",[
+            ["Hi", "bubble received"],
+            ["Hello", "bubble sent"],
+            ["Who's this?", "bubble sms sent"],
+            ["Peter", "bubble sms received"]]]]
 }
