@@ -527,5 +527,7 @@
             ["Hi", "bubble received"],
             ["Hello", "bubble sent"],
             ["Who's this?", "bubble sms sent"],
-            ["Peter", "bubble sms received"]]]]
+            ["Peter. Pretend I just said something terrible.", "bubble sms received"]]],
+        ["img",[
+            ["images/test.webp"]]]]
 }

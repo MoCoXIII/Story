@@ -73,7 +73,11 @@ function display(data, chapterIndex) {
         for (let snippet of texts) {
             let element = document.createElement(elementType);
             const text = snippet[0];
-            element.innerHTML = text;
+            if (elementType === "img") {
+                element.src = text;
+            } else {
+                element.innerHTML = text;
+            }
             const classes = snippet[1];
             if (classes) {
                 for (let htmlclass of classes.split(/\s+/)) {
