@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom CSS</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        textarea {
+            width: 100%;
+            height: 50vh;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea name="CustomCSS" id="customCSS"></textarea>
+    <button id="loadFile" onclick="loadFile()">Load from file</button>
+    <button id="saveFile" onclick="saveToFile()">Save to file</button>
+    <button id="save" onclick="save()">Save on webpage (this device only)</button>
+    <button id="reset" onclick="reset()">Reset</button>
+    <script>
+        let textarea = document.getElementById("customCSS");
+        let defaultCSS = "";
+        fetch("style.css")
+            .then(response => response.text())
+            .then(css => defaultCSS = css);
+        textarea.value = localStorage.getItem("css") || defaultCSS;
+
+        let urlParams = new URLSearchParams(window.location.search);
+        let chapterIndex = urlParams.get('c');
+        if (chapterIndex) {
+            let saveButton = document.getElementById("save");
+            saveButton.textContent = `Save to webpage (this device only) and return to chapter "${chapterIndex}"`;
+            let resetButton = document.getElementById("reset");
+            resetButton.textContent = `Reset and return to chapter "${chapterIndex}"`;
+        }
+
+        function loadFile() {
+            let input = document.createElement('input');
+            input.type = 'file';
+            input.onchange = function () {
+                let file = input.files[0];
+                let reader = new FileReader();
+                reader.onload = function () {
+                    textarea.value = reader.result;
+                }
+                reader.readAsText(file);
+            }
+            input.click();
+        }
+        function saveToFile() {
+            let blob = new Blob([textarea.value], { type: 'text/css' });
+            let url = window.URL.createObjectURL(blob);
+            let a = document.createElement('a');
+            a.style = 'display: none';
+            a.href = url;
+            a.download = 'style.css';
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(function () {
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+            }, 150);
+        }
+        function save() {
+            localStorage.setItem("css", textarea.value);
+            if (chapterIndex) {
+                window.location.href = `index.html?c=${chapterIndex}`;
+            }
+        }
+        function reset() {
+            localStorage.removeItem("css");
+            if (chapterIndex) {
+                window.location.href = `index.html?c=${chapterIndex}`;
+            }
+        }
+    </script>
+</body>
+
+</html>

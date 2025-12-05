@@ -2,23 +2,55 @@ let urlParams = new URLSearchParams(window.location.search);
 let chapterIndex = urlParams.get('c') || "0000";
 
 document.addEventListener("DOMContentLoaded", function () {
-    let darkModeToggle = document.createElement("div");
-    darkModeToggle.classList.add("dark-mode-toggle");
+    let ceiling = document.createElement("div");
+    ceiling.classList.add("ceiling");
+
     let dark = true;
-    let textSpan = document.createElement("span");
-    textSpan.innerHTML = `${dark ? "Dark" : "Light"} Mode`;
-    darkModeToggle.appendChild(textSpan);
+    let darkModeToggle = document.createElement("span");
+    darkModeToggle.classList.add("pointer")
+    darkModeToggle.innerHTML = `${dark ? "Dark" : "Light"} Mode`;
+    ceiling.appendChild(darkModeToggle);
     darkModeToggle.addEventListener("click", function () {
         dark = !dark;
-        textSpan.innerHTML = `${dark ? "Dark" : "Light"} Mode`;
+        darkModeToggle.innerHTML = `${dark ? "Dark" : "Light"} Mode`;
         document.documentElement.classList.toggle("light-mode");
     });
-    document.body.insertAdjacentElement("afterbegin", darkModeToggle);
+    document.body.insertAdjacentElement("afterbegin", ceiling);
+
+    const seperator = document.createElement("span");
+    seperator.innerHTML = " | ";
+    ceiling.appendChild(seperator);
+
+    let customCSSbutton = document.createElement("span");
+    customCSSbutton.classList.add("pointer")
+    customCSSbutton.innerHTML = "Custom CSS";
+    ceiling.appendChild(customCSSbutton);
+    let defaultCSS = "";
+    fetch("style.css")
+        .then(response => response.text())
+        .then(css => defaultCSS = css);
+    if (localStorage.getItem("css")) {
+        let css = localStorage.getItem("css");
+        let originalCSSLink = document.querySelector("link[href='style.css']");
+        if (originalCSSLink) {
+            originalCSSLink.remove();
+        }
+        let newStyleElement = document.createElement("style");
+        newStyleElement.id = "custom-css";
+        newStyleElement.innerHTML = css;
+        document.head.appendChild(newStyleElement);
+    }
+    customCSSbutton.addEventListener("click", function () {
+        // open this url but on customcss.html where you can modify your custom css, save it to localStorage, then returns you to this page (reloads the page to apply the changes)
+        window.location.href = `customcss.html?c=${chapterIndex}`;
+    });
+
+    fetch("dergrund.json")
+        .then(response => response.json())
+        .then(data => display(data, chapterIndex));
 });
 
-fetch("dergrund.json")
-    .then(response => response.json())
-    .then(data => display(data, chapterIndex));
+
 
 function display(data, chapterIndex) {
     let chapter = data[chapterIndex];

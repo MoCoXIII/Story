@@ -1,3 +1,5 @@
+/* modify this css file at your own risk. You can always reset your local version of this file to the current default by emptying it completely */
+
 @font-face {
     font-family: "emqjeciv";
     src: url('emqjeciv.ttf') format('truetype');
@@ -34,8 +36,11 @@
     --sms-color: limegreen;
 }
 
-.dark-mode-toggle {
+.ceiling {
     text-align: center;
+}
+
+.pointer {
     cursor: pointer;
 }
 
