@@ -18,9 +18,12 @@
     --text-color: white;
     --background-color: black;
     --danger-color: red;
-    --sent-color: grey;
-    --received-color: blue;
-    --sms-color: green;
+    /* --sent-color: grey; */
+    --sent-color: #7A7A7A;
+    /* --received-color: blue; */
+    --received-color: #0076E5;
+    /* --sms-color: green; */
+    --sms-color: #6ABF40;
 }
 
 .light-mode {
