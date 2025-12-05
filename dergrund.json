@@ -524,7 +524,7 @@
         ["h2",[
             ["Test"]]],
         ["span",[
-            ["Hi", "bubble received"],
+            ["JIMMU /42/", "bubble received base128 emqjeciv"],
             ["Hello", "bubble sent"],
             ["Who's this?", "bubble sms sent"],
             ["Peter. Pretend I just said something terrible.", "bubble sms received"]]],

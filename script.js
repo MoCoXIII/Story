@@ -83,8 +83,11 @@ function display(data, chapterIndex) {
                 for (let htmlclass of classes.split(/\s+/)) {
                     element.classList.add(htmlclass);
                 }
-                if (classes.includes("emqjeciv") && classes.includes("translate")) {
+                if (classes.includes("translate")) {
                     element.innerHTML = translate(text);
+                }
+                if (classes.includes("base128")) {
+                    element.innerHTML = translate(text, true)
                 }
                 if (classes.includes("newline")) {
                     chapterDiv.appendChild(document.createElement("br"));
@@ -147,7 +150,7 @@ function levenshteinDistance(a, b) {
 }
 
 
-function translate(text) {
+function translate(text, onlyNumbers = false) {
     const translator = {
         "a": "e",
         "e": "i",
@@ -183,6 +186,9 @@ function translate(text) {
     text = text.replace(/\/(\d+)\//g, (match, base10int) => {
         return "/" + replaceWithBase128Chars(base10int) + "/";
     });
+    if (onlyNumbers) {
+        return text;
+    }
     let result = "";
     for (let char of text) {
         let replacement = translator[char];
@@ -211,7 +217,6 @@ function replaceWithBase128Chars(base10int) {
     }
     return result;
 }
-
 function getBase128Digits(base10int) {
     let decimalBase128Digits = [];
     while (base10int > 0) {
