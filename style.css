@@ -98,6 +98,7 @@ body {
 
 .bubble {
     display: block;
+    text-align: left;
     max-width: calc(var(--max-width) * 2 / 5);
     border-radius: 5px;
     padding-right: 5px;
