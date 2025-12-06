@@ -75,6 +75,10 @@ function display(data, chapterIndex) {
             const text = snippet[0];
             if (elementType === "img") {
                 element.src = text;
+            } else if (elementType === "svg" && text.endsWith(".svg")) {
+                fetch(text)
+                    .then(response => response.text())
+                    .then(svgContent => element.outerHTML = svgContent);
             } else {
                 element.innerHTML = text;
             }
