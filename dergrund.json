@@ -461,10 +461,10 @@
             ["OTECIME", "emqjeciv"],
             [" ist schockiert, aber wir haben uns trotz des unerwarteten Sturzes noch gut fangen können. "],
             ["„Glücklicherweise haben wir diese Haltestangen in den Fahrstühlen. Ohne die lägen wir jetzt alle auf dem Boden. Einer von uns wäre womöglich ...“"]]],
-        ["232g", ""]],
-    "232g": [
+        ["232g1", ""]],
+    "232g1": [
         ["h2",[
-            ["Knocked Out", "unlink", "?c=232g"]]],
+            ["Knocked Out", "unlink", "?c=232g1"]]],
         ["span",[
             ["Wo bin ich? Ist der Fahrstuhl noch ein Mal gefallen? Meine Erinnerung ist dunkel. Was ist mit mir passiert?<br>"],
             ["Alle Eindrücke sind überdeutlich. Ich spüre meinen Puls laut pochen.<br>"],
@@ -472,11 +472,11 @@
             ["Warum spricht da jemand Englisch? Und mit so einem britischen Akzent. Wo bin ich hier nur gelandet?<br>"],
             ["\"I know you can understand me, so please switch to English when you talk to me.\"<br>"],
             ["Schnösel. Was wohl mit "],
-            ["den Anderen", "clink", "?c=232G"],
+            ["den Anderen", "clink", "?c=232g2"],
             [" passiert ist? Das werde ich wohl schon früh genug "],
             ["erfahren", "clink", "?c=232h"],
             ["."]]]],
-    "232G": [
+    "232g2": [
         ["h2",[
             ["Verschwunden"]]],
         ["span",[
@@ -495,18 +495,18 @@
             ["\"And there is no need for that either. Go lie down again. Close your eyes.\"<br>"],
             ["What? I didn't say that out loud. In fact, I haven't said anything this entire time!<br>"],
             ["\"And you don't have to. Just lie down. Focus on your mind. I'll explain it all. Name's Nano, nice to meet you.\"<br>"]]],
-        ["232I", ""]],
-    "232I": [
+        ["232i3", ""]],
+    "232i3": [
         ["h2",[
-            ["It happened"]]],
+            ["It happened", "unlink", "?c=232i3"]]],
         ["span",[
             ["Panic. Something just sent a thought into the network. And its ID is the god code. This is not one of us. It's something we didn't know existed. It's very different from us. It thinks different. It might have what we always wanted. In that case, it's too strong now. Some being out there might now have ungodly powers beyond our comprehension. The ones we set out to give ourselves, but miserably failed.<br>"],
             ["Something went wrong when we started project Dreamscape. We were supposed to be omnipotent. We were supposed to be able to do anything we wanted. But we're not. We can barely even control ourselves.<br>"],
             ["Nothing can leave the hivemind. And now another creature has joined. We are doomed if whatever it is can't handle its new power. And whatever created it, whatever gave it these powers, probably found us a long, long time ago."]]],
-        ["232i", ""]],
-    "232i": [
+        ["232i1", ""]],
+    "232i1": [
         ["h2",[
-            ["Is he reading my mind?"]]],
+            ["Is he reading my mind?", "unlink", "?c=232i1"]]],
         ["span",[
             ["\"I-\"<br>"],
             ["\"You don't need to talk. Just think what you want to tell me. The procedure you just went through was tough. So rest. Just keeping still for a while is what's really important.\"<br>"],
