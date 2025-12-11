@@ -107,7 +107,16 @@ function display(data, chapterIndex) {
     }
 
     if (error) {
-        const closestChapters = Object.keys(data).filter(key => levenshteinDistance(key, chapterIndex) <= 3).sort((a, b) => levenshteinDistance(a, chapterIndex) - levenshteinDistance(b, chapterIndex));
+        const closestChapters = Object.keys(data).filter(cid => !cid.includes("!") && !cid.endsWith("-")).sort((a, b) => {
+            const distanceA = levenshteinDistance(a, chapterIndex);
+            const distanceB = levenshteinDistance(b, chapterIndex);
+            if (distanceA === distanceB) {
+                const sameCapitalizationA = a.toLowerCase() === chapterIndex.toLowerCase();
+                const sameCapitalizationB = b.toLowerCase() === chapterIndex.toLowerCase();
+                return (sameCapitalizationA && !sameCapitalizationB) ? -1 : (sameCapitalizationB && !sameCapitalizationA) ? 1 : a.localeCompare(b);
+            }
+            return distanceA - distanceB;
+        });
         for (let closestChapter of closestChapters.slice(0, 5)) {
             const chapterLink = document.createElement("span")
             chapterLink.innerHTML = data[closestChapter][0][1][0][0];
