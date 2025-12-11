@@ -144,6 +144,9 @@ function display(data, chapterIndex) {
 }
 
 function levenshteinDistance(a, b) {
+    const INSERTION_COST = 1;
+    const DELETION_COST = 2;
+    const REPLACEMENT_COST = 2;
     const m = a.length;
     const n = b.length;
     const d = Array.from({ length: m + 1 }, (v) => Array.from({ length: n + 1 }, (v2) => 0));
@@ -155,8 +158,8 @@ function levenshteinDistance(a, b) {
     }
     for (let i = 1; i <= m; i++) {
         for (let j = 1; j <= n; j++) {
-            const cost = a[i - 1] === b[j - 1] ? 0 : 1;
-            d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost);
+            const cost = a[i - 1] === b[j - 1] ? 0 : REPLACEMENT_COST;
+            d[i][j] = Math.min(d[i - 1][j] + INSERTION_COST, d[i][j - 1] + DELETION_COST, d[i - 1][j - 1] + cost);
         }
     }
     return d[m][n];
