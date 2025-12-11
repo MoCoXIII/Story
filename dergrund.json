@@ -468,9 +468,9 @@
         ["span",[
             ["Wo bin ich? Ist der Fahrstuhl noch ein Mal gefallen? Meine Erinnerung ist dunkel. Was ist mit mir passiert?<br>"],
             ["Alle Eindrücke sind überdeutlich. Ich spüre meinen Puls laut pochen.<br>"],
-            ["\"Hello there. I see you've awakened. Open your eyes now. I turned down the lights - just for you.\"<br>"],
-            ["Warum spricht da jemand Englisch? Und mit so einem britischen Akzent. Wo bin ich hier nur gelandet? Aber wenigstens scheinen sich meine Jahre in den Vereinigten Planeten des Sonnensystems gelohnt zu haben. UPS. Was ein Akronym.<br>"],
-            ["\"Can you hear me, sir? Please react when I'm talking to you. It's disrespectful.\"<br>"],
+            ["\"Hello there. I see you've awakened. You must be very exhausted.\"<br>"],
+            ["Warum spricht da jemand Englisch? Und mit so einem britischen Akzent. Wo bin ich hier nur gelandet?<br>"],
+            ["\"I know you can understand me, so please switch to English when you talk to me.\"<br>"],
             ["Schnösel. Was wohl mit "],
             ["den Anderen", "clink", "?c=232G"],
             [" passiert ist? Das werde ich wohl schon früh genug "],
@@ -490,18 +490,18 @@
         ["h2",[
             ["Now, where am I, really?"]]],
         ["span",[
-            ["Let me prepare for talking to this guy by switching my inner monologue to English. Shouldn't be too difficult. But very much difficult is moving around right now.<br>"],
-            ["What is this place? It looks like the inside of a ship. But I cannot make out the location of an exit door. Moving my head is already giving me a headache, so I can't quite look behind me.<br>"],
-            ["\"And there is no need for that either. Go lie down again.\"<br>"],
+            ["Alright English it is. Shouldn't be too difficult. But very much difficult is moving around right now.<br>"],
+            ["I'll try to open my eyes a bit. What is this place? It kind of looks like the inside of a ship or some highly advanced building. But I cannot make out the location of an exit door. Moving my head is already giving me a headache, so I can't quite look behind me.<br>"],
+            ["\"And there is no need for that either. Go lie down again. Close your eyes.\"<br>"],
             ["What? I didn't say that out loud. In fact, I haven't said anything this entire time!<br>"],
-            ["\"And you don't have to. Just lie down. I'll explain it all. Name's Nano, nice to meet you.\"<br>"]]],
+            ["\"And you don't have to. Just lie down. Focus on your mind. I'll explain it all. Name's Nano, nice to meet you.\"<br>"]]],
         ["232I", ""]],
     "232I": [
         ["h2",[
-            ["Someone did it"]]],
+            ["It happened"]]],
         ["span",[
-            ["Panic. Something just sent a thought into the network. Something we didn't know existed. It's very different from us. It thinks different. It might have what we always wanted. In that case, it's too strong now. Some being out there might now have ungodly powers beyond our comprehension. The ones we set out to give ourselves, but miserably failed.<br>"],
-            ["Something went wrong when we started project Matrix. We were supposed to be omnipotent. We were supposed to be able to do anything we wanted. But somehow we're not. We can barely even control ourselves.<br>"],
+            ["Panic. Something just sent a thought into the network. And its ID is the god code. This is not one of us. It's something we didn't know existed. It's very different from us. It thinks different. It might have what we always wanted. In that case, it's too strong now. Some being out there might now have ungodly powers beyond our comprehension. The ones we set out to give ourselves, but miserably failed.<br>"],
+            ["Something went wrong when we started project Dreamscape. We were supposed to be omnipotent. We were supposed to be able to do anything we wanted. But we're not. We can barely even control ourselves.<br>"],
             ["Nothing can leave the hivemind. And now another creature has joined. We are doomed if whatever it is can't handle its new power. And whatever created it, whatever gave it these powers, probably found us a long, long time ago."]]],
         ["232i", ""]],
     "232i": [
@@ -509,10 +509,17 @@
             ["Is he reading my mind?"]]],
         ["span",[
             ["\"I-\"<br>"],
-            ["\"You don't need to talk. Just think what you want to tell me. The procedure you just went through was tough. So rest your voice. Just keeping your head still for a while is what's really important.\"<br>"],
-            ["What are those thoughts? They're not mine. And there's so many of them.<br>"],
-            ["\"I wasn't sure if you could handle it when I first scouted for subjects. But look at you! You're probably not even distracted by them, right?\"<br>"],
-            ["Subject? You took me as a subject? What did you subject me to? What did you do to me?"]]]],
+            ["\"You don't need to talk. Just think what you want to tell me. The procedure you just went through was tough. So rest. Just keeping still for a while is what's really important.\"<br>"],
+            ["Keeping still - I probably did that the whole time I was out cold. Why do I need to stay here?<br>"],
+            ["\"I wasn't sure if you could handle it when I first scouted for subjects. But look at you!\"<br>"],
+            ["Subjects? You took me as a subject? What did you subject me to? What did you do to me?<br>"],
+            ["\"Calm down. I said you need to rest. You're safe with me. Explore what I made your mind capable of.\""]]],
+        ["232j", ""]],
+    "232j": [
+        ["h2",[
+            ["Close your eyes now.<br>You'll find it there."]]],
+        ["span",[
+            ["What are those thoughts? They're not mine. And there's so many of them."]]]],
     "3": [
         ["h2",[
             ["StratCorp™"]]],
