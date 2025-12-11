@@ -119,7 +119,11 @@ function display(data, chapterIndex) {
         });
         for (let closestChapter of closestChapters.slice(0, 5)) {
             const chapterLink = document.createElement("span")
-            chapterLink.innerHTML = data[closestChapter][0][1][0][0];
+            let linkContent = data[closestChapter];
+            for (let i of [0, 1, 0, 0]) {
+                linkContent = linkContent[i] || linkContent;
+            }
+            chapterLink.innerHTML = linkContent;
             chapterLink.classList.add("clink")
             const spoiler = document.createElement("details")
             spoiler.classList.add("spoiler")
