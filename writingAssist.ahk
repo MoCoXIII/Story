@@ -10,6 +10,7 @@
 :*:_app::,`n[""]
 :*:_capp::,`n["cid", ""]
 
+:*:_clink::"],`n["", "clink", "?c="],`n["
 :*:_name::"],`n["", "emqjeciv"],`n["
 :*:_trans::"],`n["", "emqjeciv translate"],`n["
 
