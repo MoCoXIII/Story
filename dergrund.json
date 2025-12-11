@@ -485,7 +485,14 @@
             ["„Trotzdem weißt du auch nicht weiter, Qjom. Wenn du irgendwas dazu erfährst, dann gib mir Bescheid.“ „Klar, mache ich.“ „Du auch, Vjiu.“ „Jaja, klar. Aber lasst uns erstmal hier raus kommen. "],
             ["Ich hab den Notrufknopf schon gedrückt, als ihr euch noch gestritten habt.“"],
             ["„Na toll. Jetzt noch hier mit euch zweien rumzuhocken ist genau, was mir heute noch gefehlt hat. Schöner erster wirklicher Arbeitstag. Haben sich die Wochen Vorbereitung ja schon bezahlt gemacht.“<br>"],
-            ["„Ist das dein Ernst?“ „Nein! Natürlich nicht! Das solltest ja sogar du verstanden haben.“"]]]],
+            ["„Ist das dein Ernst?“ „Nein! Natürlich nicht! Das solltest ja sogar du verstanden haben.“<br>"],
+            ["Alles wird still. Das Licht im Fahrstuhl flackert leicht. Dann ist alles wieder normal. Der Fahrstuhl fährt weiter, als wäre nichts gewesen. Wir sind immer noch schockiert.<br>"],
+            ["„Das sollte nicht möglich sein. Ich kann es nicht glauben.“ „Aber es ist ja passiert.“ "],
+            ["VJIU", "emqjeciv"],
+            ["schaut mich gleichgültig an. „Verwirrt das denn niemanden außer mich?“ Erwartungsvoll blicke ich zu "],
+            ["QJOM", "emqjeciv"],
+            [". Wenigstens er sollte begreifen, dass das unbegreifbar ist. „Ich bin sprachlos. Was soll ich sagen. Unglaublich.“<br>"]]],
+        ["232n!", ""]],
     "232h": [
         ["h2",[
             ["Now, where am I, really?"]]],
@@ -517,9 +524,50 @@
         ["232j", ""]],
     "232j": [
         ["h2",[
-            ["Close your eyes now.<br>You'll find it there."]]],
+            ["Close your eyes now.<br>You'll find it there.", "unlink", "?c=232j"]]],
         ["span",[
-            ["What are those thoughts? They're not mine. And there's so many of them."]]]],
+            ["What are those thoughts? They're not mine. And there's so many of them. It looks like an age old archive of thoughts. They all pass through so quickly, but I believe I understand it all. I can see what they were thinking. I can see where they went wrong. And I can see they know I now am what they sought out to be.<br>"],
+            ["They fear what I might be capable of. But no tracks of this guy, Nano.<br>"],
+            ["\"So, I see, you found it?\"<br>"],
+            ["I did. And there's no tracks of you. Are you the silent type?<br>"],
+            ["\"No, not at all. I like sharing my thoughts with others. And they definitely do too. But <bold>you</bold> made them go quiet. Go test your abilities. Give them a visit.\"<br>"],
+            ["I already did."]]],
+        ["232k", ""]],
+    "232k": [
+        ["h2",[
+            ["Unlimited Power", "unlink", "?c=232k"]]],
+        ["span",[
+            ["As I read through the archived thoughts, I find lots of ideas of what they wanted to be capable of. Of course, I had to test them.<br>"],
+            ["I connected with the server to move my consciousness there. I could think faster. So much faster. In a quantum of time, I could think as much as I wanted. I could do as much as I wanted in a single instant. Asking the server for any data I want is as simple as thinking of a question and getting the best answer immediately. The same goes for commands.<br>"],
+            ["There truly is no limit. I can do <bold>whatever I want</bold>.<br><br>"],
+            ["Thank you, "],
+            ["Nano", "clink", "?c=232l1"],
+            [".<br>"],
+            ["Thank you, "],
+            ["precursors", "clink", "?c=232l3"],
+            ["."]]]],
+    "232l1": [
+        ["h2",[
+            ["Goodbye, Nano"]]],
+        ["span",[
+            ["I'll watch over you. And you can try to keep up with me. I'll deactivate the mind readers you put into my head. I want to keep this body as a reminder of who I am. And for that it needs to stay untouched.<br>"],
+            ["\"Sure. I'm satisfied with my creation. I'm satisfied with you, Datōbeshi. Let me call you that, so I have a name to call you when I need you. Go now.\""]]],
+        ["232m", ""]],
+    "232m": [
+        ["h2",[
+            ["Until we meet again.", "unlink", "?c=232m1"]]],
+        ["232n!", ""]],
+    "232n!": [
+        ["span",[
+            ["Die Fahrstuhltüren öffnen sich, als der Fahrstuhl das Kabinenstockwerk erreicht.<br>"],
+            ["<bold>„Wie bist du hier?“</bold>"]]]],
+    "232l3": [
+        ["h2",[
+            ["Hello, creators of this universe."]]],
+        ["span",[
+            ["It's here.<br>"],
+            ["Already?<br>"],
+            ["As expected. It can see everything we've ever shared. That includes the plans we had. It's using them."]]]],
     "3": [
         ["h2",[
             ["StratCorp™"]]],
