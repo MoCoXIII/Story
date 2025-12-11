@@ -28,11 +28,9 @@
     <button id="reset" onclick="reset()">Reset</button>
     <script>
         let textarea = document.getElementById("customCSS");
-        let defaultCSS = "";
         fetch("style.css")
             .then(response => response.text())
-            .then(css => defaultCSS = css);
-        textarea.value = localStorage.getItem("css") || defaultCSS;
+            .then(css => textarea.value = localStorage.getItem("css") || css);
 
         let urlParams = new URLSearchParams(window.location.search);
         let chapterIndex = urlParams.get('c');
