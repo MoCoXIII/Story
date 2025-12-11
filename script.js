@@ -25,10 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
     customCSSbutton.classList.add("pointer")
     customCSSbutton.innerHTML = "Custom CSS";
     ceiling.appendChild(customCSSbutton);
-    let defaultCSS = "";
-    fetch("style.css")
-        .then(response => response.text())
-        .then(css => defaultCSS = css);
     if (localStorage.getItem("css")) {
         let css = localStorage.getItem("css");
         let originalCSSLink = document.querySelector("link[href='style.css']");
