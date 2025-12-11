@@ -117,7 +117,7 @@ function display(data, chapterIndex) {
             }
             return distanceA - distanceB;
         });
-        for (let closestChapter of closestChapters.slice(0, 5)) {
+        for (let closestChapter of closestChapters) {  // .slice(0, 5)
             const chapterLink = document.createElement("span")
             let linkContent = data[closestChapter];
             for (let i of [0, 1, 0, 0]) {

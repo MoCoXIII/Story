@@ -42,7 +42,7 @@
     "pre": [
         ["h2",[
             ["Wir Sind Noch"]]],
-        ["232d", ""],
+        ["232d!", ""],
         ["0", ""]],
     "0": [
         ["h2",[
@@ -400,11 +400,10 @@
             [" spricht mit "],
             ["VJIU", "emqjeciv"],
             [" weiter über den Generator und witzelt, wie wenig die Installateure bezahlt worden sein müssen, um den Temperatursensor nicht korrekt anzubringen."]]],
-        ["232d", ""],
-        ["232e", ""]],
-    "232d": [
+        ["232d!", ""],
+        ["232e!", ""]],
+    "232d!": [
         ["span",[
-            ["Die seltsame Timeline", "norender"],
             ["QJOM", "emqjeciv"],
             [" sitzt am Fenster und schaut gelegentlich heraus in die Sterne. Die Atmosphäre ist gelassen, das Gemurmel der anderen Gäste füllt den Raum.<br>"],
             ["QJOM", "emqjeciv"],
@@ -420,7 +419,7 @@
             ["QJOM", "emqjeciv"],
             [" etwas zu sehen scheint. Ich verfolge ebenfalls ihre Blicke und sehe aus dem Fenster. Ein Schimmer von Sternen funkelt wie winzige Diamanten in der Ferne. Doch etwas zieht meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckt.<br>"],
             ["Mein Blick verharrt auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kriecht in mir hoch, als ob etwas nicht stimmt. Die gesamte Kantine wird leiser, als mehr und mehr Leute erstaunt aus den Fenstern blicken. Die Luft scheint stillzustehen, als ob die Zeit selbst eine Pause einlegt.<br>"]]]],
-    "232e": [
+    "232e!": [
         ["span",[
             ["Dieses funkelnde Etwas in der Ferne scheint größer zu werden - und das unglaublich schnell. „Überprüfen die auf der Brücke denn gar nicht, ob uns Asteroiden über den Weg laufen?“ "],
             ["QJOM", "emqjeciv"],
