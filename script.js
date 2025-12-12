@@ -67,8 +67,10 @@ function display(data, chapterIndex) {
             continue;
         }
         for (let snippet of texts) {
+            let i = 0;
             let element = document.createElement(elementType);
-            const text = snippet[0];
+
+            const text = snippet[i++];
             if (elementType === "img") {
                 element.src = text;
             } else if (elementType === "svg" && text.endsWith(".svg")) {
@@ -78,7 +80,12 @@ function display(data, chapterIndex) {
             } else {
                 element.innerHTML = text;
             }
-            const classes = snippet[1];
+
+            if (elementType === "abbr") {
+                element.title = snippet[i++];
+            }
+
+            const classes = snippet[i++];
             if (classes) {
                 for (let htmlclass of classes.split(/\s+/)) {
                     element.classList.add(htmlclass);
@@ -93,7 +100,8 @@ function display(data, chapterIndex) {
                     chapterDiv.appendChild(document.createElement("br"));
                 }
             }
-            const link = snippet[2];
+
+            const link = snippet[i++];
             if (link) {
                 appendAndLink(chapterDiv, element, link);
                 continue;

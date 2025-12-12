@@ -158,3 +158,7 @@ bold {
 img {
     width: var(--max-width);
 }
+
+abbr {
+    cursor: help;
+}

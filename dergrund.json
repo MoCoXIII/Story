@@ -578,9 +578,14 @@
         ["h2",[
             ["Test"]]],
         ["span",[
+            ["This is a text conversation to test some new "]]],
+        ["abbr",[
+            ["features", "text message formatting and hint display like this"]]],
+        ["span",[
+            [" of the website."],
             ["JIMMU /42/", "bubble received base128 emqjeciv"],
             ["Hello", "bubble sent"],
-            ["Who's this?", "bubble sms sent"],
+            ["Who's <abbr title='the recipient of this message'>this</abbr>?", "bubble sms sent"],
             ["Peter. Pretend I just said something terrible.", "bubble sms received"]]],
         ["img",[
             ["images/test.webp"]]]]
