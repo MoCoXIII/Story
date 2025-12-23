@@ -1,5 +1,6 @@
 let urlParams = new URLSearchParams(window.location.search);
 let chapterIndex = urlParams.get('c') || "0000";
+let musicActive = false;
 
 document.addEventListener("DOMContentLoaded", function () {
     let ceiling = document.createElement("div");
@@ -39,6 +40,25 @@ document.addEventListener("DOMContentLoaded", function () {
     customCSSbutton.addEventListener("click", function () {
         // open this url but on customcss.html where you can modify your custom css, save it to localStorage, then returns you to this page (reloads the page to apply the changes)
         window.location.href = `customcss.html?c=${chapterIndex}`;
+    });
+
+    let newSeperator = seperator.cloneNode(true);
+    ceiling.appendChild(newSeperator);
+
+    musicActive = localStorage.getItem("music") === "true" || false;
+    let musicToggle = document.createElement("span");
+    musicToggle.classList.add("pointer")
+    musicToggle.innerHTML = `${musicActive ? "Music On" : "Music Off"}`;
+    ceiling.appendChild(musicToggle);
+    musicToggle.addEventListener("click", function () {
+        musicActive = !musicActive;
+        musicToggle.innerHTML = `${musicActive ? "Music On" : "Music Off"}`;
+        localStorage.setItem("music", musicActive);
+        if (musicActive) {
+            track.play();
+        } else {
+            hush();
+        }
     });
 
     fetch("dergrund.json")
