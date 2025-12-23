@@ -55,9 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
         musicToggle.innerHTML = `${musicActive ? "Music On" : "Music Off"}`;
         localStorage.setItem("music", musicActive);
         if (musicActive) {
-            track.play();
+            update();
         } else {
-            hush();
+            strudel.hush();
         }
     });
 

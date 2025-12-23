@@ -1,8 +1,12 @@
 initStrudel();
 let track;
-document.addEventListener('DOMContentLoaded', () => {
-    track = stack(
+let trackString = `stack(
         note('<c a f e>(3,8)').jux(rev)
-    );
-    track.play();
+    )`;
+document.addEventListener('DOMContentLoaded', () => {
+    if (musicActive) {update()};
 });
+
+function update() {
+    track = evaluate(trackString);
+}
