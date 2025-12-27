@@ -162,3 +162,7 @@ img {
 abbr {
     cursor: help;
 }
+
+music {
+    cursor: pointer;
+}

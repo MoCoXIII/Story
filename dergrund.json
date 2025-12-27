@@ -588,7 +588,13 @@
             ["JIMMU /42/", "bubble received base128 emqjeciv"],
             ["Hello", "bubble sent"],
             ["Who's <abbr title='the recipient of this message'>this</abbr>?", "bubble sms sent"],
-            ["Peter. Pretend I just said something terrible.", "bubble sms received"]]],
+            ["Peter.", "bubble sms received"]]],
+        ["music",[
+            [{"room": 1, "delay": "<0.5>"}, ""]]],
+        ["span",[
+            ["Pretend I just said something terrible.", "bubble sms received"]]],
+        ["music",[
+            [{"room": 2, "delay": "<1>"}, ""]]],
         ["img",[
             ["images/test.webp"]]]]
 }
