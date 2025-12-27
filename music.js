@@ -1,4 +1,5 @@
 initStrudel();
+document.body.click()  // circumvent strudel only activating after a click event
 let track;
 let defaultMusic = {
     "cpm": 30,  // default cycle (bar of 4 beats in 4/4) is 2s (30 cpm = 30c / 60s)
