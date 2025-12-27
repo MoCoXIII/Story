@@ -156,7 +156,9 @@ bold {
 }
 
 img {
-    width: var(--max-width);
+    max-width: var(--max-width);
+    width: 100vw;
+    height: auto;
 }
 
 abbr {
