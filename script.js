@@ -46,6 +46,42 @@ document.addEventListener("DOMContentLoaded", function () {
     ceiling.appendChild(newSeperator);
 
     musicActive = localStorage.getItem("music") === "true" || false;
+
+    if (musicActive) {
+        let screenCover = document.createElement("div");
+        screenCover.classList.add("screen-cover");
+        screenCover.addEventListener("click", function () {
+            screenCover.remove();
+        });
+        document.body.appendChild(screenCover);
+
+        let style = document.createElement("style");
+        style.innerHTML = `
+        .screen-cover {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,1) 50%);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        `;
+        screenCover.appendChild(style);
+
+        let info = document.createElement("div");
+        info.classList.add("info");
+        info.innerHTML = "Click anywhere to resume music playback.";
+        info.style.position = "fixed";
+        info.style.top = "75%";
+        info.style.left = "50%"
+        info.style.transform = "translateY(-50%) translateX(-50%)";
+        info.style.textAlign = "center";
+        screenCover.appendChild(info);
+    }
+
     let musicToggle = document.createElement("span");
     musicToggle.classList.add("pointer")
     musicToggle.innerHTML = `${musicActive ? "Music On" : "Music Off"}`;
