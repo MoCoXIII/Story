@@ -85,6 +85,13 @@ function display(data, chapterIndex) {
         if (texts === "") {
             display(data, elementType);
             continue;
+        } else if (parseInt(texts)) {
+            const element = document.createElement(elementType);
+            for (let j = 0; j < parseInt(texts); j++) {
+                const newElement = element.cloneNode(true);
+                chapterDiv.appendChild(newElement);
+            }
+            continue;
         }
         for (let snippet of texts) {
             let i = 0;
