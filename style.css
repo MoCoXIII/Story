@@ -92,7 +92,7 @@ body {
     text-decoration: none;
 }
 
-.norender {
+.norender,.hidden {
     display: none;
 }
 
