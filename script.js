@@ -137,36 +137,28 @@ function display(data, chapterIndex) {
                 element.dataset.obj = JSON.stringify(snippet[i++]);
                 if (elementType === "music") {
                     setInterval(function () {
-                        let lowest;
-                        let lowestAboveScreen;
                         let musicElements = document.querySelectorAll("[data-obj]");
-                        let upperBound = 0;
                         let lowerBound = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight ? window.innerHeight : window.innerHeight / 3;
+                        let updatedMusic = JSON.parse(JSON.stringify(defaultMusic));  // clone music, not redundant
+                        function mergeObjects(target, source) {
+                            for (const key of Object.keys(source)) {
+                                if (typeof source[key] === 'object' && typeof target[key] === 'object') {
+                                    mergeObjects(target[key], source[key]);
+                                } else {
+                                    target[key] = source[key];
+                                }
+                            }
+                            return target;
+                        }
                         for (let musicElement of musicElements) {
-                            if (musicElement.getBoundingClientRect().top <= lowerBound
-                                && musicElement.getBoundingClientRect().top >= upperBound
-                                && (lowest === undefined || musicElement.getBoundingClientRect().top > lowest.getBoundingClientRect().top)) {
-                                lowest = musicElement;
-                            } else if (musicElement.getBoundingClientRect().bottom < upperBound
-                                && (lowestAboveScreen === undefined || musicElement.getBoundingClientRect().bottom < lowestAboveScreen.getBoundingClientRect().bottom)) {
-                                lowestAboveScreen = musicElement;
+                            if (musicElement.getBoundingClientRect().top > lowerBound) {
+                                break;
                             }
+                            const newMusic = JSON.parse(musicElement.dataset.obj);
+                            updatedMusic = mergeObjects(updatedMusic, newMusic);
                         }
-                        if (!lowest && !lowestAboveScreen) {
-                            if (JSON.stringify(music) !== JSON.stringify(defaultMusic)) {
-                                console.log("resetting music");
-                                music = { ...defaultMusic };
-                                update();
-                            }
-                            return;
-                        } else if (!lowest && lowestAboveScreen) {
-                            lowest = lowestAboveScreen;
-                        }
-                        const newMusic = JSON.parse(lowest.dataset.obj);
-                        const originalMusic = JSON.parse(JSON.stringify(music));  // clone music, not redundant
-                        Object.assign(originalMusic, newMusic);
-                        if (JSON.stringify(originalMusic) !== JSON.stringify(music)) {
-                            Object.assign(music, newMusic);
+                        if (JSON.stringify(updatedMusic) !== JSON.stringify(music)) {
+                            Object.assign(music, updatedMusic);
                             console.log("updating music to", music);
                             update();
                         }
