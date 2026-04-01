@@ -2,13 +2,17 @@
 
 ; Replace "" with proper German quotes („ and “)
 :*:_""::„“
-:*:_bold::<bold></bold>
 :*:?""::\"\"
+:*:_bold::<bold></bold>
+:*:_abbr::<abbr title=''></abbr>
 
 :*:_br::<br>"],`n["
 :*:_vis::"],`n["
 :*:_app::,`n[""]
 :*:_capp::,`n["cid", ""]
+:*:_cfit::"]]],`n["cid", ""],`n["",[`n["
+
+:*:_splitchap::"]]],`n["cid", ""]],`n"":[`n["",[`n["
 
 :*:_clink::"],`n["", "clink", "?c="],`n["
 :*:_name::"],`n["", "emqjeciv"],`n["
