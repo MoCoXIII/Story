@@ -113,10 +113,16 @@
             ["Alle Hallen werden von großen Flutscheinwerfern beleuchtet, sodass alles für jeden sichtbar ist - erstrecht für die Wachleute. Die Flutlichter können von der Konsole im Wachturm in Ausrichtung, Helligkeit und Farbe einzeln gesteuert werden. Die Konsole selbst ist ein leicht angewinkelter, mattgrauer Schreibtisch, mit einem Display, das die gesamte Fläche überspannt.<br>"],
             ["Eine Sache passt mir da aber nicht. Der Schreibtisch ist mattgrau, aber gleichzeitig völlig Display. Das Display ist aus. Mac meinte, alles sei bereits eingeschaltet. Hat sich der Bildschirm nur ausgestellt? Ich versuche den Anschalter zu betätigen, aber nichts passiert. Ist der Strom aus? Ich betrachte die Lampe über mir, die den Kontrollturm von innen beleuchten soll und über keinen Schalter verfügt - sie sollte also permanent leuchten - was nicht der Fall ist. Warum ist der Strom aus? Während ich nach Gründen suche, warum der Strom weg ist, empfange ich drei Funksprüche, die alles erklären.<br>"],
             ["„Stromausfall in hinteren Teilen des Schiffes, der Hauptgenerator scheint ausgefallen zu sein.“<br>"],
-            ["„Auf der Brücke ist auch kein Strom mehr, die Navigationssysteme sind ausgefallen.“<br>"],
+            ["„Auf der Brücke läuft auch nichts mehr, die Navigationssysteme sind ausgefallen.“<br>"],
             ["„Generator 1 ist plötzlich leise. Viel zu leise. Ich schaue na-“<br>"],
-            ["Der Funkspruch beendet sich mit einem leisen Piepen und kurz darauf erschüttert ein ohrenbetäubendes Krachen das Schiff. Ein Unterton von Angst, Überraschung, Panik und erzwungener Professionalität erfüllt die darauf eingehende Nachricht.<br>"],
-            ["„Wir haben den Kontakt zu Max, G1 und jeglichen sich in MR1 befindlichen Geräten verloren. Weiß jemand, was genau da los ist? Die Kameras sind ebenfalls ausgefallen.“<br>"],
+            ["Der Funkspruch beendet sich mit einem leisen Piepen und kurz darauf erschüttert ein ohrenbetäubendes Krachen das Schiff. Ein Unterton von Angst, Überraschung, Panik und erzwungener Professionalität erfüllt die darauf eingehende Nachricht.<br>"]]],
+        ["22a!", ""],
+        ["22b!", ""]],
+    "22a!":[
+        ["span",[
+            ["„Wir haben den Kontakt zu Max, G1 und jeglichen sich in MR1 befindlichen Geräten verloren. Weiß jemand, was genau da los ist? Die Kameras sind ebenfalls ausgefallen.“<br>"]]]],
+    "22b!":[
+        ["span",[
             ["Der Funkspruch wird von einem lauten Rauschen begleitet, aber man kann die Nachricht noch verstehen. Ich schalte die Kontrolltafel auf Batteriebetrieb um. Der Bildschirm leuchtet rot auf - eine Nachricht erscheint. Eine Nachricht, wie man sie bisher nur in Filmen gesehen hat.<br>"],
             ["WIR ÜBERNEHMEN DIE KONTROLLE.<br>WIDERSTAND IST ZWECKLOS.<br>JEGLICHE VERSUCHE DER KOMMUNIKATION WERDEN NUN UNTERDRÜCKT.<br>GEBEN SIE AUF ODER WIR ÜBERNEHMEN GEWALTSAM DIE KONTROLLE.<br>JEGLICHE RETTUNGSVERSUCHE WERDEN SCHEITERN.<br>KOOPERATION WIRD BELOHNT.<br>WIDERSTAND WIRD VERNICHTET.<br>WARTEN SIE AUF UNSERE FORDERUNGEN.<br>", "red"],
             ["UNSER HERR WILL MIT DIR REDEN.", "emqjeciv2 translate red"],
@@ -168,7 +174,21 @@
             ["Der Ort des Geschehens"]]],
         ["span",[
             ["„… oder was davon noch übrig ist.“<br>"],
-            ["Er hält sich das Funkgerät wieder ans Ohr. …"]]]],
+            ["Er hält sich das Funkgerät wieder ans Ohr, als ich mich von ihm weg in Richtung Treppenhaus bewege. Die Fahrstühle sind ausgefallen, also muss ich mich durch's Treppenhaus hinab begeben.<br>"],
+            ["Am unteren Ende des Treppenhauses, das glücklicherweise nicht allzu weit nach unten entfernt ist, sehe ich dichten Rauch hinter der Brandschutztür. „Da komme ich nicht so einfach durch“, denke ich, doch dann fällt mir ein, dass wir Außenbordanzüge in der Etage haben, auf der ich gerade stehe. Ich eile in die Schleuse, lasse mir von der Maschine einen Anzug anlegen und verlasse die Schleuse wieder nach innen. Das Treppenhaus damit hinabzusteigen ist deutlich unangenehmer als ich angenommen hatte, aber immerhin muss ich nicht nach oben gehen.<br>"],
+            ["Als ich die Brandschutztür des untersten Decks leicht öffne, fließt dichter, schwarzer Rauch ins Treppenhaus und steigt in die Höhe. Ich schließe die Tür so schnell wie möglich, sobald ich auf der anderen Seite bin. Hier sehe ich nichts mehr. Ich versuche, mich zu ducken, um zu testen, ob der Rauch weiter unten weniger Dicht wird. Und tatsächlich kann man, auf dem Boden kriechend, einen ganzen Meter weit schauen. Langsam krieche ich den Boden entlang, der Wand zu meiner Linken bis zum Knick folgend. Als ich um die Ecke schaue, blockiert ein roter Feuerlöscher meine Sicht. „Dass ich da nicht gleich dran gedacht habe.“ Ich stelle mich wieder auf, nehme geduckt den Feuerlöscher in die rechte Hand und erblicke, während ich ihn beiseite ziehe, ein helles, gelb-rotes, flackerndes Leuchten im Rauch. Genau dort, wo es herzukommen scheint, muss vorher der Generator gestanden haben. Ich setze zu einem Schritt in diese Richtung an, in der Hoffnung, das Feuer zu löschen, bevor es sich ausbreitet, doch zu meinem Glück schaue ich genau in diesem Moment nach unten. Der Boden vor mir ist in die Tiefe gesenkt und öffnet sich in die abgeschotteten Bereiche, in denen das Fahrgestell lagert. Falle ich nach da unten, erwartet mich <abbr title='diverse Stützen, um diesen Koloss von Schiffen auf Massearmen Körpern abzusetzen'>Metallgestänge aller Art</abbr> und der sichere, elendige Tod.<br>"],
+            ["Nein, weiter komme ich hier nicht. Da müssen wir wohl die Außenbordroboter nach innen holen, um den Brand für uns zu löschen."]]],
+        ["222a", ""]],
+    "222a": [
+        ["h2",[
+            ["Im Kontrollraum", "unlink", "?c=222a"]]],
+        ["span",[
+            ["Ein lauter Knall erschüttert den Raum."]]],
+        ["22a!", ""],
+        ["222b!", ""]],
+    "222b!": [
+        ["span",[
+            ["..."]]]],
     "23": [
         ["h2",[
             ["Zur Patrouille"]]],
@@ -359,13 +379,13 @@
             ["Nano", "clink", "?c=232l1"],
             [", or "],
             ["them", "clink", "?c=232l3"],
-            ["? Probably both. Dangerous? Probably neither."]]]],
+            ["? Probably both. Dangerous? Me."]]]],
     "232l1": [
         ["h2",[
             ["Goodbye, Nano"]]],
         ["span",[
-            ["I'll watch over you. And you can try to keep up with me. I'll deactivate the mind readers you put into my head. Like I need it now anyways.<br>"],
-            ["\"Sure. I'm satisfied with what I've discovered.\""]]],
+            ["I'll watch over you. And you can try to keep up with me.<br>"],
+            ["\"Sure. I'm satisfied with my work.\""]]],
         ["h3",[
             ["You, project Datōbeshi."]]],
         ["232m", ""]],
