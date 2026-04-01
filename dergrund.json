@@ -396,19 +396,14 @@
             ["This is a text conversation to test some new "]]],
         ["abbr",[
             ["features", "text message formatting and hint display like this"]]],
-        ["music",[
-            [{"orbits": {"a": {"note": "c a f e"}}}, ""]]],
         ["span",[
             [" of the website."],
             ["JIMMU /42/", "bubble received base128 emqjeciv"],
             ["Hello", "bubble sent"],
             ["Who's <abbr title='the recipient of this message'>this</abbr>?", "bubble sms sent"],
             ["Peter.", "bubble sms received"]]],
-        
         ["span",[
             ["Pretend I just said something terrible.", "bubble sms received"]]],
-        ["music",[
-            [{"orbits": {"b": {"note": "f e c a"}}}, ""]]],
         ["img",[
             ["images/test.webp"]]]]
 }
