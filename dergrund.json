@@ -13,13 +13,11 @@
         ["h2",[
             ["Info"]]],
         ["span",[
-            ["Du hast ja bereits verstanden, wie man hier navigiert. Dieses Buch ist "],
-            ["interaktiv", "link", "https://de.wiktionary.org/wiki/interaktiv"],
-            [", was bedeutet, dass du bestimmen kannst, wie die Geschichte weitergeht. "],
+            ["Du hast ja bereits verstanden, wie man hier navigiert. Dieses Buch ist interaktiv, was bedeutet, dass du bestimmen kannst, wie die Geschichte weitergeht. "],
             ["Links sehen in Dokumenten normalerweise "],
-            ["so", "standardlink", "https://google.com/"],
+            ["so", "standardlink", "?c=help"],
             [" aus, aber ich habe sie "],
-            ["so", "link", "https://google.com/"],
+            ["so", "link", "?c=help"],
             [" formatiert, damit du nicht von den Farben abgelenkt wirst. Wenn du kursiv geschriebene Wörter oder Wortgruppen findest, kannst du diese anklicken. "],
             ["Beachte jedoch, dass du durch "],
             ["so markierte Textabschnitte", "clink"],
