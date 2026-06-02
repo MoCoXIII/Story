@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    fetch("dergrund.json")
+    fetch("story.json")
         .then(response => response.json())
         .then(data => display(data, chapterIndex));
 });
