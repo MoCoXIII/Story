@@ -1,8 +1,11 @@
 #Requires AutoHotkey v2.0
 
-; Replace "" with proper German quotes („ and “)
-:*:_""::„“
-:*:?""::\"\"
+:*:_d""::„“
+:*:.d""::‚‘
+:*:_e""::\"\"
+:*:.e""::''
+:*:_f""::»«
+:*:.f""::›‹
 :*:_bold::<bold></bold>
 :*:_abbr::<abbr title=''></abbr>
 
