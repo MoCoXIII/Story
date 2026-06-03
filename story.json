@@ -6,15 +6,12 @@
             ["Das gewünschte Kapitel konnte nicht gefunden werden. Entweder existiert es noch nicht - wird also demnächst hinzugefügt -, oder die von dir eingegebene CID enthält einen Tippfehler.<br>Existierende Kapitel, die deiner Anfrage ähnlich sind, sollten folgend aufgelistet sein.<br><br>"]]]],
     "0000": [
         ["h1",[
-            ["Der Grund"]]],
-        ["span",[
-            ["Klicke auf Text mit invertierten Farben, um weitergeleitet zu werden.", "clink", "?c=help"]]]],
+            ["next", "clink", "?c=0"]]]],
     "help": [
         ["h2",[
             ["Info"]]],
         ["span",[
-            ["Du hast ja bereits verstanden, wie man hier navigiert. Dieses Buch ist interaktiv, was bedeutet, dass du bestimmen kannst, wie die Geschichte weitergeht. "],
-            ["Links sehen in Dokumenten normalerweise "],
+            ["Dieses Buch ist interaktiv, was bedeutet, dass du bestimmen kannst, wie die Geschichte weitergeht. Links sehen in Dokumenten normalerweise "],
             ["so", "standardlink", "?c=help"],
             [" aus, aber ich habe sie "],
             ["so", "link", "?c=help"],
@@ -28,19 +25,11 @@
             [". Viel Spaß beim Suchen."]]]],
     "0": [
         ["h2",[
-            ["Was bisher geschah", "unlink", "?c=0"]]],
+            ["Mein Wecker klingelt.", "unlink", "?c=0"]]],
         ["span",[
-            ["Mirko wusste nie genau, was er in seinem Leben machen wollte. Nach seinem Schulabschluss saß er nur faul herum, jedoch ging ihm schnell das ersparte Geld aus. Ohne seine Qualifikationen voll auszunutzen, wollte er nun schnell einen leichten Job finden.<br>"],
-            ["Sofort fand er eine Stellenausschreibung für Sicherheitsangestellte, die momentan sehr gefragt waren.<br>"],
-            ["Ein Kreuzfahrtschiff", "clink", "?c=1"],
-            [", das vor Kurzem neu erbaut wurde, war das oberste Ergebnis. Es habe zwar eine hektische Arbeitsumgebung, dafür aber ein beträchtliches, stabiles Einkommen. "],
-            ["Opulent", "link", "https://de.wiktionary.org/wiki/opulent"],
-            [" war schließlich nicht ohne Grund der bestzahlendste Arbeitgeber aller Zeiten.<br>"],
-            ["Auf einem "],
-            ["Bergbauschiff", "clink", "?c=2"],
-            [" bei TerraCore, einer staatlichen Bergbaufirma, wurde momentan eine neue Gruppe Sicherheitspersonal angelegt, da sie in nächster Zeit das Territorium von berüchtigten Piraten durchqueren würden. Bei TerraCore wird man nach Gewinnquote bezahlt, was bedeutet, dass ein Anteil des Gewinns einer Mission auf alle Mitglieder dieser Mission aufgeteilt wird.<br>"],
-            ["Die Stratosphere Corporation", "clink", "?c=3"],
-            [" war hingegen völlig neu und aufstrebend in nahplanetarer Technik, doch ihre Arbeit war mir sonst völlig unbekannt."]]]],
+            ["Ich drehe mich zur Seite, greife nach dem Bildschirm und "],
+            ["drücke auf ›stoppen‹"],
+            [". Der Ton hört auf. Ich lasse meine Beine vom Bettrand baumeln und richte mich auf, bis sie den Boden berühren. Auf der Bettkante sitzend schaue ich in den Spiegel. Der gleiche Anblick wie immer schaut mir mit verwüsteten Haaren entgegen."]]]],
     "1": [
         ["h2",[
             ["Der Kreuzer"]]],
