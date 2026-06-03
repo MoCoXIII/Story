@@ -49,6 +49,7 @@ body {
     background-color: var(--background-color);
     font-size: 18px;
     text-align: justify;
+    /* white-space: pre-wrap; */
 }
 
 .chapter {

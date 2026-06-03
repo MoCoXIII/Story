@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.head.appendChild(newStyleElement);
     }
     customCSSbutton.addEventListener("click", function () {
-        // open this url but on customcss.html where you can modify your custom css, save it to localStorage, then returns you to this page (reloads the page to apply the changes)
         window.location.href = `customcss.html?c=${chapterIndex}`;
     });
 
@@ -97,112 +96,125 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    fetch("story.json")
-        .then(response => response.json())
-        .then(data => display(data, chapterIndex));
+    fetch("story.story")
+        .then(response => response.text())
+        .then(storyText => {
+            storyText = removeComments(storyText);
+            const chapters = splitChapters(storyText);
+            display(chapters, chapterIndex);
+        });
 });
 
+function removeComments(storyText) {
+    return storyText.replace(/\/\/.*?\/\//gms, '');
+}
+
+function splitChapters(storyText) {
+    return Object.fromEntries(
+        Array.from(storyText.matchAll(/_(.+?);(.*?)(?=_)/gms))
+            .map(m => [m[1], m[2].trim()])
+    );
+}
 
 
-function display(data, chapterIndex) {
+function display(data, chapterIndex, parentChapter = document.body) {
     let chapter = data[chapterIndex];
     let error = false;
     if (!chapter) {
-        chapter = data["error"];
+        chapter = data["!error"];
         error = true;
     }
     let newChapterDiv = document.createElement("div")
     newChapterDiv.classList.add("chapter");
-    let chapterDiv = newChapterDiv;
-    chapterDiv.innerHTML = "";
-    document.body.appendChild(chapterDiv);
+    newChapterDiv.innerHTML = "";
+    parentChapter.appendChild(newChapterDiv);
 
-    for (let [elementType, texts] of chapter) {
-        if (texts === "") {
-            display(data, elementType);
-            continue;
-        } else if (parseInt(texts)) {
-            const element = document.createElement(elementType);
-            for (let j = 0; j < parseInt(texts); j++) {
-                const newElement = element.cloneNode(true);
-                chapterDiv.appendChild(newElement);
-            }
+    for (const match of chapter.matchAll(/(?<=\s*?)!(.+?);(.*?)(?=\s*?!)/gms)) {
+        const elementType = match[1];
+        const content = match[2];
+        if (content === "") {
+            display(data, elementType, newChapterDiv);
             continue;
         }
-        for (let snippet of texts) {
-            let i = 0;
-            let element = document.createElement(elementType);
-
-            if (typeof snippet[i] === 'object' && !Array.isArray(snippet[i])) {
-                element.dataset.obj = JSON.stringify(snippet[i++]);
-                if (elementType === "music") {
-                    setInterval(function () {
-                        let musicElements = document.querySelectorAll("[data-obj]");
-                        let lowerBound = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight ? window.innerHeight : window.innerHeight / 3;
-                        let updatedMusic = JSON.parse(JSON.stringify(defaultMusic));  // clone music, not redundant
-                        function mergeObjects(target, source) {
-                            for (const key of Object.keys(source)) {
-                                if (typeof source[key] === 'object' && typeof target[key] === 'object') {
-                                    mergeObjects(target[key], source[key]);
-                                } else {
-                                    target[key] = source[key];
-                                }
-                            }
-                            return target;
-                        }
-                        for (let musicElement of musicElements) {
-                            if (musicElement.getBoundingClientRect().top > lowerBound) {
-                                break;
-                            }
-                            const newMusic = JSON.parse(musicElement.dataset.obj);
-                            updatedMusic = mergeObjects(updatedMusic, newMusic);
-                        }
-                        if (JSON.stringify(updatedMusic) !== JSON.stringify(music)) {
-                            Object.assign(music, updatedMusic);
-                            console.log("updating music to", music);
-                            update();
-                        }
-                    }, 1000);
+        let lastElement = null;
+        for (const match of content.matchAll(/(?<=;?\n*(?= *\S))(.*?(?:".*?")?(?:\[.*?\])?);/gms)) {
+            let token = match[1]; //.trimStart()
+            if (token.startsWith("-")) {
+                const splitToken = token.split(" ");
+                const tokenValue = splitToken.slice(1).join(" ");
+                switch (splitToken[0]) {
+                    case "-abbr":
+                        lastElement.title = tokenValue;
+                        break;
+                    case "-class":
+                        applyClasses(tokenValue, lastElement);
+                        break;
+                    case "-link":
+                        appendAndLink(newChapterDiv, lastElement, tokenValue);
+                        break;
+                    case "-unlink":
+                        applyClasses("unlink", lastElement);
+                        appendAndLink(newChapterDiv, lastElement, tokenValue);
+                        break;
+                    case "-clink":
+                        applyClasses("clink", lastElement);
+                        appendAndLink(newChapterDiv, lastElement, tokenValue);
+                        break;
+                    case "-style":
+                        lastElement.style.cssText = JSON.parse(tokenValue);
+                        break;
+                    case "-ID":
+                        lastElement.id = tokenValue;
+                        break;
+                    default:
+                        console.log("Uncaught flag: ", splitToken);
+                        break;
                 }
-            }
-
-            const text = snippet[i++];
-            if (elementType === "img") {
-                element.src = text;
-            } else if (elementType === "svg" && text.endsWith(".svg")) {
-                fetch(text)
-                    .then(response => response.text())
-                    .then(svgContent => element.outerHTML = svgContent);
             } else {
-                element.innerHTML = text;
-            }
+                let text = token.replace(/\r?\n|\\n/g, '<br>')
+                lastElement = document.createElement(elementType);
 
-            if (elementType === "abbr") {
-                element.title = snippet[i++];
-            }
+                // if (elementType === "music") {
+                //     lastElement.dataset.obj = text;
+                //     setInterval(function () {
+                //         let musicElements = document.querySelectorAll("[data-obj]");
+                //         let lowerBound = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight ? window.innerHeight : window.innerHeight / 3;
+                //         let updatedMusic = JSON.parse(JSON.stringify(defaultMusic));  // clone music, not redundant
+                //         function mergeObjects(target, source) {
+                //             for (const key of Object.keys(source)) {
+                //                 if (typeof source[key] === 'object' && typeof target[key] === 'object') {
+                //                     mergeObjects(target[key], source[key]);
+                //                 } else {
+                //                     target[key] = source[key];
+                //                 }
+                //             }
+                //             return target;
+                //         }
+                //         if (lastElement.getBoundingClientRect().top > lowerBound) {
+                //             break;
+                //         }
+                //         const newMusic = JSON.parse(lastElement.dataset.obj);
+                //         updatedMusic = mergeObjects(updatedMusic, newMusic);
 
-            const classes = snippet[i++];
-            if (classes) {
-                for (let htmlclass of classes.split(/\s+/)) {
-                    element.classList.add(htmlclass);
+                //         if (JSON.stringify(updatedMusic) !== JSON.stringify(music)) {
+                //             Object.assign(music, updatedMusic);
+                //             console.log("updating music to", music);
+                //             update();
+                //         }
+                //     }, 1000);
+                // }
+                // else
+                if (elementType === "img") {
+                    lastElement.src = text;
+                } else if (elementType === "svg" && text.endsWith(".svg")) {
+                    fetch(text)
+                        .then(response => response.text())
+                        .then(svgContent => lastElement.outerHTML = svgContent);
+                } else {
+                    lastElement.innerHTML = text;
                 }
-                if (classes.includes("translate")) {
-                    element.innerHTML = translate(text);
-                }
-                if (classes.includes("base128")) {
-                    element.innerHTML = translate(text, true)
-                }
-                if (classes.includes("newline")) {
-                    chapterDiv.appendChild(document.createElement("br"));
-                }
+                newChapterDiv.appendChild(lastElement);
             }
-
-            const link = snippet[i++];
-            if (link) {
-                appendAndLink(chapterDiv, element, link);
-                continue;
-            }
-            chapterDiv.appendChild(element);
         }
     }
 
@@ -218,12 +230,13 @@ function display(data, chapterIndex) {
             return distanceA - distanceB;
         });
         for (let closestChapter of closestChapters) {  // .slice(0, 5)
-            const chapterLink = document.createElement("span")
-            let linkContent = data[closestChapter];
-            for (let i of [0, 1, 0, 0]) {
-                linkContent = linkContent[i] || linkContent;
+            const chapterLink = document.createElement("span");
+            const chapterPreviewMatch = data[closestChapter].match(/\+(.*)\+/ms);
+            let chapterPreview = "No chapter preview available.";
+            if (chapterPreviewMatch) {
+                chapterPreview = chapterPreviewMatch[1];
             }
-            chapterLink.innerHTML = linkContent;
+            chapterLink.innerHTML = chapterPreview;
             chapterLink.classList.add("clink")
             const spoiler = document.createElement("details")
             spoiler.classList.add("spoiler")
@@ -231,16 +244,28 @@ function display(data, chapterIndex) {
             summary.innerHTML = closestChapter;
             spoiler.appendChild(summary)
             appendAndLink(spoiler, chapterLink, "?c=" + closestChapter);
-            chapterDiv.appendChild(spoiler)
-            chapterDiv.appendChild(document.createElement("br"))
+            newChapterDiv.appendChild(spoiler)
+            newChapterDiv.appendChild(document.createElement("br"))
+        }
+    }
+
+    function applyClasses(classesString, targetElement) {
+        for (let htmlclass of classesString.split(/\s+/)) {
+            targetElement.classList.add(htmlclass);
+        }
+        if (classesString.includes("translate")) {
+            targetElement.innerHTML = translate(text);
+        }
+        if (classesString.includes("base128")) {
+            targetElement.innerHTML = translate(text, true);
         }
     }
 
     function appendAndLink(parent, element, link) {
         let linker = document.createElement("a");
-        for (let htmlclass of element.classList) {
-            linker.classList.add(htmlclass);
-        }
+        // for (let htmlclass of element.classList) {
+        //     linker.classList.add(htmlclass);
+        // }
         linker.href = link;
         linker.appendChild(element);
         parent.appendChild(linker);
@@ -268,7 +293,6 @@ function levenshteinDistance(a, b) {
     }
     return d[m][n];
 }
-
 
 function translate(text, onlyNumbers = false) {
     const translator = {
@@ -325,6 +349,7 @@ function translate(text, onlyNumbers = false) {
 
     return result;
 }
+
 function replaceWithBase128Chars(base10int) {
     let result = "";
     let decimalBase128Digits;
@@ -337,6 +362,7 @@ function replaceWithBase128Chars(base10int) {
     }
     return result;
 }
+
 function getBase128Digits(base10int) {
     let decimalBase128Digits = [];
     while (base10int > 0) {
