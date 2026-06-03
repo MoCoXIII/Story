@@ -158,7 +158,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
                         break;
                     case "-clink":
                         applyClasses("clink", lastElement);
-                        appendAndLink(newChapterDiv, lastElement, tokenValue);
+                        appendAndLink(newChapterDiv, lastElement, "?c=" + tokenValue);
                         break;
                     case "-style":
                         lastElement.style.cssText = JSON.parse(tokenValue);
