@@ -148,7 +148,11 @@ function display(data, chapterIndex, parentChapter = document.body) {
                     case "-class":
                         applyClasses(value, lastElement);
                         break;
+                    case "-normlink":
+                        appendAndLink(newChapterDiv, lastElement, value);
+                        break;
                     case "-link":
+                        applyClasses("link", lastElement);
                         appendAndLink(newChapterDiv, lastElement, value);
                         break;
                     case "-unlink":
@@ -262,9 +266,9 @@ function display(data, chapterIndex, parentChapter = document.body) {
 
     function appendAndLink(parent, element, link) {
         let linker = document.createElement("a");
-        // for (let htmlclass of element.classList) {
-        //     linker.classList.add(htmlclass);
-        // }
+        for (let htmlclass of element.classList) {
+            linker.classList.add(htmlclass);
+        }
         linker.href = link;
         linker.appendChild(element);
         parent.appendChild(linker);
