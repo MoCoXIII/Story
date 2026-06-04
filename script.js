@@ -102,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
             storyText = removeComments(storyText);
             const chapters = splitChapters(storyText);
             display(chapters, chapterIndex);
+            console.log("Loaded everything.");
         });
 });
 
@@ -111,7 +112,7 @@ function removeComments(storyText) {
 
 function splitChapters(storyText) {
     return Object.fromEntries(
-        Array.from(storyText.matchAll(/_(.+?);(.*?)(?=_)/gms))
+        Array.from(storyText.matchAll(/´´(.+?);(.*?)(?=´´)/gms))
             .map(m => [m[1], m[2].trim()])
     );
 }
@@ -129,7 +130,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
     newChapterDiv.innerHTML = "";
     parentChapter.appendChild(newChapterDiv);
 
-    for (const match of chapter.matchAll(/(?<=\s*?)!(.+?);(.*?)(?=\s*?!)/gms)) {
+    for (const match of chapter.matchAll(/(?<=\s*?)\^\^(.+?);(.*?)(?=\s*?\^\^)/gms)) {
         const elementType = match[1];
         const content = match[2];
         if (content === "") {
@@ -158,6 +159,10 @@ function display(data, chapterIndex, parentChapter = document.body) {
                     case "-unlink":
                         applyClasses("unlink", lastElement);
                         appendAndLink(newChapterDiv, lastElement, value);
+                        break;
+                    case "-unclink":
+                        applyClasses("unlink", lastElement);
+                        appendAndLink(newChapterDiv, lastElement, "?c=" + value);
                         break;
                     case "-clink":
                         applyClasses("clink", lastElement);
