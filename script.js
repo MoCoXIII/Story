@@ -137,7 +137,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
             continue;
         }
         let lastElement = null;
-        for (const match of content.matchAll(/(?<=;?\n*(?= *\S))((?:.*?(?:".*?")?)+(?:\[.*?\])?);/gms)) {
+        for (const match of content.matchAll(/(?<=;?\n*(?= *\S))((?:.*?(?:".*?")?(?:\[.*?\])?)+?);/gms)) {
             let token = match[1];
             if (token.startsWith("-")) {
                 const [flag, value] = token.split(" ", 1);
