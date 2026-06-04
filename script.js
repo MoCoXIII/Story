@@ -140,7 +140,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
         for (const match of content.matchAll(/(?<=;?\n*(?= *\S))((?:.*?(?:".*?")?(?:\[.*?\])?)+?);/gms)) {
             let token = match[1];
             if (token.startsWith("-")) {
-                const [flag, value] = token.split(" ", 1);
+                const [flag, value] = token.split(" ", 2);
                 switch (flag) {
                     case "-abbr":
                         lastElement.title = value;
