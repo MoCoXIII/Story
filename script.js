@@ -138,7 +138,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
             continue;
         }
         let lastElement = null;
-        for (const match of content.matchAll(/(?<=;?\n*(?= *\S))((?:.*?(?:".*?")?(?:\[.*?\])?)+?);/gms)) {
+        for (const match of content.matchAll(/(?<=;?\n*(?= *\S))((?:.*?(?:".*?")?(?:\[.*?\])?(?:\\.)?)+?);/gms)) {
             let token = match[1];
             if (token.startsWith("-")) {
                 const [flag, value] = token.split(" ", 2);
@@ -179,7 +179,10 @@ function display(data, chapterIndex, parentChapter = document.body) {
                         break;
                 }
             } else {
-                let text = token.replace(/\r?\n|\\n/g, '<br>').replace(/#cid#/g, chapterIndex);
+                let text = token
+                .replace(/\r?\n|\\n/g, '<br>')
+                .replace(/#cid#/g, chapterIndex)
+                .replace(/\\;/g, ";");
                 lastElement = document.createElement(elementType);
 
                 // if (elementType === "music") {
