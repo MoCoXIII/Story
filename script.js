@@ -137,41 +137,40 @@ function display(data, chapterIndex, parentChapter = document.body) {
             continue;
         }
         let lastElement = null;
-        for (const match of content.matchAll(/(?<=;?\n*(?= *\S))(.*?(?:".*?")?(?:\[.*?\])?);/gms)) {
-            let token = match[1]; //.trimStart()
+        for (const match of content.matchAll(/(?<=;?\n*(?= *\S))((?:.*?(?:".*?")?)+(?:\[.*?\])?);/gms)) {
+            let token = match[1];
             if (token.startsWith("-")) {
-                const splitToken = token.split(" ");
-                const tokenValue = splitToken.slice(1).join(" ");
-                switch (splitToken[0]) {
+                const [flag, value] = token.split(" ", 1);
+                switch (flag) {
                     case "-abbr":
-                        lastElement.title = tokenValue;
+                        lastElement.title = value;
                         break;
                     case "-class":
-                        applyClasses(tokenValue, lastElement);
+                        applyClasses(value, lastElement);
                         break;
                     case "-link":
-                        appendAndLink(newChapterDiv, lastElement, tokenValue);
+                        appendAndLink(newChapterDiv, lastElement, value);
                         break;
                     case "-unlink":
                         applyClasses("unlink", lastElement);
-                        appendAndLink(newChapterDiv, lastElement, tokenValue);
+                        appendAndLink(newChapterDiv, lastElement, value);
                         break;
                     case "-clink":
                         applyClasses("clink", lastElement);
-                        appendAndLink(newChapterDiv, lastElement, "?c=" + tokenValue);
+                        appendAndLink(newChapterDiv, lastElement, "?c=" + value);
                         break;
                     case "-style":
-                        lastElement.style.cssText = JSON.parse(tokenValue);
+                        lastElement.style.cssText = JSON.parse(value);
                         break;
                     case "-ID":
-                        lastElement.id = tokenValue;
+                        lastElement.id = value;
                         break;
                     default:
-                        console.log("Uncaught flag: ", splitToken);
+                        console.log("Uncaught flag: ", flag, "\nwith value: ", value);
                         break;
                 }
             } else {
-                let text = token.replace(/\r?\n|\\n/g, '<br>')
+                let text = token.replace(/\r?\n|\\n/g, '<br>').replace(/#cid#/g, chapterIndex);
                 lastElement = document.createElement(elementType);
 
                 // if (elementType === "music") {
