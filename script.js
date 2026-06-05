@@ -122,7 +122,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
     let chapter = data[chapterIndex];
     let error = false;
     if (!chapter) {
-        chapter = data["!error"];
+        chapter = data["error!"];
         error = true;
     }
     let newChapterDiv = document.createElement("div")
