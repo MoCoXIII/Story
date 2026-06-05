@@ -130,7 +130,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
     newChapterDiv.innerHTML = "";
     parentChapter.appendChild(newChapterDiv);
 
-    for (const match of chapter.matchAll(/(?<=\s*?)\^\^(.+?);(.*?)(?=\s*?\^\^)/gms)) {
+    for (const match of chapter.matchAll(/(?<=\s*?)\^\^([^;]+?);(.*?)(?=\s*?\^\^)/gms)) {
         const elementType = match[1];
         const content = match[2];
         if (content === "") {
