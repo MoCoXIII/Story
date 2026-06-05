@@ -138,8 +138,85 @@ function display(data, chapterIndex, parentChapter = document.body) {
             continue;
         }
         let lastElement = null;
-        for (const match of content.matchAll(/(?<=;?\n*(?= *\S))((?:.*?(?:".*?")?(?:\[.*?\])?(?:\\.)?)+?);/gms)) {
-            let token = match[1];
+        function* tokenize(input) {
+            let current = '';
+            let i = 0;
+
+            let inString = false;
+            let stringChar = null;
+            let bracketDepth = 0;
+
+            while (i < input.length) {
+                const char = input[i];
+                const nextChar = input[i + 1];
+
+                // escape sequences
+                if (char === '\\' && nextChar) {
+                    current += char + nextChar;
+                    i += 2;
+                    continue;
+                }
+
+                // string entry
+                if ((char === '"' || char === "'") && !inString) {
+                    inString = true;
+                    stringChar = char;
+                    current += char;
+                    i++;
+                    continue;
+                }
+
+                // string exit
+                if (char === stringChar && inString) {
+                    inString = false;
+                    stringChar = null;
+                    current += char;
+                    i++;
+                    continue;
+                }
+
+                // count everything inside a string
+                if (inString) {
+                    current += char;
+                    i++;
+                    continue;
+                }
+
+                // opening bracket increases depth
+                if (char === '[') {
+                    bracketDepth++;
+                    current += char;
+                    i++;
+                    continue;
+                }
+
+                // closing bracket decreases depth
+                if (char === ']') {
+                    bracketDepth--;
+                    current += char;
+                    i++;
+                    continue;
+                }
+
+                // Token terminator: semicolon outside brackets and strings
+                if (char === ';' && bracketDepth === 0) {
+                    yield current.trim();
+                    current = '';
+                    i++;
+                    continue;
+                }
+
+                // Regular character
+                current += char;
+                i++;
+            }
+
+            // uncomment if counting trailing content (even if there is no terminating semicolon until end of chapter content)
+            if (current) {
+                yield current;
+            }
+        }
+        for (const token of tokenize(content)) {
             if (token.startsWith("-")) {
                 const [flag, value] = token.split(" ", 2);
                 switch (flag) {
