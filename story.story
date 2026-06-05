@@ -101,11 +101,39 @@ Die Ladebucht;
 Eine Patrouille;
 -clink 23;
  wäre also auch eine Option - und würde sogar viele der langen Gänge umfassen, sodass irgendwas Spannendes bestimmt garantiert ist.;
+^^
 
+´´21;
+^^h2;
+Aufsicht Am Maschinenraum;
+^^span;
+»Ich gehe zum Maschinenraum, vielleicht hat der neue Generator doch noch ein paar Macken übrig.«
+Max scheint nicht begeistert zu sein. »Das glaube ich eher nicht. Da wirst du eher einschlafen, bevor du ein echtes Sicherheitsrisiko findest«, meint er enttäuscht, »Aber wenn du das übernimmst, gehe ich zur Ladebucht.« Der Maschinenraum 1 liegt bei uns auf dem untersten Deck, sodass ich nur etwa 50 Meter laufen muss, um ihn zu erreichen. Also drehe ich mich nach rechts und gehe den Flur entlang, bis ich ungefähr in der Mitte des Ganges nach links abbiege. Ich sehe die Tür des Maschinenraums ungefähr 15 Meter entfernt an der linken Wand. Ich nähere mich der Tür, wobei mir ein leises, sich wiederholendes Klicken auffällt, das immer lauter wird, je weiter ich mich nähere. Ich hebe mein Funkgerät, drücke den Sprechknopf und berichte: »Wiederholtes, dumpfes Klicken aus Maschinenraum 1«. Ich höre sofort eine Antwort. »Wahrscheinlich ist das die Ursache für die Schwankungen. Notiert. Schau am besten nach, was das ist, bevor wir unsere Techniker lossenden.«
+Ich nähere mich der Tür, während ich meinen Generalschlüssel aus der Tasche hole. Die Tür öffnet sich geräuschlos, das Licht geht automatisch an und ich sehe den Grund für das Klicken. »Der Temperatursensor von Generator 1 hat sich gelöst und wird von der Kühlung geschaukelt. Ich versuche, ihn temporär zu befestigen.« Für solche Kleinigkeiten muss schließlich kein Techniker anreisen.
+Ich bemerke eine kleine Schraube, die auf dem Boden vor dem Generator liegt. Nachdem ich sie aufhebe, nehme ich eins der Mehrzweckwerkzeuge aus dem Schrank und schraube den kleinen Sensor mit der Schraube wieder an. Das Funkgerät piept kurz. »Die Temperatur von G1 scheint stabil auf erwarteten Werten. Du kannst zurückkehren.«
+Ich verlasse den Maschinenraum wieder, drücke die Tür zu und schließe ab. Auf dem Weg zurück zum Zentralraum begegne ich niemandem.
+»Warum auch?« Die Stimme von Carst klingt erleichtert. »Und, worum geht’s?«, frage ich. Er wendet sich mir voller Vorfreude zu. »Das erzähle ich dir später - ich kann dich ja schließlich nicht während der Schicht einfach hier rumsitzen lassen. Also, auf zur Patrouille mit dir!« Er konnte ein lautes Lachen anscheinend nicht unterdrücken. »Treffen wir uns nach Schichtende in der Kantine - und ich sage der restlichen Gruppe 1 in der Zwischenzeit Bescheid, dass sie ebenfalls eingeladen sind!«;
+^^23a;
+^^
 
-
-
-
+´´22;
+^^h2; Aufsicht an der Ladebucht;
+^^span;
+Mein Blick fällt auf Max, wobei ich erkenne, dass seine Aufmerksamkeit auf die Markierung vom Maschinenraum gerichtet ist.
+»An der Ladebucht gibt es bestimmt etwas zu tun«, meine ich. Max lächelt. »Super, dann bleibe ich am Maschinenraum«, freut er sich. »und schlafe erstmal.«
+Ich fahre mit dem Fahrstuhl aufs mittlere Deck, auf dem es eifrig zugeht. Einige Arbeiter kommen mir entgegen, laufen jedoch an mir vorbei. Gabelstapler und Kräne manövrieren durch die Hallen, Förderbänder und dünne Schienen ziehen sich an den Böden, Wänden und Decken entlang. Arbeiter mit Handwagen und Sackkarren bewegen sich von der Ladeluke in Richtung Lager. Ich gehe auf den Wachturm zu, steige die Treppen hinauf und begrüße Security 4-2, Mac. »Mac« »Mirko«
+»Guten Wechsel«, betont er mit einem Nicken. »Die Schalttafel ist an, du musst dich nur noch anmelden. Alles ist schon eingeschaltet.«
+»Verstanden«, versichere ich ihm und übernehme die Sicherheitskontrolle.
+Arbeiter bewegen Pakete von außerhalb des Schiffes zum Eingang, Gabelstapler heben die Ware auf Förderbänder, die die Kisten in Lagerhallen befördern. In den Lagerhallen werden Pakete von weiteren Gabelstaplern den Förderbändern entnommen und in Regalen gestapelt. Andere Gabelstapler platzieren einzelne Kisten in Fahrstühle, die diese zu Werkstätten auf tiefer gelegenen Decks liefern.
+Alle Hallen werden von großen Flutscheinwerfern beleuchtet, sodass alles für jeden sichtbar ist - erstrecht für die Wachleute. Die Flutlichter können von der Konsole im Wachturm in Ausrichtung, Helligkeit und Farbe einzeln gesteuert werden. Die Konsole selbst ist ein leicht angewinkelter, mattgrauer Schreibtisch, mit einem Display, das die gesamte Fläche überspannt.
+Eine Sache passt mir da aber nicht. Der Schreibtisch ist mattgrau, aber gleichzeitig völlig Display. Das Display ist aus. Mac meinte, alles sei bereits eingeschaltet. Hat sich der Bildschirm nur ausgestellt? Ich versuche den Anschalter zu betätigen, aber nichts passiert. Ist der Strom aus? Ich betrachte die Lampe über mir, die den Kontrollturm von innen beleuchten soll und über keinen Schalter verfügt - sie sollte also permanent leuchten - was nicht der Fall ist. Warum ist der Strom aus? Während ich nach Gründen suche, warum der Strom weg ist, empfange ich drei Funksprüche, die alles erklären.
+»Stromausfall in hinteren Teilen des Schiffes, der Hauptgenerator scheint ausgefallen zu sein.«
+»Auf der Brücke läuft auch nichts mehr, die Navigationssysteme sind ausgefallen.«
+»Generator 1 ist plötzlich leise. Viel zu leise. Ich schaue na-«
+Der Funkspruch beendet sich mit einem leisen Piepen und kurz darauf erschüttert ein ohrenbetäubendes Krachen das Schiff. Ein Unterton von Angst, Überraschung, Panik und erzwungener Professionalität erfüllt die darauf eingehende Nachricht.
+;
+^^22a!;
+^^22b!;
 
 ^^
 ´´
