@@ -134,6 +134,146 @@ Der Funkspruch beendet sich mit einem leisen Piepen und kurz darauf erschüttert
 ;
 ^^22a!;
 ^^22b!;
+^^
+
+´´22a!;
+^^span;
+»Wir haben den Kontakt zu Max, G1 und jeglichen sich in MR1 befindlichen Geräten verloren. Weiß jemand, was genau da los ist? Die Kameras sind ebenfalls ausgefallen.«
+;^^
+
+´´22b!;
+^^span;
+Der Funkspruch wird von einem lauten Rauschen begleitet, aber man kann die Nachricht noch verstehen. Ich schalte die Kontrolltafel auf Batteriebetrieb um. Der Bildschirm leuchtet rot auf - eine Nachricht erscheint. Eine Nachricht, wie man sie bisher nur in Filmen gesehen hat.<br>;
+WIR ÜBERNEHMEN DIE KONTROLLE.
+WIDERSTAND IST ZWECKLOS.
+JEGLICHE VERSUCHE DER KOMMUNIKATION WERDEN NUN UNTERDRÜCKT.
+GEBEN SIE AUF ODER WIR ÜBERNEHMEN GEWALTSAM DIE KONTROLLE.
+JEGLICHE RETTUNGSVERSUCHE WERDEN SCHEITERN.
+KOOPERATION WIRD BELOHNT.
+WIDERSTAND WIRD VERNICHTET.
+WARTEN SIE AUF UNSERE FORDERUNGEN.<br>;
+-class red;
+UNSER HERR WILL MIT DIR REDEN.;
+-class emqjeciv2 translate red;
+<br>Unten in der großen Halle sehe ich Security 4-2, der aus seiner Pause zurück in die Halle stürmt und versucht, den verwirrten Arbeitern die Situation zu erklären, als das Licht wieder anspringt.
+Ich rufe ihn zu mir. »Mac!« Er schaut hoch zum Wachturm, als würde er fragen, was ich jetzt von ihm wolle. »Ich brauche dich hier oben - dringend!«
+Er scheint das rote Leuchten im Raum erkannt zu haben, denn er sprintet die Treppen hoch und betrachtet den roten Bildschirm. »Warum hast du mir das nicht gleich gesagt?!« Er schaut den Schreibtisch entsetzt an. Ich versuche, mich zu rechtfertigen. »Ich wollte die anderen Arbeiter nicht in Panik versetzen.«
+Er schaut wieder auf den Bildschirm. »Das«, er zeigt auf die angezeigte Nachricht, »ist krass.«
+Die mysteriöse letzte Zeile ist verschwunden.
+»›Widerstand zwecklos.‹ Das kaufe ich denen nicht ab.« Mac spricht in sein Funkgerät. »Verbindet mich mit ;
+Admiral Richter;
+-clink 221;
+. Dies ist ein Notfall.«
+»Und du« Er schaut mir warnend entgegen. »schaust zum ;
+Maschinenraum;
+-clink 222;
+.«;^^
+
+´´221;
+^^h2;
+Admiral Richter;
+^^span;
+Ich höre dem Funkspruch von Mac, einem Sicherheitsangestellten des TCMVI-I, aufmerksam zu. Wir mussten diese Gefahr mit einbeziehen, als wir diese Mission in fremdes Gebiet gestartet haben.
+Der Angriff auf den TCMVI-I durch Piraten ist - laut Mac - einigermaßen ernst zu nehmen. Obwohl sie die Funkverbindung nicht blockieren konnten, haben sie doch das Schiff für eine ganze Minute ohne Stromversorgung gelassen, bis die Notfallgeneratoren angesprungen sind. Sie haben es also noch nicht ganz unter Kontrolle.
+Ich betrete den Befehlssaal, bereit, meine Flotte zu verteidigen. »Wir haben die Kontrolle über den TCMVI-I zwar noch nicht verloren, jedoch könnte es jeden Moment so weit sein. Setzen Sie alle verfügbaren Mittel ein und senden Sie schleunigst Unterstützung.«
+Ich bin der Admiral, der für die gesamte Flotte unserer Firma verantwortlich ist. Der Gedanke, dass eines der Schiffe von Piraten infiltriert und übernommen werden könnte, ist für mich, besonders auf einer Mission, bei der wir mit dieser Gefahr rechnen mussten, inakzeptabel.
+Die Stimme des Kapitäns schallt aus den Schiffslautsprechern. »Nehme Kurs auf TerraCore Miner VI-I, voraussichtliche Ankunft in 10 Stunden.« So lange muss sich die Crew des TCMVI-I wohl noch gedulden. Ich leite unverzüglich eine Untersuchung ein, um herauszufinden, wie der TCMVI-I angegriffen wurde und wie wir zukünftige Angriffe verhindern können. Als erstes lasse ich sämtliche verfügbaren Daten über den Angriff zusammentragen, angefangen von den Aufzeichnungen der Sensoren bis hin zu den Berichten der Besatzungsmitglieder. »Berichten Sie mir alles, was Sie wissen«, fordere ich die leitenden Offiziere auf. »Wir müssen jede Einzelheit verstehen, um angemessen darauf reagieren zu können.«
+Der Chefingenieur meldet sich zu Wort. »Wir haben die Unfallstelle untersucht und vermuten auf Basis aller Hinweise, die wir bis jetzt vom TCMVI-I erhalten konnten, dass der Energieausfall durch einen verdächtigen Chip in einem Generator, der vor Kurzem ausgetauscht wurde, verursacht wurde, der vermutlich beabsichtigt die gesamte Energie des Schiffes in einen instabilen Massenenergiespeicher gepumpt hat. Dieser scheint einen Schwellenwert überschritten oder ernsthaften Schaden erlitten zu haben, der ihn in kürzester Zeit durch das restliche Stromnetz kurzschloss und zur Explosion brachte.«
+Ich runzle die Stirn, als ich die Ernsthaftigkeit der Situation erkenne. Ein schädliches Teil in einer neuen Maschine ist eine Bedrohung von ganz anderer Natur als ein herkömmlicher Angriff. »Wie konnte das passieren?«, frage ich den Chefingenieur.
+»Es scheint, dass der neue Generator nicht auf seinen Ursprung geprüft und so bereits vor Eintritt ins Schiff durch eine Falle ersetzt worden sein könnte«, erklärt er. »Als er schlussendlich eingebaut war, dauerte es einige Monate, bis man den Fehler bemerken sollte. Ein garantiertes Zeichen eines lange geplanten Angriffs auf das Schiff, wenn Sie mich fragen.«
+Ich überlege fieberhaft, wie wir dieses Problem angehen können. Wir müssen sicherstellen, dass es nicht noch weitere dieser Defekte gibt, bevor wir das Schiff wieder unter unsere Kontrolle bringen können.
+»Sperren Sie alle nicht-essentiellen Systeme«, befehle ich. »Wir müssen jegliche defekten Geräte abschirmen und verhindern, dass so etwas erneut geschieht.«
+Während das Technikteam damit beschäftigt ist, die Nachricht an alle Verantwortlichen im TCMVI-I weiterzuleiten, überwache ich persönlich die Situation im Kontrollraum und halte Kontakt mit dem TCMVI-I, um die Brücke über unsere Vermutungen und Bemühungen auf dem Laufenden zu halten. Schließlich erhalten wir einen Durchbruch. »Admiral«, ruft der Chefingenieur. »Wir haben alle nicht-essentiellen Systeme erfolgreich abstellen lassen. Wir müssen jedoch sicherstellen, dass nicht auch die essentiellen Teile betroffen sind. Es gibt mehrere Möglichkeiten, wie wir das anstellen könnten. Wir könnten ;
+alle Modifikationen und relativ neuen Teile im Schiff absuchen lassen;
+-clink 2211;
+. Falls wir auf ‘Nummer Sicher’ gehen wollen, könnten wir auch ;
+die Systeme herunterfahren;
+-clink 2212;
+, um die Aufladung weiterer Energiespeicher und mögliche Kurzschlüsse zu stoppen, um dann das Schiff schrittweise wieder in Betrieb zu nehmen, wenn die dafür erforderlichen Teile überprüft wurden. Jedoch würde das das Schiff bewegungs- und verteidigungsunfähig gegenüber physischen Piratenangriffen machen, bis wir dort ankommen. Welchen Kompromiss möchten Sie eingehen, Admiral?«
+Ich überlege eine Weile. Beide Optionen klingen unangenehm. Eine sichert das Schiff von innen, riskiert dabei allerdings Angriffe von außen und könnte das Schiff für Monate und im schlimmsten Fall - im Falle eines Angriffs - für immer aus dem Geschäft nehmen. Die andere lässt dem Schiff zwar seine Selbstverteidigung, riskiert jedoch weitere Zwischenfälle, falls auch wichtigste Systeme betroffen sind. Nach einigem Auswiegen der Optionen treffe ich eine schwierige Entscheidung.;
+^^
+
+´´2211;
+^^h2;
+Aktive Untersuchung;
+^^
+
+´´2212;
+^^h2;
+Die Systeme Herunterfahren;
+^^
+
+´´222;
+^^h2;
+Der Ort des Geschehens;
+^^span;
+»… oder was davon noch übrig ist.«
+Er hält sich das Funkgerät wieder ans Ohr, als ich mich von ihm weg in Richtung Treppenhaus bewege. Die Fahrstühle sind ausgefallen, also muss ich mich durch's Treppenhaus hinab begeben.
+Am unteren Ende des Treppenhauses, das glücklicherweise nicht allzu weit nach unten entfernt ist, sehe ich dichten Rauch hinter der Brandschutztür. »Da komme ich nicht so einfach durch«, denke ich, doch dann fällt mir ein, dass wir Außenbordanzüge in der Etage haben, auf der ich gerade stehe. Ich eile in die Schleuse, lasse mir von der Maschine einen Anzug anlegen und verlasse die Schleuse wieder nach innen. Das Treppenhaus damit hinabzusteigen ist deutlich unangenehmer als ich angenommen hatte, aber immerhin muss ich nicht nach oben gehen.
+Als ich die Brandschutztür des untersten Decks leicht öffne, fließt dichter, schwarzer Rauch ins Treppenhaus und steigt in die Höhe. Ich schließe die Tür so schnell wie möglich, sobald ich auf der anderen Seite bin. Hier sehe ich nichts mehr. Ich versuche, mich zu ducken, um zu testen, ob der Rauch weiter unten weniger Dicht wird. Und tatsächlich kann man, auf dem Boden kriechend, einen ganzen Meter weit schauen. Langsam krieche ich den Boden entlang, der Wand zu meiner Linken bis zum Knick folgend. Als ich um die Ecke schaue, blockiert ein roter Feuerlöscher meine Sicht. »Dass ich da nicht gleich dran gedacht habe.« Ich stelle mich wieder auf, nehme geduckt den Feuerlöscher in die rechte Hand und erblicke, während ich ihn beiseite ziehe, ein helles, gelb-rotes, flackerndes Leuchten im Rauch. Genau dort, wo es herzukommen scheint, muss vorher der Generator gestanden haben. Ich setze zu einem Schritt in diese Richtung an, in der Hoffnung, das Feuer zu löschen, bevor es sich ausbreitet, doch zu meinem Glück schaue ich genau in diesem Moment nach unten. Der Boden vor mir ist in die Tiefe gesenkt und öffnet sich in die abgeschotteten Bereiche, in denen das Fahrgestell lagert. Falle ich nach da unten, erwartet mich ;
+Metallgestänge aller Art;
+-abbr diverse Stützen, um diesen Koloss von Schiffen auf massearmen Himmelskörpern abzusetzen;
+ und der sichere, elendige Tod.
+Nein, weiter komme ich hier nicht. Da müssen wir wohl die Außenbordroboter nach innen holen, um den Brand für uns zu löschen.;
+^^222a;
+^^
+
+´´222a;
+^^h2;
+Im Kontrollraum;
+-unlink 222a;
+^^span;
+Ein lauter Knall erschüttert den Raum.;
+^^22a!;
+^^222b!;
+^^
+
+´´222b!;
+^^span;
+...;
+^^
+
+´´23;
+^^h2;
+Zur Patrouille;
+^^span;
+Nach einigem Auswiegen der Optionen entschließe ich mich, zu patrouillieren. »Na, der Maschinenraum kann warten. Für die Patrouille ist auf deiner Karte diese rote Linie eingezeichnet.« Max zeigt auf eine dünne, rote Linie, die mit Pfeilspitzen versehen ist. »Wenn du der Linie durch das untere Schiff folgst, solltest du gegen Schichtende, je nachdem, wie schnell du läufst, einige Male wieder hier gewesen sein. Solltest du das Gefühl haben, hier unten sei nichts los, kannst du auch weiter oben der orangen Linie folgen. Dann solltest du gegen Schichtende zum ersten Mal hier wieder ankommen. Ich muss sagen, das haben die Schichtplaner sehr gut koordiniert.«;
+^^23a;
+^^
+
+´´23a;
+^^h2;
+Auf Patrouille;
+-unlink 23a;
+^^span;
+»Na dann mal los.« Ich orientiere mich entlang der Pfeile auf der Linie. »Hier lang also.« Das unterste Deck ist kleiner als die Obigen, da man bei diesem Schiff zwar hauptsächlich auf Funktion geachtet zu haben scheint, aber Designer vermutlich trotzdem nicht vernachlässigt wurden. So geht es schnell, das unterste Deck ein Mal zu durchlaufen, ohne jemandem zu begegnen, da hier sowieso kaum jemand arbeitet - und die, die hier arbeiten, direkt vom Fahrstuhl in die Zentrale gehen, ohne das restliche Deck zu beachten. Höchstens Mechanikern, die etwas an der Schiffshülle reparieren oder ausbessern, würde man hier begegnen, aber auch diese haben momentan anscheinend keinen Grund hier zu sein. Kurz bevor ich wieder am Fahrstuhl vorbeiliefe, teilt sich ;
+die rote Linie;
+-clink 231;
+ von ;
+der orangen, welche die Treppen hinauf läuft;
+-clink 232;
+.;
+^^
+
+´´231;
+^^h2;
+Rote Linie;
+^^span;
+Ich folge der roten Linie und bleibe auf dem untersten Deck. Der Weg führt mich in Richtung Maschinenraum.
+Als ich mich dem Maschinenraum 1 nähere, spüre ich eine gewisse Spannung in der Luft. Die Geräusche der Maschinen werden lauter. Ich betrete den Raum und werfe einen prüfenden Blick auf die verschiedenen Maschinen und Kontrollanzeigen, wobei mir auffällt, dass die Tür eigentlich Verriegelt sein sollte - und dass Max nicht hier ist.
+Ich werfe einen prüfenden Blick in alle Ecken des Maschinenraums, doch von Max gibt es keine Spur. Die üblichen Geräusche und Bewegungen des Maschinenraums gehen unvermindert weiter, aber das Fehlen meines Kollegen wirft Fragen auf.
+Entschlossen beschließe ich, den Maschinenraum genauer zu durchsuchen. Ich gehe zu verschiedensten Kontrollstationen und überprüfe die Anzeigen auf mögliche Probleme oder Unregelmäßigkeiten, die ihn weggeschickt haben könnten. Alles scheint normal zu sein. Die Temperaturen liegen im normalen Bereich und die anderen Anzeigen zeigen keinen Alarm an. Ich überprüfe auch die Überwachungskameras, die den Bereich um den Maschinenraum überwachen, aber auch an ihnen ist nichts Auffälliges zu erkennen. Man müsste die Aufnahmen überprüfen. Ich frage einige der Ingenieure, die in der Nähe arbeiten, ob sie Max gesehen haben, aber niemand scheint ihn bemerkt zu haben. Einige zucken nur mit den Schultern, während andere behaupten, sie hätten ihn schon seit Stunden nicht mehr gesehen. Angesichts der Tatsache, dass die Schicht bereits weit fortgeschritten ist und Max nicht auffindbar ist, beschließe ich, Carst darüber zu informieren.;
+^^231a;
+
+´´231a;
+^^h2;
+Verschwunden;
+^^
+
+´´232;
+^^h2;
+Orange Linie;
+
 
 ^^
 ´´
