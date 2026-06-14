@@ -167,7 +167,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
                 }
 
                 // string entry
-                if ((char === '"' || char === "'") && !inString) {
+                if ((char === '"') && !inString) {
                     inString = true;
                     stringChar = char;
                     current += char;
