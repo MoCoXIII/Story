@@ -272,10 +272,10 @@ function display(data, chapterIndex, parentChapter = document.body) {
                 }
             } else {
                 let text = token
-                .replace(/\r?\n|\\n/g, '<br>')
-                .replace(/#cid#/g, chapterIndex)
-                .replace(/\\;/g, ";")
-                .replace(/\\"/g, "\"");
+                    .replace(/\r?\n|\\n/g, '<br>')
+                    .replace(/#cid#/g, chapterIndex)
+                    .replace(/\\;/g, ";")
+                    .replace(/\\"/g, "\"");
                 lastElement = document.createElement(elementType);
 
                 // if (elementType === "music") {
@@ -322,17 +322,22 @@ function display(data, chapterIndex, parentChapter = document.body) {
         }
     }
 
-    if (error) {
-        const closestChapters = Object.keys(data).filter(cid => !cid.includes("!") && !cid.endsWith("-")).sort((a, b) => {
-            const distanceA = levenshteinDistance(a, chapterIndex);
-            const distanceB = levenshteinDistance(b, chapterIndex);
-            if (distanceA === distanceB) {
-                const sameCapitalizationA = a.toLowerCase() === chapterIndex.toLowerCase();
-                const sameCapitalizationB = b.toLowerCase() === chapterIndex.toLowerCase();
-                return (sameCapitalizationA && !sameCapitalizationB) ? -1 : (sameCapitalizationB && !sameCapitalizationA) ? 1 : a.localeCompare(b);
-            }
-            return distanceA - distanceB;
-        });
+    if (error || chapterIndex == "chapters") {
+        let closestChapters = null;
+        if (chapterIndex == "chapters") {
+            closestChapters = Object.keys(data).filter(cid => !cid.includes("!") && !cid.endsWith("-")).sort((a, b) => a.localeCompare(b));
+        } else {
+            closestChapters = Object.keys(data).filter(cid => !cid.includes("!") && !cid.endsWith("-")).sort((a, b) => {
+                const distanceA = levenshteinDistance(a, chapterIndex);
+                const distanceB = levenshteinDistance(b, chapterIndex);
+                if (distanceA === distanceB) {
+                    const sameCapitalizationA = a.toLowerCase() === chapterIndex.toLowerCase();
+                    const sameCapitalizationB = b.toLowerCase() === chapterIndex.toLowerCase();
+                    return (sameCapitalizationA && !sameCapitalizationB) ? -1 : (sameCapitalizationB && !sameCapitalizationA) ? 1 : a.localeCompare(b);
+                }
+                return distanceA - distanceB;
+            });
+        }
         for (let closestChapter of closestChapters) {  // .slice(0, 5)
             const chapterLink = document.createElement("span");
             const chapterPreviewMatch = data[closestChapter].match(/\+(.*)\+/ms);

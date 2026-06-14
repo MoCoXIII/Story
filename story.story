@@ -8,7 +8,24 @@ Existierende Kapitel, die deiner Anfrage ähnlich sind, sollten folgend aufgelis
 ;
 ^^
 
-´´0000;
+´´incomplete;
+^^h1;
+INCOMPLETE;
+^^span;
+Du hast das Ende des aktuellen Schreibfortschritts erreicht.
+Diese Geschichte ist stets unvollständig.
+Für eine Übersicht aller Kapitel, clicke ;
+hier;
+-clink chapters;
+.;
+^^
+
+´´chapters; +Übersicht über alle Kapitel+
+^^h1;
+Kapitel;
+^^
+
+´´0000; +The title of the book+
 ^^h1;
 next;
 -clink 0;
@@ -43,6 +60,7 @@ Mein Wecker klingelt.;
 -unclink 0;
 ^^span;
 Ich drehe mich zur Seite, greife nach dem Bildschirm und drücke auf ›stoppen‹. Der Ton hört auf. Ich lasse meine Beine vom Bettrand baumeln und richte mich auf, bis sie den Boden berühren. Auf der Bettkante sitzend schaue ich in den Spiegel. Der gleiche Anblick wie immer schaut mir mit verwüsteten Haaren entgegen.;
+^^incomplete;
 ^^
 
 ´´1; +Der Kreuzer+
