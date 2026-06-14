@@ -274,7 +274,8 @@ function display(data, chapterIndex, parentChapter = document.body) {
                 let text = token
                 .replace(/\r?\n|\\n/g, '<br>')
                 .replace(/#cid#/g, chapterIndex)
-                .replace(/\\;/g, ";");
+                .replace(/\\;/g, ";")
+                .replace(/\\"/g, "\"");
                 lastElement = document.createElement(elementType);
 
                 // if (elementType === "music") {
