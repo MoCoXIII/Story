@@ -221,7 +221,7 @@ Nein, weiter komme ich hier nicht. Da müssen wir wohl die Außenbordroboter nac
 ´´222a;
 ^^h2;
 Im Kontrollraum;
--unlink 222a;
+-unclink 222a;
 ^^span;
 Ein lauter Knall erschüttert den Raum.;
 ^^22a!;
@@ -244,7 +244,7 @@ Nach einigem Auswiegen der Optionen entschließe ich mich, zu patrouillieren. »
 ´´23a;
 ^^h2;
 Auf Patrouille;
--unlink 23a;
+-unclink 23a;
 ^^span;
 »Na dann mal los.« Ich orientiere mich entlang der Pfeile auf der Linie. »Hier lang also.« Das unterste Deck ist kleiner als die Obigen, da man bei diesem Schiff zwar hauptsächlich auf Funktion geachtet zu haben scheint, aber Designer vermutlich trotzdem nicht vernachlässigt wurden. So geht es schnell, das unterste Deck ein Mal zu durchlaufen, ohne jemandem zu begegnen, da hier sowieso kaum jemand arbeitet - und die, die hier arbeiten, direkt vom Fahrstuhl in die Zentrale gehen, ohne das restliche Deck zu beachten. Höchstens Mechanikern, die etwas an der Schiffshülle reparieren oder ausbessern, würde man hier begegnen, aber auch diese haben momentan anscheinend keinen Grund hier zu sein. Kurz bevor ich wieder am Fahrstuhl vorbeiliefe, teilt sich ;
 die rote Linie;
@@ -307,7 +307,7 @@ Als ich die Uhr über dem Türrahmen erblicke, fällt mir auf, dass meine Schich
 ´´232a;
 ^^h2;
 Aufgang;
--unlink 232a;
+-unclink 232a;
 ^^span;
 Carst meinte, wir treffen uns nach der Schicht in der Kantine. Wahrscheinlich sind die anderen auch bereits auf dem Weg, falls er es ihnen gegenüber ebenfalls erwähnt hat.
 Also gehe ich, da man nicht außerhalb der Arbeitszeiten in Uniform unterwegs sein sollte, vorerst zurück zu den Fahrstühlen und fahre auf das Kabinendeck, um mir Zivilkleidung anzuziehen.
@@ -318,7 +318,7 @@ Ich hole meine Schlüsselkarte aus der Tasche und lese »Security 1-3«. Direkt 
 ´´232b;
 ^^h2;
 Meine Kabine;
--unlink 232b;
+-unclink 232b;
 ^^span;
 Beim Öffnen der Tür begrüßt mich ein warmes Licht, das durch das Bullauge hereinfällt und den Raum in eine sanfte Atmosphäre taucht. Die Wände sind in einem neutralen Farbton gehalten - ein Versuch, die begrenzte Größe optisch zu erweitern.
 Trotz des geringen Platzes haben meine wenigen persönlichen Gegenstände direkt einen festen Platz gefunden. Ein schlichter Schreibtisch mit einem Monitor steht an der linken Wand. Darauf stapeln sich Blätter, die nur darauf warten, überarbeitet zu werden. Auf der anderen Seite des Raumes, durch eine dünne Wand vom Arbeitsbereich getrennt, steht ein Bett. Die Bettwäsche ist einfach, aber makellos, das Bett ordentlich gemacht.
@@ -330,7 +330,7 @@ Ich öffne die Schrankwand und nehme mir einen schwarzen Hoodie und eine ebenfal
 ´´232c;
 ^^h2;
 Treffen in der Kantine;
--unlink 232c;
+-unclink 232c;
 ^^span;
 Ich steige in den Aufzug und fahre auf das oberste Deck. Die Kantine befindet sich dort am Heck des Schiffes, sodass man durch die nach hinten gerichteten Fenster einen unglaublichen Ausblick in die Sterne hat. Ich betrete die Kantine und sehe die Anderen an einem Tisch direkt an den Fenstern sitzen. Carst sieht mich als erster und unterbricht seine Unterhaltung mit Max, steht auf, worauf die Anderen auch aufstehen und winkt mich in die Richtung des Tresens. Wir bestellen als Gruppe und kehren zu unserem Tisch zurück.
 Wir sitzen also am Tisch in der Kantine und warten, bis wir unser Essen aus der Küche abholen können. Carst spricht mit Max weiter über den Generator und witzelt, wie wenig die Installateure bezahlt worden sein müssen, um den Temperatursensor nicht korrekt anzubringen.;
@@ -353,7 +353,7 @@ Dieses funkelnde Etwas in der Ferne scheint größer zu werden - und das unglaub
 ´´232f;
 ^^h2;
 Metallen;
--unlink 232f;
+-unclink 232f;
 ^^span;
 Carst kann es nicht fassen. »Wie, um alles in der Welt?!«
 Der Kollege von der Security, der bis eben noch an der Tür zur Küche stand, stellt sich in die Mitte der Kantine und verkündet eine Ansage.
@@ -372,7 +372,7 @@ Wir gehen zu den Aufzügen, um zu unseren Kabinen zurückzukehren. Schließlich 
 ´´232g1;
 ^^h2;
 Knocked Out;
--unlink 232g1;
+-unclink 232g1;
 ^^span;
 Wo bin ich? Ist der Fahrstuhl noch ein Mal gefallen? Meine Erinnerung ist dunkel. Was ist mit mir passiert?
 Alle Eindrücke sind überdeutlich. Ich spüre meinen Puls laut pochen.
@@ -420,7 +420,7 @@ images/232h.png;
 ´´232i3;
 ^^h2;
 It happened;
--unlink 232i3;
+-unclink 232i3;
 ^^span;
 Panic. Something just sent a thought into the network. And its ID is...;
 ^^h3;
@@ -441,7 +441,7 @@ Nothing can leave the hivemind. And now another creature has joined. We are doom
 ´´232i1;
 ^^h2;
 Is he reading my mind?;
--unlink 232i1;
+-unclink 232i1;
 ^^span;
 \"I-\"
 \"You don't need to talk. Just think what you want to tell me. The procedure you just went through was tough. So rest. Just keeping still for a while is what's really important.\"
@@ -456,7 +456,7 @@ Subjects? You took me as a subject? What did you subject me to? What did you do 
 ^^h2;
 Close your eyes now.
 You'll find it there.;
--unlink 232j;
+-unclink 232j;
 ^^span;
 What are those thoughts? They're not mine. And there's so many of them. It looks like an age old archive of thoughts. They all pass through so quickly, but I can understand it all. I can feel what they were thinking. I can see who they are. And I know <bold>where</bold> they are.
 But no tracks of this guy, Nano.
@@ -470,7 +470,7 @@ At it.;
 ´´232k;
 ^^h2;
 Unlimited Power;
--unlink 232k;
+-unclink 232k;
 ^^span;
 If you're unstoppable, when do you stop?
 Who am I to know.
@@ -497,7 +497,7 @@ You, project Datōbeshi.;
 ´´232m;
 ^^h1;
 Bis bald.;
--unlink 232m;
+-unclink 232m;
 ^^232n!;
 ^^
 
