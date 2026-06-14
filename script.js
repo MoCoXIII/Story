@@ -218,7 +218,8 @@ function display(data, chapterIndex, parentChapter = document.body) {
         }
         for (const token of tokenize(content)) {
             if (token.startsWith("-")) {
-                const [flag, value] = token.split(" ", 2);
+                const flag = token.split(" ")[0];
+                const value = token.substring(flag.length + 1);
                 switch (flag) {
                     case "-abbr":
                         lastElement.title = value;
@@ -342,10 +343,10 @@ function display(data, chapterIndex, parentChapter = document.body) {
             targetElement.classList.add(htmlclass);
         }
         if (classesString.includes("translate")) {
-            targetElement.innerHTML = translate(text);
+            targetElement.innerHTML = translate(targetElement.innerHTML);
         }
         if (classesString.includes("base128")) {
-            targetElement.innerHTML = translate(text, true);
+            targetElement.innerHTML = translate(targetElement.innerHTML, true);
         }
     }
 
