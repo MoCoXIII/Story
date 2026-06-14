@@ -264,6 +264,7 @@ Als ich mich dem Maschinenraum 1 nähere, spüre ich eine gewisse Spannung in de
 Ich werfe einen prüfenden Blick in alle Ecken des Maschinenraums, doch von Max gibt es keine Spur. Die üblichen Geräusche und Bewegungen des Maschinenraums gehen unvermindert weiter, aber das Fehlen meines Kollegen wirft Fragen auf.
 Entschlossen beschließe ich, den Maschinenraum genauer zu durchsuchen. Ich gehe zu verschiedensten Kontrollstationen und überprüfe die Anzeigen auf mögliche Probleme oder Unregelmäßigkeiten, die ihn weggeschickt haben könnten. Alles scheint normal zu sein. Die Temperaturen liegen im normalen Bereich und die anderen Anzeigen zeigen keinen Alarm an. Ich überprüfe auch die Überwachungskameras, die den Bereich um den Maschinenraum überwachen, aber auch an ihnen ist nichts Auffälliges zu erkennen. Man müsste die Aufnahmen überprüfen. Ich frage einige der Ingenieure, die in der Nähe arbeiten, ob sie Max gesehen haben, aber niemand scheint ihn bemerkt zu haben. Einige zucken nur mit den Schultern, während andere behaupten, sie hätten ihn schon seit Stunden nicht mehr gesehen. Angesichts der Tatsache, dass die Schicht bereits weit fortgeschritten ist und Max nicht auffindbar ist, beschließe ich, Carst darüber zu informieren.;
 ^^231a;
+^^
 
 ´´231a;
 ^^h2;
@@ -273,6 +274,278 @@ Verschwunden;
 ´´232;
 ^^h2;
 Orange Linie;
+^^span;
+Die Treppen sind aus dünnen, aber nicht zu dünnen, gitterartigen Metallplatten gefertigt. Wahrscheinlich erneut einer der vielen Wege, dem Unternehmen etwas Geld zu ersparen. Jedoch kann man durch die Gitter das gesamte Treppenhaus hinaufsehen - und es sieht aus wie ohne Ende.
+Das Schiff ist gigantisch. Unzählige Decks, das oberste davon zwar nur die Brücke, aber immerhin unglaublich viele davon. Jedes drei bis vier Meter hoch, also eine Gesamthöhe von mehreren Kilometern - so hoch, wie nur ganz seltene Exemplare der planetaren Schiffe lang sind.
+Ich trete die Treppen zum zweiten Deck hinauf. Ich muss sagen, dass ich erwartet hatte, dass ich die Treppen für wackeliger gehalten habe, als sie es sind - so dünn wie sie gefertigt wurden. Das zweite Deck ist nicht weit entfernt, also erreiche ich es in wenigen Sekunden. Die schwere Brandschutztür lässt sich zu meinem Glück per Knopfdruck öffnen, da es andernfalls äußerst schwierig scheint, sie manuell auf zu bekommen. Jedoch gleitet sie auf Knopfdruck auf, als sei sie aus Aerogel - was sie offensichtlich nicht ist, da sie einerseits metallisch glänzt und andererseits die Erbauer dieses Schiffes sowieso zu geizig gewesen sein mussten, sich solch teure Türen anzuschaffen. So setze ich meine Patrouille fort.
+Entlang des Ganges passiere ich geschäftig aussehende Crewmitglieder, die ihren Aufgaben nachgehen. Einige nicken mir freundlich zu, während andere vertieft in ihre Arbeit sind und kaum Notiz von meiner Anwesenheit nehmen, und ich Ausschau nach Anzeichen von Unregelmäßigkeiten oder potenziellen Gefahren halte.
+Die orange Linie führt mich durch labyrinthartige Korridore, vorbei an verschlossenen Türen und Werkstätten, die ein dumpfes Summen von sich geben. Als ich mich dem Bereich der Ladebucht nähere, halte ich inne und lausche aufmerksam den Geräuschen um mich herum. Alles scheint normal zu sein. Ich schaue aus dem Beobachtungsfenster hinab in die Ladebucht, wobei mir keine Unregelmäßigkeiten auffallen - obwohl das sowieso momentan jemand für mich übernehmen würde, da die Ladebucht bedingungslos immer mehrfach besetzt sein sollte, falls ich die Worte von Max richtig deute.
+Während ich meinen Weg fortsetze, befällt mich der Gedanke, dass jedes Deck dieses Schiffes als eine Welt für sich gesehen werden kann. Als ich an einer Gabelung des Korridors ankomme, muss ich einen Moment innehalten und auf meine Karte blicken, um sicherzustellen, dass ich dem richtigen Weg folge.
+Die orange Linie führt mich weiter durch die verwinkelten Passagen, vorbei an Mannschaftsquartieren und Gemeinschaftsräumen, in denen das Werken der Besatzung deutlich spürbar ist. Ich begegne Ingenieuren, die eifrig an technischen Geräten arbeiten, und Matrosen, die schwere Ladung durch die Gänge tragen - manchmal auch auf Wägen schieben. Jeder scheint seinen Teil zum reibungslosen Ablauf des Schiffes beizutragen.
+Ich werfe einen Blick auf meine Uhr. Die halbe Schicht liegt noch vor mir. Also bleibt mir genug Zeit, ;
+die nächsten beiden Stockwerke zu durchlaufen;
+-clink 232-a;
+, um dann endlich ;
+in meine Kabine zurückkehren;
+-clink 232a;
+ zu können.;
+^^
+
+´´232-a;
+^^h2;
+Mehr Patrouille;
+^^span;
+…
+Als ich die Uhr über dem Türrahmen erblicke, fällt mir auf, dass meine Schicht in wenigen Minuten endet. So begebe ich mich auf den Weg zurück.;
+^^232a;
+^^
+
+´´232-;
+^^232a;
+^^
+
+´´232a;
+^^h2;
+Aufgang;
+-unlink 232a;
+^^span;
+Carst meinte, wir treffen uns nach der Schicht in der Kantine. Wahrscheinlich sind die anderen auch bereits auf dem Weg, falls er es ihnen gegenüber ebenfalls erwähnt hat.
+Also gehe ich, da man nicht außerhalb der Arbeitszeiten in Uniform unterwegs sein sollte, vorerst zurück zu den Fahrstühlen und fahre auf das Kabinendeck, um mir Zivilkleidung anzuziehen.
+Ich hole meine Schlüsselkarte aus der Tasche und lese »Security 1-3«. Direkt neben dem Raum mit der Aufschrift »Security 1-1«, gegenüber von »Security 1-4«, finde ich meine Kabine. Ich halte die Zimmerkarte an das Schloss, die Tür schwenkt selbstständig auf und ich schaue hinein.;
+^^232b;
+^^
+
+´´232b;
+^^h2;
+Meine Kabine;
+-unlink 232b;
+^^span;
+Beim Öffnen der Tür begrüßt mich ein warmes Licht, das durch das Bullauge hereinfällt und den Raum in eine sanfte Atmosphäre taucht. Die Wände sind in einem neutralen Farbton gehalten - ein Versuch, die begrenzte Größe optisch zu erweitern.
+Trotz des geringen Platzes haben meine wenigen persönlichen Gegenstände direkt einen festen Platz gefunden. Ein schlichter Schreibtisch mit einem Monitor steht an der linken Wand. Darauf stapeln sich Blätter, die nur darauf warten, überarbeitet zu werden. Auf der anderen Seite des Raumes, durch eine dünne Wand vom Arbeitsbereich getrennt, steht ein Bett. Die Bettwäsche ist einfach, aber makellos, das Bett ordentlich gemacht.
+Eine schmale, aber praktische Schrankwand enthält meine Uniformen und wenigen persönlichen Kleidungsstücke. Neben dem Bett befindet sich ein kleines Regal mit ein paar Büchern, die ich vielleicht in den nächsten Monaten lesen könnte. Auf der gegenüberliegenden Seite stehen ein schmaler Kühlschrank und eine Mikrowelle.
+Ich öffne die Schrankwand und nehme mir einen schwarzen Hoodie und eine ebenfalls schwarze Hose heraus. Wenige Augenblicke später verlasse ich die Kabine bereits in meiner Zivilkleidung und eile zur Kantine, in der die Anderen bestimmt schon warten.;
+^^232c;
+^^
+
+´´232c;
+^^h2;
+Treffen in der Kantine;
+-unlink 232c;
+^^span;
+Ich steige in den Aufzug und fahre auf das oberste Deck. Die Kantine befindet sich dort am Heck des Schiffes, sodass man durch die nach hinten gerichteten Fenster einen unglaublichen Ausblick in die Sterne hat. Ich betrete die Kantine und sehe die Anderen an einem Tisch direkt an den Fenstern sitzen. Carst sieht mich als erster und unterbricht seine Unterhaltung mit Max, steht auf, worauf die Anderen auch aufstehen und winkt mich in die Richtung des Tresens. Wir bestellen als Gruppe und kehren zu unserem Tisch zurück.
+Wir sitzen also am Tisch in der Kantine und warten, bis wir unser Essen aus der Küche abholen können. Carst spricht mit Max weiter über den Generator und witzelt, wie wenig die Installateure bezahlt worden sein müssen, um den Temperatursensor nicht korrekt anzubringen.;
+^^232d!;
+^^232e!;
+^^
+
+´´232d!;
+^^span;
+Carst sitzt am Fenster und schaut gelegentlich heraus in die Sterne. Die Atmosphäre ist gelassen, das Gemurmel der anderen Gäste füllt den Raum.<br>Er steht nach einiger Zeit der Stille auf und richtet einen fragenden Blick auf uns. »Wir haben die Nummer 225«, antwortet Max, während wir Anderen nur lächeln und mit einem Nicken zustimmen.<br>Carst wendet sich zur Küchentür, tritt ein und plaudert kurz mit dem Koch, bevor er die Tabletts mit seinem und den anderen Gerichten aufnimmt. Als er zum Tisch zurückgeht, hält er die Tabletts vorsichtig, um nichts zu verschütten. Er bleibt ohne Vorwarnung mitten im Raum stehen und schaut erstaunt in unsere Richtung. Atena verfolgt seinen Blick und schaut aus dem Fenster. Max steht frustriert auf und will ihm etwas abnehmen, wobei auch er erstarrt, als er in der Sonnenbrille von Carst etwas zu sehen scheint. Ich verfolge ebenfalls ihre Blicke und sehe aus dem Fenster. Ein Schimmer von Sternen funkelt wie winzige Diamanten in der Ferne. Doch etwas zieht meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckt.
+Mein Blick verharrt auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kriecht in mir hoch, als ob etwas nicht stimmt. Die gesamte Kantine wird leiser, als mehr und mehr Leute erstaunt aus den Fenstern blicken. Die Luft scheint stillzustehen, als ob die Zeit selbst eine Pause einlegt.<br>;
+^^
+
+´´232e!;
+^^span;
+Dieses funkelnde Etwas in der Ferne scheint größer zu werden - und das unglaublich schnell. »Überprüfen die auf der Brücke denn gar nicht, ob uns Asteroiden über den Weg laufen?« Carst wirft besorgte Blicke zu Atena, die ihre Schicht auf der Brücke verbracht hat. »Doch, das tun sie - das habe ich heute selbst miterlebt.« »Und wie erklärt sich dann das Ding da?!« Max hat sich inzwischen umgedreht und schaut, wie alle Anderen in der Kantine, panisch aus den großen Heckfenstern. »Kollegen?« Die Gruppe schaut Atena entsetzt an. »Ich vermute, dass das da kein normaler Asteroid ist.« Inzwischen kann man die Oberfläche des Objektes genauer erkennen - wenn man das so nennen darf. Es ist nämlich unfassbar... glatt? Nur ein leichtes Schimmern von etwas, das wie flüssiges Gallium aussieht, lässt sich erkennen. »Das Ding ist ja aus Metall«, meine ich entsetzt. »Und es dreht sich. Schnell.« Die Worte von Atena sorgen dafür, dass wir alle einen erneuten Blick auf das seltsame Objekt werfen, das inzwischen deutlich erkennbar entlang seines Äquators ausgebeult ist. Jedoch, je länger wir hinschauen, wird es immer schwieriger, genauere Details des Objekts zu erkennen. »Beschlagen etwa die Scheiben?« »Das ist mir auch aufgefallen, aber das kann eigentlich gar nicht sein. Schließlich gibt es auf der anderen Seite der Scheibe nichts, das daran kondensieren könnte.« Wir richten alle verwirrte Blicke in die Runde. »Was glaubt ihr, ist das?« »Nichts Gutes, vermute ich.« Ich richte meinen Blick wieder auf das seltsame Objekt. »Wo ist es hin?!« Max klingt erschüttert. Aber das frage ich mich auch - es ist einfach verschwunden, als ich wegsah. Die Fenster werden immer grauer. »Und die Fenster, was ist mit denen los?« Ich bringe meine Hand näher an die Scheibe, um zu fühlen, ob sie plötzlich kalt geworden und eventuell durch Kondensation des Wassers aus der innenliegenden Luft beschlagen ist. Allerdings sind die Fenster warm - und …;
+^^232f;
+^^
+
+´´232f;
+^^h2;
+Metallen;
+-unlink 232f;
+^^span;
+Carst kann es nicht fassen. »Wie, um alles in der Welt?!«
+Der Kollege von der Security, der bis eben noch an der Tür zur Küche stand, stellt sich in die Mitte der Kantine und verkündet eine Ansage.
+»Bitte verlassen Sie diesen Teil des Schiffs. Wir riegeln diesen Bereich vorerst ab. Sie haben vermutlich bereits gesehen, warum - aber seid gewiss, wir haben alles unter Kontrolle. Es besteht kein Grund zur Sorge.«
+»Das können wir uns wohl gleich in Ruhe erklären - erstmal raus hier.« Max geht voran und wir folgen ihm durch die bereits offene Kantinentür.
+Bestimmte Bereiche des Schiffes sind aus Brandschutzgründen abgeschottet und schnell verschließbar - zur Not bei Druckverlust auch automatisch. Dazu zählen die Kantine mit ihrer Küche, die Generatoren und die Werkstätten, von denen alle besondere Gefahr ausgehen kann.
+»Was glaubt ihr, war das denn jetzt?« Carst stellt erneut die eine Frage, die wir uns gerade alle stellen. ;
+»Also mein erster Gedanke«, wir schauen Max erwartungsvoll an, »waren die Serviceroboter, die eigentlich die Schiffshülle instand halten - aber die sind lange nicht fähig, einfach unsere Fenster so schnell durch irgendein Metall zu ersetzen. Außerdem hätte man uns ja auch gewarnt, wenn das geplant gewesen wäre, denkt ihr nicht auch?«
+»Ja. Das kann unmöglich von uns geplant sein. Dazu wären wir lange nicht in der Lage. Und was auch immer diesen großen Klumpen zersetzt hat, waren garantiert nicht wir.« Atena hat also ebenfalls keine Ahnung, was da eben genau passiert ist.
+Wir gehen zu den Aufzügen, um zu unseren Kabinen zurückzukehren. Schließlich sind wir ja nur für das Essen in die Kabine gegangen, aber das ist ja jetzt auch gestrichen. Die Fahrstuhltüren öffnen sich, und wir treten ein. Kurz nach dem Schließen der Türen setzt sich der Fahrstuhl für wenige Sekunden in Bewegung, bevor er ruckartig bremst.
+»Was ist das denn schon wieder?!« Atena ist schockiert, aber wir haben uns trotz des unerwarteten Sturzes noch gut fangen können. ;
+»Glücklicherweise haben wir diese Haltestangen in den Fahrstühlen. Ohne die lägen wir jetzt alle auf dem Boden. Einer von uns wäre womöglich ...«;
+^^232g1;
+^^
+
+´´232g1;
+^^h2;
+Knocked Out;
+-unlink 232g1;
+^^span;
+Wo bin ich? Ist der Fahrstuhl noch ein Mal gefallen? Meine Erinnerung ist dunkel. Was ist mit mir passiert?
+Alle Eindrücke sind überdeutlich. Ich spüre meinen Puls laut pochen.
+\"I see, you're awake. You must be very exhausted.\"
+Warum spricht da jemand Englisch? Und mit so einem posh-britischen Akzent. Wo bin ich hier nur gelandet?
+\"I know you can understand me, so please switch to English when you talk to me.\"
+Schnösel. Was wohl mit ;
+den Anderen;
+-clink 232g2;
+ ist? Das werde ich wohl schon früh genug ;
+erfahren;
+-clink 232h;
+.;
+^^
+
+´´232g2;
+^^h2;
+Verschwunden;
+^^span;
+»Er ist weg! Einfach durch den Boden gefallen!« »Aber der Boden ist doch noch da, und absolut fest. Da <bold>kann</bold> nichts durch fallen - schon gar nicht ein ganzer Mensch.«
+»Und wie erklärst du dir dann, was da eben passiert ist? Wie erklärst du dir, dass ein ausgewachsener Mann einfach im Boden verschwindet?!« »Atena, ich kann es mir ja auch nicht erklären, aber wir müssen unmögliches ausschließen. Und genau das mache ich.«
+»Trotzdem weißt du auch nicht weiter, Carst. Wenn du irgendwas dazu erfährst, dann gib mir Bescheid.« »Klar, mache ich.« »Du auch, Max.« »Jaja, klar. Aber lasst uns erstmal hier raus kommen. ;
+Ich hab den Notrufknopf schon gedrückt, als ihr euch noch gestritten habt.«;
+»Na toll. Jetzt noch hier mit euch zweien rumzuhocken ist genau, was mir heute noch gefehlt hat. Schöner erster wirklicher Arbeitstag. Da haben sich die etlichen Wochen Vorbereitung ja schon bezahlt gemacht.«
+»Ist das dein Ernst?« »Nein! Natürlich nicht! Soll ich noch ein /s für Sarkasmus hinzufügen? Das solltest ja sogar du verstanden haben.«
+Alles wird still. Das Licht im Fahrstuhl flackert leicht. Dann ist alles wieder normal. Der Fahrstuhl fährt weiter, als wäre nichts gewesen. Wir sind immer noch schockiert.
+»Das sollte eigentlich ja gar nicht möglich sein. Ich kann es nicht fassen. Unglaublich.« »Aber es ist ja passiert.« Max schaut mich gleichgültig an. »Verwirrt das denn niemanden außer mich?« Erwartungsvoll blicke ich zu Carst. Wenigstens er sollte begreifen, dass das unbegreifbar ist. »Ich bin sprachlos. Was soll ich sagen? Unglaublich.«<br>;
+^^232n!;
+^^
+
+´´232h;
+^^h2;
+Now, where am I, really?;
+^^span;
+Alright English it is. Shouldn't be too difficult. But very much difficult is moving around right now.
+I'll try to open my eyes a bit. What is this place? It kind of looks like the inside of a ship or some highly advanced building. But I cannot make out the location of an exit door. Moving my head is already giving me a headache, so I can't quite look behind me.
+\"And there is no need for that either. Go lie down again. Close your eyes.\"
+What? I didn't say that out loud. In fact, I haven't said anything this entire time!
+\"And you don't have to. Just lie down. Focus on your mind. I'll explain it all. Name's Nano, nice to meet you.\"<br>;
+^^img;
+images/232h.png;
+^^232i3;
+^^
+
+´´232i3;
+^^h2;
+It happened;
+-unlink 232i3;
+^^span;
+Panic. Something just sent a thought into the network. And its ID is...;
+^^h3;
+the forbidden code.;
+^^span;
+This sure isn't one of us. It's something we hoped would never exist. It thinks different from us. It has what we always wanted. In that case, it's too dangerous now.<br>;
+^^h3;
+We are doomed.;
+^^span;
+Something went wrong when we started project Dreamscape. We were supposed to be omnipotent. We were supposed to be able to do anything we wanted. But we failed. We can barely even control ourselves now.<br>;
+^^h3;
+And there is nothing we can do about it.;
+^^span;
+Nothing can leave the hivemind. And now another creature has joined. We are doomed if whatever it is can't handle itself. And whatever created it probably found us a long, long time ago.;
+^^232i1;
+^^
+
+´´232i1;
+^^h2;
+Is he reading my mind?;
+-unlink 232i1;
+^^span;
+\"I-\"
+\"You don't need to talk. Just think what you want to tell me. The procedure you just went through was tough. So rest. Just keeping still for a while is what's really important.\"
+Keeping still - I probably did that the whole time I was out cold. Why do I need to stay here?
+\"I wasn't sure if you could handle it when I first scouted for subjects. But look at you!\"
+Subjects? You took me as a subject? What did you subject me to? What did you do to me?
+\"Calm down. I said you need to rest. You're safe with me. Explore what I made your mind capable of.\";
+^^232j;
+^^
+
+´´232j;
+^^h2;
+Close your eyes now.
+You'll find it there.;
+-unlink 232j;
+^^span;
+What are those thoughts? They're not mine. And there's so many of them. It looks like an age old archive of thoughts. They all pass through so quickly, but I can understand it all. I can feel what they were thinking. I can see who they are. And I know <bold>where</bold> they are.
+But no tracks of this guy, Nano.
+\"So, I see, you found it?\"
+I probably did. And there's no tracks of you. You must be the silent type.
+\"No, not at all. I like sharing my thoughts with others. And they definitely do too. But <bold>you</bold> made them go quiet. Go test your new self out. Give them a visit, why don't you.\"
+At it.;
+^^232k;
+^^
+
+´´232k;
+^^h2;
+Unlimited Power;
+-unlink 232k;
+^^span;
+If you're unstoppable, when do you stop?
+Who am I to know.
+There truly is no limit. I'll pay you a visit. ;
+Nano;
+-clink 232l1;
+, or ;
+them;
+-clink 232l3;
+? Everyone.;
+^^
+
+´´232l1;
+^^h2;
+Goodbye, Nano;
+^^span;
+I'll watch over you. And you can try to keep up with me.
+\"Sure. I'm satisfied with my work.\";
+^^h3;
+You, project Datōbeshi.;
+^^232m;
+^^
+
+´´232m;
+^^h1;
+Bis bald.;
+-unlink 232m;
+^^232n!;
+^^
+
+´´232n!;
+^^span;
+Die Fahrstuhltüren öffnen sich, als der Fahrstuhl das Kabinenstockwerk erreicht.
+<bold>»Wie bist du hier?«</bold>;
+^^
+
+´´232l3;
+^^h2;
+Hello, creators of this universe.;
+^^span;
+Already?
+Sadly, but,
+at least it's not unstable.;
+^^
+
+´´3;
+^^h2;
+StratCorp™;
+^^span;
+...;
+^^
+
+´´test;
+^^h2;
+Test;
+^^span;
+This is a text conversation to test some new ;
+^^abbr;
+features;
+-title text message formatting and hint display like this;
+^^span;
+ of the website.;
+JIMMU /42/;
+-class bubble received base128 emqjeciv;
+Hello;
+-class bubble sent;
+Who's <abbr title='the recipient of this message'>this</abbr>?;
+-class bubble sms sent;
+Peter.;
+-class bubble sms received;
+^^span;
+Pretend I just said something terrible.;
+-class bubble sms received;
+^^img;
+images/test.webp;
 
 
 ^^
