@@ -231,8 +231,12 @@ function display(data, chapterIndex, parentChapter = document.body) {
                 const flag = token.split(" ")[0];
                 const value = token.substring(flag.length + 1);
                 switch (flag) {
+                    case "-title":
+                        lastElement.title = value;
+                        break;
                     case "-abbr":
                         lastElement.title = value;
+                        applyClasses("abbr", lastElement);
                         break;
                     case "-class":
                         applyClasses(value, lastElement);

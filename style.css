@@ -166,6 +166,11 @@ abbr {
     cursor: help;
 }
 
+.abbr {
+    cursor: help;
+    border-bottom: 1px dotted var(--text-color);
+}
+
 music {
     cursor: pointer;
 }
