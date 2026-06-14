@@ -145,10 +145,19 @@ function display(data, chapterIndex, parentChapter = document.body) {
             let inString = false;
             let stringChar = null;
             let bracketDepth = 0;
+            let tokenStarted = false;
 
             while (i < input.length) {
                 const char = input[i];
                 const nextChar = input[i + 1];
+
+                if (!tokenStarted) {
+                    if (char.match(/[^ \S]/gms)) {
+                        i++;
+                        continue;
+                    }
+                    tokenStarted = true;
+                }
 
                 // escape sequences
                 if (char === '\\' && nextChar) {
@@ -200,7 +209,8 @@ function display(data, chapterIndex, parentChapter = document.body) {
 
                 // Token terminator: semicolon outside brackets and strings
                 if (char === ';' && bracketDepth === 0) {
-                    yield current.trim();
+                    yield current;
+                    tokenStarted = false;
                     current = '';
                     i++;
                     continue;
