@@ -8,7 +8,7 @@ Existierende Kapitel, die deiner Anfrage ähnlich sind, sollten folgend aufgelis
 ;
 ^^
 
-´´incomplete;
+´´incomplete; +Hinweis auf Unvollständigkeit+
 ^^h1;
 INCOMPLETE;
 ^^span;
@@ -25,13 +25,13 @@ hier;
 Kapitel;
 ^^
 
-´´0000; +The title of the book+
+´´0000; +Titelseite+
 ^^h1;
 next;
 -clink 0;
 ^^
 
-´´help;
+´´help; +Informationen zu Nutzung und Features der Seite+
 ^^h2;
 Info;
 ^^span;
@@ -54,7 +54,7 @@ fortfahren;
 . Viel Spaß beim Suchen.;
 ^^
 
-´´0;
+´´0; +Intro+
 ^^h2;
 Mein Wecker klingelt.;
 -unclink 0;
@@ -68,12 +68,12 @@ Ich drehe mich zur Seite, greife nach dem Bildschirm und drücke auf ›stoppen�
 Der Kreuzer;
 ^^span;
 Die Sonne steht hoch am Himmel, als ich an Bord des majestätischen Kreuzfahrtschiffs trete - bereit, meinen ersten Arbeitstag als Sicherheitsangestellter anzutreten. Der salzige Duft des Meeres weht mir ins Gesicht, während ich die prächtige Erscheinung des Schiffes bewundere, das nun mein Arbeitsplatz sein würde.
-»Max,« begrüßt mich ein freundlicher Mann mittleren Alters, während er mir die Hand reicht. »willkommen an Bord.« »Mirko«, erwidere ich mit einem Lächeln, während ich versuche, einen Blick ins Schiffsinnere zu werfen. Wir betreten das Büro für Sicherheit, in dem ich ein weiteres Mitglied unseres Teams kennenlerne:
-Carst, ein alter Schulfreund, begrüßt mich mit einem breiten Grinsen und einem festen Händedruck. Es fühlt sich seltsam vertraut an, ihn nach all den Jahren wiederzusehen, und ich bin, um ehrlich zu sein, ein wenig erleichtert, ein bekanntes Gesicht im Kollegium zu haben.
+»Max,« begrüßt mich ein freundlicher Mann mittleren Alters, während er mir die Hand reicht. »willkommen an Bord.« »Ben«, erwidere ich mit einem Lächeln, während ich versuche, einen Blick ins Schiffsinnere zu werfen. Wir betreten das Büro für Sicherheit, in dem ich ein weiteres Mitglied unseres Teams kennenlerne:
+Karr, ein alter Schulfreund, begrüßt mich mit einem breiten Grinsen und einem festen Händedruck. Es fühlt sich seltsam vertraut an, ihn nach all den Jahren wiederzusehen, und ich bin, um ehrlich zu sein, ein wenig erleichtert, ein bekanntes Gesicht im Kollegium zu haben.
 Ich schaue mich im Sicherheitsbüro genauer um. Der Raum ist wie ein Klassenzimmer aufgebaut - wie ein Informatikraum, um etwas spezifischer zu sein. Auf jedem Tisch steht ein Monitor, dessen Kabel im jeweiligen Tisch verschwinden.
-»Wir können uns schon mal hinsetzen, bis der Einweiser hier ist.« Carst setzt sich in die letzte Reihe, die mit »Gruppe ➊« beschriftet ist. Ich erinnere mich daran, im Arbeitsvertrag gelesen zu haben, dass ich ebenfalls der Gruppe ➊ zugeteilt wurde. Er fordert mich mit einer Handbewegung auf, ihm zu folgen. Die Tische haben jeweils nur einen Stuhl, weshalb ich mich an den Tisch links neben ihm setze. Max bleibt am Eingang stehen und begrüßt bereits die nächsten Neuankömmlinge.
+»Wir können uns schon mal hinsetzen, bis der Einweiser hier ist.« Karr setzt sich in die letzte Reihe, die mit »Gruppe ➊« beschriftet ist. Ich erinnere mich daran, im Arbeitsvertrag gelesen zu haben, dass ich ebenfalls der Gruppe ➊ zugeteilt wurde. Er fordert mich mit einer Handbewegung auf, ihm zu folgen. Die Tische haben jeweils nur einen Stuhl, weshalb ich mich an den Tisch links neben ihm setze. Max bleibt am Eingang stehen und begrüßt bereits die nächsten Neuankömmlinge.
 Stetig füllt sich der Raum mit Menschen, die sich, oft nach einer Überprüfung ihres digitalen Postfachs, auf ihre jeweiligen Plätze setzen. Die beiden äußeren Plätze auf unserer Bank sind bis jetzt frei geblieben. Ich vermute, dass Max, aufgrund der ➊ an seinem Namensschild, auch Gruppe 1 zugeteilt wurde. Jedoch verwundert mich der weitere freie Platz neben mir, dem ich bis jetzt keine Person zuordnen kann.
-Ich drehe mich nach rechts zu Carst und frage ihn, was er glaubt, wer das letzte Mitglied der Gruppe ➊ sein könnte. Er schaut mir entgegen, als wolle er mich fragen, »Ernsthaft?«, bis er schließlich schmunzelnd antwortet. »Ich glaube, es sind inzwischen alle hier.« Er deutet auf den Eingang, von dem sich Max gerade abwendet und beginnt, in unsere Richtung zu gehen. Ich schaue zurück zu Carst und dann wieder zu Max. Er lässt sich rechts von Carst nieder und lehnt sich zurück.
+Ich drehe mich nach rechts zu Karr und frage ihn, was er glaubt, wer das letzte Mitglied der Gruppe ➊ sein könnte. Er schaut mir entgegen, als wolle er mich fragen, »Ernsthaft?«, bis er schließlich schmunzelnd antwortet. »Ich glaube, es sind inzwischen alle hier.« Er deutet auf den Eingang, von dem sich Max gerade abwendet und beginnt, in unsere Richtung zu gehen. Ich schaue zurück zu Karr und dann wieder zu Max. Er lässt sich rechts von Karr nieder und lehnt sich zurück.
 Ich blicke wieder zum Eingang, an dem ein stämmiger Mann gerade die Tür schließt. Daraufhin betritt er ebenfalls das Büro und schließt auch hier die Tür. Die Gespräche im Raum verklingen langsam, als sich der Einweiser, dessen Namensschild mit »Ronald« beschriftet ist, ans vorderste Ende des Raumes stellt.;
 ^^1a;
 ^^
@@ -86,25 +86,25 @@ Einweisung;
 »Sehr geehrtes Kollegium«, hört man ihn mit rauer Stimme sagen.;
 ^^
 
-´´2;
+´´2; +Das Bergbauschiff+
 ^^h2;
 Das Bergbauschiff;
 ^^span;
 Das Schiff ist, entgegen meiner Erwartungen, überraschend ästhetisch. Ein Modell von PMMK eben, spärlich eingerichtet und somit innerlich einer Raumstation aus dem 2016 Videospiel »No Man’s Sky« ähnelnd. Außen befindet sich - vermutlich dem Modellnamen entsprechend - groß aufgedruckt der Schriftzug »TCMINERVI-I«.
 Am Empfang hat man mich enthusiastisch willkommen geheißen und direkt zum Zentralraum begleitet. Dieser ist ein relativ großer Raum, der seinem Namen beinahe nicht würdig ist, da er sich in einer der Ecken des Schiffes befindet. Zudem liegt er auf dem untersten Deck und hat nur ein relativ großes Fenster, das ungefähr von Hüft- bis Augenhöhe reicht, direkt links von der Eingangstür und kleineren, nicht einmal halb so großen Fenstern über den der Eingangstür gegenüberliegende Tische, an denen drei Wartungstechniker arbeiten. Ich setze mich zu ihnen, bis das restliche Security-Team eintrifft.
-»Hey, habt ihr den neuen Außenbordsensor gesehen? Der hat 'ne Macke - immer wenn er zur Sonne ausgerichtet ist, glaubt er, wir wären unter Beschuss«, scherzt Fabrizia, während sie auf ihrer Armbanduhr nach Neuigkeiten Ausschau hält.
-»Wahrscheinlich hält er das Leuchten der Sonne für den Antrieb einer Rakete«, lacht Edvárd, während er ebenfalls seine Uhr überprüft.
-»Keine Sorge, wenn die Aliens kommen, wissen wir wenigstens, dass sie unseren Namen auf Metallplatten finden«, wirft Bratumił ein, ohne ein Schmunzeln unterdrücken zu können.
+»Hey, habt ihr den neuen Außenbordsensor gesehen? Der hat 'ne Macke - immer wenn er zur Sonne ausgerichtet ist, glaubt er, wir wären unter Beschuss«, scherzt Fari, während sie auf ihrer Armbanduhr nach Neuigkeiten Ausschau hält.
+»Wahrscheinlich hält er das Leuchten der Sonne für den Antrieb einer Rakete«, lacht Varde, während er ebenfalls seine Uhr überprüft.
+»Keine Sorge, wenn die Aliens kommen, wissen wir wenigstens, dass sie unseren Namen auf Metallplatten finden«, wirft Tamo ein, ohne ein Schmunzeln unterdrücken zu können.
 »Ist was passiert, als ich weg war?«, fragt Max und lässt sich auf einem der freien Stühle nieder.
-»Nichts Ernstes. Nur eine kleinere Fehlfunktion im Maschinenraum vor drei Wochen«, antwortet Edvárd.
-»Wie geht’s dir eigentlich so, nach deinem Urlaub?«, fragt Fabrizia und blickt neugierig zu Max. »Genau wie vorher, nur, dass die Kabinen der Gruppe Vier jetzt noch unkomfortabler wirken«, meint Max lachend. »Mal sehen, ob die Einser besser sind!« scherzt er. »Wisst ihr eigentlich, wann die Anderen endlich hier sind?« Meine Frage lässt die Gruppe eine Weile überlegen. Schließlich beginnt Max mit einer Antwort. »Soweit ich mitbekommen habe, sind für heute drei Neuankömmlinge für Gruppe Eins geplant. Du bist der erste, der hier ist, also sollten die anderen auch bald da sein, vermute ich.« »Und wir werden mal wieder drei Wochen brauchen, bis wir die Namen zuordnen zu können, ohne das Schild jedes mal lesen zu müssen«, scherzt Bratumił. Auf meinem Namensschild steht »Mirko«.
-Ich höre die Tür aufschwenken und schaue erstaunt in ihre Richtung - »Carst?!«, frage ich erstaunt. »Du, hier?« »Mirko!« Carst geht auf mich zu. »Lange nicht gesehen! Schicke Anzüge haben wir hier, oder?« Mein alter Schulfreund deutet mit den Händen auf seinen Anzug.
+»Nichts Ernstes. Nur eine kleinere Fehlfunktion im Maschinenraum vor drei Wochen«, antwortet Varde.
+»Wie geht’s dir eigentlich so, nach deinem Urlaub?«, fragt Fari und blickt neugierig zu Max. »Genau wie vorher, nur, dass die Kabinen der Gruppe Vier jetzt noch unkomfortabler wirken«, meint Max lachend. »Mal sehen, ob die Einser besser sind!« scherzt er. »Wisst ihr eigentlich, wann die Anderen endlich hier sind?« Meine Frage lässt die Gruppe eine Weile überlegen. Schließlich beginnt Max mit einer Antwort. »Soweit ich mitbekommen habe, sind für heute drei Neuankömmlinge für Gruppe Eins geplant. Du bist der erste, der hier ist, also sollten die anderen auch bald da sein, vermute ich.« »Und wir werden mal wieder drei Wochen brauchen, bis wir die Namen zuordnen zu können, ohne das Schild jedes mal lesen zu müssen«, scherzt Tamo. Auf meinem Namensschild steht »Ben«.
+Ich höre die Tür aufschwenken und schaue erstaunt in ihre Richtung - »Karr?!«, frage ich erstaunt. »Du, hier?« »Ben!« Karr geht auf mich zu. »Lange nicht gesehen! Schicke Anzüge haben wir hier, oder?« Mein alter Schulfreund deutet mit den Händen auf seinen Anzug.
 »Nicht ganz mein Stil, diese Anzüge, aber ziemlich gut gemacht.« Im Augenwinkel erkenne ich eine Gestalt im dunklen Flur. Atena. Sie betritt den Raum so unauffällig, dass ich meine, die anderen haben sie gar nicht bemerkt.
 »Was genau ist da eigentlich vor drei Wochen im Maschinenraum passiert?«, fragt Max in die Gruppe.
-»Hat das etwas mit der Grafik da oben zu tun?«, entgegnet Carst und richtet seinen Blick auf den großen Monitor. »Ja, da leuchten alle Teile grün.« Max blickt verwirrt auf Fabrizia, dann auf die schematischen Zeichnungen. »Vor ein paar Monaten wurde ein neuer, effizienterer Generator eingebaut«, wirft sie ein, »sodass die Sensoren bis zum Softwareupdate vor zwei Wochen ‘für den Generator gefährlich niedrige Temperaturen’ gemeldet haben, weil sie noch auf den alten Generator eingestellt waren.«
-»Im Ernst, ich war kurz davor, meine Jacke zu holen, als ich von den ‘gefährlich niedrigen Temperaturen’ gehört habe«, fügt Edvárd mit einem Augenzwinkern hinzu. »Das erklärt’s«, sagt Max und entspannt sich merklich. Ich nicke zustimmend.
-»Jetzt, da wir alle da sind, fangen wir mit der Arbeit an, korrekt?« Atena scheint wirklich unauffällig gewesen zu sein, da Max aufschreckt. Er schaut sich kurz im Raum um, bis er nach einiger Überlegung antwortet. »Einer überwacht alles auf dem Monitor und die Anderen verteilen sich auf ihre Wachposten. Uns stehen die Brücke und die Ladebucht als reguläre Wachposten zur Verfügung. Wir haben im Maschinenraum 1 in letzter Zeit auch erhöhte Temperaturschwankungen festgestellt, die bis jetzt noch nicht untersucht wurden. Wer jeweils was übernimmt, ist uns überlassen.« »Klingt logisch. Ich bleibe definitiv hier und passe auf« Carst dreht sich zum Bildschirm. »So sehe ich hier immer, wo ihr seid.«
-Wir stehen auf und gehen zur Tür, während Carst wieder anfängt, mit den Kollegen zu reden und gelegentlich den Bildschirm kontrolliert.
+»Hat das etwas mit der Grafik da oben zu tun?«, entgegnet Karr und richtet seinen Blick auf den großen Monitor. »Ja, da leuchten alle Teile grün.« Max blickt verwirrt auf Fari, dann auf die schematischen Zeichnungen. »Vor ein paar Monaten wurde ein neuer, effizienterer Generator eingebaut«, wirft sie ein, »sodass die Sensoren bis zum Softwareupdate vor zwei Wochen ‘für den Generator gefährlich niedrige Temperaturen’ gemeldet haben, weil sie noch auf den alten Generator eingestellt waren.«
+»Im Ernst, ich war kurz davor, meine Jacke zu holen, als ich von den ‘gefährlich niedrigen Temperaturen’ gehört habe«, fügt Varde mit einem Augenzwinkern hinzu. »Das erklärt’s«, sagt Max und entspannt sich merklich. Ich nicke zustimmend.
+»Jetzt, da wir alle da sind, fangen wir mit der Arbeit an, korrekt?« Atena scheint wirklich unauffällig gewesen zu sein, da Max aufschreckt. Er schaut sich kurz im Raum um, bis er nach einiger Überlegung antwortet. »Einer überwacht alles auf dem Monitor und die Anderen verteilen sich auf ihre Wachposten. Uns stehen die Brücke und die Ladebucht als reguläre Wachposten zur Verfügung. Wir haben im Maschinenraum 1 in letzter Zeit auch erhöhte Temperaturschwankungen festgestellt, die bis jetzt noch nicht untersucht wurden. Wer jeweils was übernimmt, ist uns überlassen.« »Klingt logisch. Ich bleibe definitiv hier und passe auf« Karr dreht sich zum Bildschirm. »So sehe ich hier immer, wo ihr seid.«
+Wir stehen auf und gehen zur Tür, während Karr wieder anfängt, mit den Kollegen zu reden und gelegentlich den Bildschirm kontrolliert.
 »Ihr findet mich auf der Brücke.«, versichert Atena, tritt in den Flur zum Aufzug und fährt hoch. »Und, wo gehst du hin?« Max scheint eine Antwort von mir zu erwarten. »Ich weiß nicht, lass mich nachschauen.« Ich ziehe einen Lageplan aus der Tasche und überlege.
 »Hier ist die Brücke, und hier ist der Maschinenraum. Ganz am Heck findest du die Ladebucht.«\n;
 Die Brücke;
@@ -130,7 +130,7 @@ Max scheint nicht begeistert zu sein. »Das glaube ich eher nicht. Da wirst du e
 Ich nähere mich der Tür, während ich meinen Generalschlüssel aus der Tasche hole. Die Tür öffnet sich geräuschlos, das Licht geht automatisch an und ich sehe den Grund für das Klicken. »Der Temperatursensor von Generator 1 hat sich gelöst und wird von der Kühlung geschaukelt. Ich versuche, ihn temporär zu befestigen.« Für solche Kleinigkeiten muss schließlich kein Techniker anreisen.
 Ich bemerke eine kleine Schraube, die auf dem Boden vor dem Generator liegt. Nachdem ich sie aufhebe, nehme ich eins der Mehrzweckwerkzeuge aus dem Schrank und schraube den kleinen Sensor mit der Schraube wieder an. Das Funkgerät piept kurz. »Die Temperatur von G1 scheint stabil auf erwarteten Werten. Du kannst zurückkehren.«
 Ich verlasse den Maschinenraum wieder, drücke die Tür zu und schließe ab. Auf dem Weg zurück zum Zentralraum begegne ich niemandem.
-»Warum auch?« Die Stimme von Carst klingt erleichtert. »Und, worum geht’s?«, frage ich. Er wendet sich mir voller Vorfreude zu. »Das erzähle ich dir später - ich kann dich ja schließlich nicht während der Schicht einfach hier rumsitzen lassen. Also, auf zur Patrouille mit dir!« Er konnte ein lautes Lachen anscheinend nicht unterdrücken. »Treffen wir uns nach Schichtende in der Kantine - und ich sage der restlichen Gruppe 1 in der Zwischenzeit Bescheid, dass sie ebenfalls eingeladen sind!«;
+»Warum auch?« Die Stimme von Karr klingt erleichtert. »Und, worum geht’s?«, frage ich. Er wendet sich mir voller Vorfreude zu. »Das erzähle ich dir später - ich kann dich ja schließlich nicht während der Schicht einfach hier rumsitzen lassen. Also, auf zur Patrouille mit dir!« Er konnte ein lautes Lachen anscheinend nicht unterdrücken. »Treffen wir uns nach Schichtende in der Kantine - und ich sage der restlichen Gruppe 1 in der Zwischenzeit Bescheid, dass sie ebenfalls eingeladen sind!«;
 ^^23a;
 ^^
 
@@ -139,7 +139,7 @@ Ich verlasse den Maschinenraum wieder, drücke die Tür zu und schließe ab. Auf
 ^^span;
 Mein Blick fällt auf Max, wobei ich erkenne, dass seine Aufmerksamkeit auf die Markierung vom Maschinenraum gerichtet ist.
 »An der Ladebucht gibt es bestimmt etwas zu tun«, meine ich. Max lächelt. »Super, dann bleibe ich am Maschinenraum«, freut er sich. »und schlafe erstmal.«
-Ich fahre mit dem Fahrstuhl aufs mittlere Deck, auf dem es eifrig zugeht. Einige Arbeiter kommen mir entgegen, laufen jedoch an mir vorbei. Gabelstapler und Kräne manövrieren durch die Hallen, Förderbänder und dünne Schienen ziehen sich an den Böden, Wänden und Decken entlang. Arbeiter mit Handwagen und Sackkarren bewegen sich von der Ladeluke in Richtung Lager. Ich gehe auf den Wachturm zu, steige die Treppen hinauf und begrüße Security 4-2, Mac. »Mac« »Mirko«
+Ich fahre mit dem Fahrstuhl aufs mittlere Deck, auf dem es eifrig zugeht. Einige Arbeiter kommen mir entgegen, laufen jedoch an mir vorbei. Gabelstapler und Kräne manövrieren durch die Hallen, Förderbänder und dünne Schienen ziehen sich an den Böden, Wänden und Decken entlang. Arbeiter mit Handwagen und Sackkarren bewegen sich von der Ladeluke in Richtung Lager. Ich gehe auf den Wachturm zu, steige die Treppen hinauf und begrüße Security 4-2, Mac. »Mac« »Ben«
 »Guten Wechsel«, betont er mit einem Nicken. »Die Schalttafel ist an, du musst dich nur noch anmelden. Alles ist schon eingeschaltet.«
 »Verstanden«, versichere ich ihm und übernehme die Sicherheitskontrolle.
 Arbeiter bewegen Pakete von außerhalb des Schiffes zum Eingang, Gabelstapler heben die Ware auf Förderbänder, die die Kisten in Lagerhallen befördern. In den Lagerhallen werden Pakete von weiteren Gabelstaplern den Förderbändern entnommen und in Regalen gestapelt. Andere Gabelstapler platzieren einzelne Kisten in Fahrstühle, die diese zu Werkstätten auf tiefer gelegenen Decks liefern.
@@ -280,7 +280,7 @@ Rote Linie;
 Ich folge der roten Linie und bleibe auf dem untersten Deck. Der Weg führt mich in Richtung Maschinenraum.
 Als ich mich dem Maschinenraum 1 nähere, spüre ich eine gewisse Spannung in der Luft. Die Geräusche der Maschinen werden lauter. Ich betrete den Raum und werfe einen prüfenden Blick auf die verschiedenen Maschinen und Kontrollanzeigen, wobei mir auffällt, dass die Tür eigentlich Verriegelt sein sollte - und dass Max nicht hier ist.
 Ich werfe einen prüfenden Blick in alle Ecken des Maschinenraums, doch von Max gibt es keine Spur. Die üblichen Geräusche und Bewegungen des Maschinenraums gehen unvermindert weiter, aber das Fehlen meines Kollegen wirft Fragen auf.
-Entschlossen beschließe ich, den Maschinenraum genauer zu durchsuchen. Ich gehe zu verschiedensten Kontrollstationen und überprüfe die Anzeigen auf mögliche Probleme oder Unregelmäßigkeiten, die ihn weggeschickt haben könnten. Alles scheint normal zu sein. Die Temperaturen liegen im normalen Bereich und die anderen Anzeigen zeigen keinen Alarm an. Ich überprüfe auch die Überwachungskameras, die den Bereich um den Maschinenraum überwachen, aber auch an ihnen ist nichts Auffälliges zu erkennen. Man müsste die Aufnahmen überprüfen. Ich frage einige der Ingenieure, die in der Nähe arbeiten, ob sie Max gesehen haben, aber niemand scheint ihn bemerkt zu haben. Einige zucken nur mit den Schultern, während andere behaupten, sie hätten ihn schon seit Stunden nicht mehr gesehen. Angesichts der Tatsache, dass die Schicht bereits weit fortgeschritten ist und Max nicht auffindbar ist, beschließe ich, Carst darüber zu informieren.;
+Entschlossen beschließe ich, den Maschinenraum genauer zu durchsuchen. Ich gehe zu verschiedensten Kontrollstationen und überprüfe die Anzeigen auf mögliche Probleme oder Unregelmäßigkeiten, die ihn weggeschickt haben könnten. Alles scheint normal zu sein. Die Temperaturen liegen im normalen Bereich und die anderen Anzeigen zeigen keinen Alarm an. Ich überprüfe auch die Überwachungskameras, die den Bereich um den Maschinenraum überwachen, aber auch an ihnen ist nichts Auffälliges zu erkennen. Man müsste die Aufnahmen überprüfen. Ich frage einige der Ingenieure, die in der Nähe arbeiten, ob sie Max gesehen haben, aber niemand scheint ihn bemerkt zu haben. Einige zucken nur mit den Schultern, während andere behaupten, sie hätten ihn schon seit Stunden nicht mehr gesehen. Angesichts der Tatsache, dass die Schicht bereits weit fortgeschritten ist und Max nicht auffindbar ist, beschließe ich, Karr darüber zu informieren.;
 ^^231a;
 ^^
 
@@ -327,7 +327,7 @@ Als ich die Uhr über dem Türrahmen erblicke, fällt mir auf, dass meine Schich
 Aufgang;
 -unclink 232a;
 ^^span;
-Carst meinte, wir treffen uns nach der Schicht in der Kantine. Wahrscheinlich sind die anderen auch bereits auf dem Weg, falls er es ihnen gegenüber ebenfalls erwähnt hat.
+Karr meinte, wir treffen uns nach der Schicht in der Kantine. Wahrscheinlich sind die anderen auch bereits auf dem Weg, falls er es ihnen gegenüber ebenfalls erwähnt hat.
 Also gehe ich, da man nicht außerhalb der Arbeitszeiten in Uniform unterwegs sein sollte, vorerst zurück zu den Fahrstühlen und fahre auf das Kabinendeck, um mir Zivilkleidung anzuziehen.
 Ich hole meine Schlüsselkarte aus der Tasche und lese »Security 1-3«. Direkt neben dem Raum mit der Aufschrift »Security 1-1«, gegenüber von »Security 1-4«, finde ich meine Kabine. Ich halte die Zimmerkarte an das Schloss, die Tür schwenkt selbstständig auf und ich schaue hinein.;
 ^^232b;
@@ -350,21 +350,21 @@ Ich öffne die Schrankwand und nehme mir einen schwarzen Hoodie und eine ebenfal
 Treffen in der Kantine;
 -unclink 232c;
 ^^span;
-Ich steige in den Aufzug und fahre auf das oberste Deck. Die Kantine befindet sich dort am Heck des Schiffes, sodass man durch die nach hinten gerichteten Fenster einen unglaublichen Ausblick in die Sterne hat. Ich betrete die Kantine und sehe die Anderen an einem Tisch direkt an den Fenstern sitzen. Carst sieht mich als erster und unterbricht seine Unterhaltung mit Max, steht auf, worauf die Anderen auch aufstehen und winkt mich in die Richtung des Tresens. Wir bestellen als Gruppe und kehren zu unserem Tisch zurück.
-Wir sitzen also am Tisch in der Kantine und warten, bis wir unser Essen aus der Küche abholen können. Carst spricht mit Max weiter über den Generator und witzelt, wie wenig die Installateure bezahlt worden sein müssen, um den Temperatursensor nicht korrekt anzubringen.;
+Ich steige in den Aufzug und fahre auf das oberste Deck. Die Kantine befindet sich dort am Heck des Schiffes, sodass man durch die nach hinten gerichteten Fenster einen unglaublichen Ausblick in die Sterne hat. Ich betrete die Kantine und sehe die Anderen an einem Tisch direkt an den Fenstern sitzen. Karr sieht mich als erster und unterbricht seine Unterhaltung mit Max, steht auf, worauf die Anderen auch aufstehen und winkt mich in die Richtung des Tresens. Wir bestellen als Gruppe und kehren zu unserem Tisch zurück.
+Wir sitzen also am Tisch in der Kantine und warten, bis wir unser Essen aus der Küche abholen können. Karr spricht mit Max weiter über den Generator und witzelt, wie wenig die Installateure bezahlt worden sein müssen, um den Temperatursensor nicht korrekt anzubringen.;
 ^^232d!;
 ^^232e!;
 ^^
 
 ´´232d!;
 ^^span;
-Carst sitzt am Fenster und schaut gelegentlich heraus in die Sterne. Die Atmosphäre ist gelassen, das Gemurmel der anderen Gäste füllt den Raum.<br>Er steht nach einiger Zeit der Stille auf und richtet einen fragenden Blick auf uns. »Wir haben die Nummer 225«, antwortet Max, während wir Anderen nur lächeln und mit einem Nicken zustimmen.<br>Carst wendet sich zur Küchentür, tritt ein und plaudert kurz mit dem Koch, bevor er die Tabletts mit seinem und den anderen Gerichten aufnimmt. Als er zum Tisch zurückgeht, hält er die Tabletts vorsichtig, um nichts zu verschütten. Er bleibt ohne Vorwarnung mitten im Raum stehen und schaut erstaunt in unsere Richtung. Atena verfolgt seinen Blick und schaut aus dem Fenster. Max steht frustriert auf und will ihm etwas abnehmen, wobei auch er erstarrt, als er in der Sonnenbrille von Carst etwas zu sehen scheint. Ich verfolge ebenfalls ihre Blicke und sehe aus dem Fenster. Ein Schimmer von Sternen funkelt wie winzige Diamanten in der Ferne. Doch etwas zieht meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckt.
+Karr sitzt am Fenster und schaut gelegentlich heraus in die Sterne. Die Atmosphäre ist gelassen, das Gemurmel der anderen Gäste füllt den Raum.<br>Er steht nach einiger Zeit der Stille auf und richtet einen fragenden Blick auf uns. »Wir haben die Nummer 225«, antwortet Max, während wir Anderen nur lächeln und mit einem Nicken zustimmen.<br>Karr wendet sich zur Küchentür, tritt ein und plaudert kurz mit dem Koch, bevor er die Tabletts mit seinem und den anderen Gerichten aufnimmt. Als er zum Tisch zurückgeht, hält er die Tabletts vorsichtig, um nichts zu verschütten. Er bleibt ohne Vorwarnung mitten im Raum stehen und schaut erstaunt in unsere Richtung. Atena verfolgt seinen Blick und schaut aus dem Fenster. Max steht frustriert auf und will ihm etwas abnehmen, wobei auch er erstarrt, als er in der Sonnenbrille von Karr etwas zu sehen scheint. Ich verfolge ebenfalls ihre Blicke und sehe aus dem Fenster. Ein Schimmer von Sternen funkelt wie winzige Diamanten in der Ferne. Doch etwas zieht meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckt.
 Mein Blick verharrt auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kriecht in mir hoch, als ob etwas nicht stimmt. Die gesamte Kantine wird leiser, als mehr und mehr Leute erstaunt aus den Fenstern blicken. Die Luft scheint stillzustehen, als ob die Zeit selbst eine Pause einlegt.<br>;
 ^^
 
 ´´232e!;
 ^^span;
-Dieses funkelnde Etwas in der Ferne scheint größer zu werden - und das unglaublich schnell. »Überprüfen die auf der Brücke denn gar nicht, ob uns Asteroiden über den Weg laufen?« Carst wirft besorgte Blicke zu Atena, die ihre Schicht auf der Brücke verbracht hat. »Doch, das tun sie - das habe ich heute selbst miterlebt.« »Und wie erklärt sich dann das Ding da?!« Max hat sich inzwischen umgedreht und schaut, wie alle Anderen in der Kantine, panisch aus den großen Heckfenstern. »Kollegen?« Die Gruppe schaut Atena entsetzt an. »Ich vermute, dass das da kein normaler Asteroid ist.« Inzwischen kann man die Oberfläche des Objektes genauer erkennen - wenn man das so nennen darf. Es ist nämlich unfassbar... glatt? Nur ein leichtes Schimmern von etwas, das wie flüssiges Gallium aussieht, lässt sich erkennen. »Das Ding ist ja aus Metall«, meine ich entsetzt. »Und es dreht sich. Schnell.« Die Worte von Atena sorgen dafür, dass wir alle einen erneuten Blick auf das seltsame Objekt werfen, das inzwischen deutlich erkennbar entlang seines Äquators ausgebeult ist. Jedoch, je länger wir hinschauen, wird es immer schwieriger, genauere Details des Objekts zu erkennen. »Beschlagen etwa die Scheiben?« »Das ist mir auch aufgefallen, aber das kann eigentlich gar nicht sein. Schließlich gibt es auf der anderen Seite der Scheibe nichts, das daran kondensieren könnte.« Wir richten alle verwirrte Blicke in die Runde. »Was glaubt ihr, ist das?« »Nichts Gutes, vermute ich.« Ich richte meinen Blick wieder auf das seltsame Objekt. »Wo ist es hin?!« Max klingt erschüttert. Aber das frage ich mich auch - es ist einfach verschwunden, als ich wegsah. Die Fenster werden immer grauer. »Und die Fenster, was ist mit denen los?« Ich bringe meine Hand näher an die Scheibe, um zu fühlen, ob sie plötzlich kalt geworden und eventuell durch Kondensation des Wassers aus der innenliegenden Luft beschlagen ist. Allerdings sind die Fenster warm - und …;
+Dieses funkelnde Etwas in der Ferne scheint größer zu werden - und das unglaublich schnell. »Überprüfen die auf der Brücke denn gar nicht, ob uns Asteroiden über den Weg laufen?« Karr wirft besorgte Blicke zu Atena, die ihre Schicht auf der Brücke verbracht hat. »Doch, das tun sie - das habe ich heute selbst miterlebt.« »Und wie erklärt sich dann das Ding da?!« Max hat sich inzwischen umgedreht und schaut, wie alle Anderen in der Kantine, panisch aus den großen Heckfenstern. »Kollegen?« Die Gruppe schaut Atena entsetzt an. »Ich vermute, dass das da kein normaler Asteroid ist.« Inzwischen kann man die Oberfläche des Objektes genauer erkennen - wenn man das so nennen darf. Es ist nämlich unfassbar... glatt? Nur ein leichtes Schimmern von etwas, das wie flüssiges Gallium aussieht, lässt sich erkennen. »Das Ding ist ja aus Metall«, meine ich entsetzt. »Und es dreht sich. Schnell.« Die Worte von Atena sorgen dafür, dass wir alle einen erneuten Blick auf das seltsame Objekt werfen, das inzwischen deutlich erkennbar entlang seines Äquators ausgebeult ist. Jedoch, je länger wir hinschauen, wird es immer schwieriger, genauere Details des Objekts zu erkennen. »Beschlagen etwa die Scheiben?« »Das ist mir auch aufgefallen, aber das kann eigentlich gar nicht sein. Schließlich gibt es auf der anderen Seite der Scheibe nichts, das daran kondensieren könnte.« Wir richten alle verwirrte Blicke in die Runde. »Was glaubt ihr, ist das?« »Nichts Gutes, vermute ich.« Ich richte meinen Blick wieder auf das seltsame Objekt. »Wo ist es hin?!« Max klingt erschüttert. Aber das frage ich mich auch - es ist einfach verschwunden, als ich wegsah. Die Fenster werden immer grauer. »Und die Fenster, was ist mit denen los?« Ich bringe meine Hand näher an die Scheibe, um zu fühlen, ob sie plötzlich kalt geworden und eventuell durch Kondensation des Wassers aus der innenliegenden Luft beschlagen ist. Allerdings sind die Fenster warm - und …;
 ^^232f;
 ^^
 
@@ -373,12 +373,12 @@ Dieses funkelnde Etwas in der Ferne scheint größer zu werden - und das unglaub
 Metallen;
 -unclink 232f;
 ^^span;
-Carst kann es nicht fassen. »Wie, um alles in der Welt?!«
+Karr kann es nicht fassen. »Wie, um alles in der Welt?!«
 Der Kollege von der Security, der bis eben noch an der Tür zur Küche stand, stellt sich in die Mitte der Kantine und verkündet eine Ansage.
 »Bitte verlassen Sie diesen Teil des Schiffs. Wir riegeln diesen Bereich vorerst ab. Sie haben vermutlich bereits gesehen, warum - aber seid gewiss, wir haben alles unter Kontrolle. Es besteht kein Grund zur Sorge.«
 »Das können wir uns wohl gleich in Ruhe erklären - erstmal raus hier.« Max geht voran und wir folgen ihm durch die bereits offene Kantinentür.
 Bestimmte Bereiche des Schiffes sind aus Brandschutzgründen abgeschottet und schnell verschließbar - zur Not bei Druckverlust auch automatisch. Dazu zählen die Kantine mit ihrer Küche, die Generatoren und die Werkstätten, von denen alle besondere Gefahr ausgehen kann.
-»Was glaubt ihr, war das denn jetzt?« Carst stellt erneut die eine Frage, die wir uns gerade alle stellen. ;
+»Was glaubt ihr, war das denn jetzt?« Karr stellt erneut die eine Frage, die wir uns gerade alle stellen. ;
 »Also mein erster Gedanke«, wir schauen Max erwartungsvoll an, »waren die Serviceroboter, die eigentlich die Schiffshülle instand halten - aber die sind lange nicht fähig, einfach unsere Fenster so schnell durch irgendein Metall zu ersetzen. Außerdem hätte man uns ja auch gewarnt, wenn das geplant gewesen wäre, denkt ihr nicht auch?«
 »Ja. Das kann unmöglich von uns geplant sein. Dazu wären wir lange nicht in der Lage. Und was auch immer diesen großen Klumpen zersetzt hat, waren garantiert nicht wir.« Atena hat also ebenfalls keine Ahnung, was da eben genau passiert ist.
 Wir gehen zu den Aufzügen, um zu unseren Kabinen zurückzukehren. Schließlich sind wir ja nur für das Essen in die Kabine gegangen, aber das ist ja jetzt auch gestrichen. Die Fahrstuhltüren öffnen sich, und wir treten ein. Kurz nach dem Schließen der Türen setzt sich der Fahrstuhl für wenige Sekunden in Bewegung, bevor er ruckartig bremst.
@@ -412,12 +412,12 @@ Verschwunden;
 ^^span;
 »Er ist weg! Einfach durch den Boden gefallen!« »Aber der Boden ist doch noch da, und absolut fest. Da <bold>kann</bold> nichts durch fallen - schon gar nicht ein ganzer Mensch.«
 »Und wie erklärst du dir dann, was da eben passiert ist? Wie erklärst du dir, dass ein ausgewachsener Mann einfach im Boden verschwindet?!« »Atena, ich kann es mir ja auch nicht erklären, aber wir müssen unmögliches ausschließen. Und genau das mache ich.«
-»Trotzdem weißt du auch nicht weiter, Carst. Wenn du irgendwas dazu erfährst, dann gib mir Bescheid.« »Klar, mache ich.« »Du auch, Max.« »Jaja, klar. Aber lasst uns erstmal hier raus kommen. ;
+»Trotzdem weißt du auch nicht weiter, Karr. Wenn du irgendwas dazu erfährst, dann gib mir Bescheid.« »Klar, mache ich.« »Du auch, Max.« »Jaja, klar. Aber lasst uns erstmal hier raus kommen. ;
 Ich hab den Notrufknopf schon gedrückt, als ihr euch noch gestritten habt.«;
 »Na toll. Jetzt noch hier mit euch zweien rumzuhocken ist genau, was mir heute noch gefehlt hat. Schöner erster wirklicher Arbeitstag. Da haben sich die etlichen Wochen Vorbereitung ja schon bezahlt gemacht.«
 »Ist das dein Ernst?« »Nein! Natürlich nicht! Soll ich noch ein /s für Sarkasmus hinzufügen? Das solltest ja sogar du verstanden haben.«
 Alles wird still. Das Licht im Fahrstuhl flackert leicht. Dann ist alles wieder normal. Der Fahrstuhl fährt weiter, als wäre nichts gewesen. Wir sind immer noch schockiert.
-»Das sollte eigentlich ja gar nicht möglich sein. Ich kann es nicht fassen. Unglaublich.« »Aber es ist ja passiert.« Max schaut mich gleichgültig an. »Verwirrt das denn niemanden außer mich?« Erwartungsvoll blicke ich zu Carst. Wenigstens er sollte begreifen, dass das unbegreifbar ist. »Ich bin sprachlos. Was soll ich sagen? Unglaublich.«<br>;
+»Das sollte eigentlich ja gar nicht möglich sein. Ich kann es nicht fassen. Unglaublich.« »Aber es ist ja passiert.« Max schaut mich gleichgültig an. »Verwirrt das denn niemanden außer mich?« Erwartungsvoll blicke ich zu Karr. Wenigstens er sollte begreifen, dass das unbegreifbar ist. »Ich bin sprachlos. Was soll ich sagen? Unglaublich.«<br>;
 ^^232n!;
 ^^
 
@@ -534,14 +534,14 @@ Sadly, but,
 at least it's not unstable.;
 ^^
 
-´´3;
+´´3; +StratCorp™+
 ^^h2;
 StratCorp™;
 ^^span;
 ...;
 ^^
 
-´´test;
+´´test; +Testseite für Features+
 ^^h2;
 Test;
 ^^span;
