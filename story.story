@@ -6,7 +6,6 @@ Das gewünschte Kapitel "#cid#" konnte nicht gefunden werden. Entweder existiert
 Existierende Kapitel, die deiner Anfrage ähnlich sind, sollten folgend aufgelistet sein.
 
 ;
-^^
 
 ´´incomplete; +Hinweis auf Unvollständigkeit+
 ^^h2;
@@ -18,18 +17,15 @@ Für eine Übersicht aller Kapitel, clicke ;
 hier;
 -clink chapters;
 .;
-^^
 
 ´´chapters; +Übersicht über alle Kapitel+
 ^^h1;
 Kapitel;
-^^
 
 ´´0000; +Titelseite+
 ^^h1;
 next;
 -clink 0;
-^^
 
 ´´help; +Informationen zu Nutzung und Features der Seite+
 ^^h2;
@@ -52,7 +48,6 @@ Jetzt kannst du mit dem restlichen Buch ;
 fortfahren;
 -clink 0;
 . Viel Spaß beim Suchen.;
-^^
 
 ´´0; +Intro+
 ^^h2;
@@ -73,7 +68,6 @@ Ich halte meine Hand gegen die Kugel, und mein Mund fängt an, zu kribbeln. »Mi
 ;
 
 ^^incomplete;
-^^
 
 ´´1; +Der Kreuzer+
 ^^h2;
@@ -88,7 +82,6 @@ Stetig füllt sich der Raum mit Menschen, die sich, oft nach einer Überprüfung
 Ich drehe mich nach rechts zu Karr und frage ihn, was er glaubt, wer das letzte Mitglied der Gruppe ➊ sein könnte. Er schaut mir entgegen, als wolle er mich fragen, »Ernsthaft?«, bis er schließlich schmunzelnd antwortet. »Ich glaube, es sind inzwischen alle hier.« Er deutet auf den Eingang, von dem sich Max gerade abwendet und beginnt, in unsere Richtung zu gehen. Ich schaue zurück zu Karr und dann wieder zu Max. Er lässt sich rechts von Karr nieder und lehnt sich zurück.
 Ich blicke wieder zum Eingang, an dem ein stämmiger Mann gerade die Tür schließt. Daraufhin betritt er ebenfalls das Büro und schließt auch hier die Tür. Die Gespräche im Raum verklingen langsam, als sich der Einweiser, dessen Namensschild mit »Ronald« beschriftet ist, ans vorderste Ende des Raumes stellt.;
 ^^1a;
-^^
 
 ´´1a;
 ^^h2;
@@ -96,7 +89,6 @@ Einweisung;
 -unclink 1a;
 ^^span;
 »Sehr geehrtes Kollegium«, hört man ihn mit rauer Stimme sagen.;
-^^
 
 ´´2; +Das Bergbauschiff+
 ^^h2;
@@ -131,7 +123,6 @@ Die Ladebucht;
 Eine Patrouille;
 -clink 23;
  wäre also auch eine Option - und würde sogar viele der langen Gänge umfassen, sodass irgendwas Spannendes bestimmt garantiert ist.;
-^^
 
 ´´21;
 ^^h2;
@@ -144,7 +135,6 @@ Ich bemerke eine kleine Schraube, die auf dem Boden vor dem Generator liegt. Nac
 Ich verlasse den Maschinenraum wieder, drücke die Tür zu und schließe ab. Auf dem Weg zurück zum Zentralraum begegne ich niemandem.
 »Warum auch?« Die Stimme von Karr klingt erleichtert. »Und, worum geht’s?«, frage ich. Er wendet sich mir voller Vorfreude zu. »Das erzähle ich dir später - ich kann dich ja schließlich nicht während der Schicht einfach hier rumsitzen lassen. Also, auf zur Patrouille mit dir!« Er konnte ein lautes Lachen anscheinend nicht unterdrücken. »Treffen wir uns nach Schichtende in der Kantine - und ich sage der restlichen Gruppe 1 in der Zwischenzeit Bescheid, dass sie ebenfalls eingeladen sind!«;
 ^^23a;
-^^
 
 ´´22;
 ^^h2; Aufsicht an der Ladebucht;
@@ -164,13 +154,11 @@ Der Funkspruch beendet sich mit einem leisen Piepen und kurz darauf erschüttert
 ;
 ^^22a!;
 ^^22b!;
-^^
 
 ´´22a!;
 ^^span;
 »Wir haben den Kontakt zu Max, G1 und jeglichen sich in MR1 befindlichen Geräten verloren. Weiß jemand, was genau da los ist? Die Kameras sind ebenfalls ausgefallen.«
-;^^
-
+;
 ´´22b!;
 ^^span;
 Der Funkspruch wird von einem lauten Rauschen begleitet, aber man kann die Nachricht noch verstehen. Ich schalte die Kontrolltafel auf Batteriebetrieb um. Der Bildschirm leuchtet rot auf - eine Nachricht erscheint. Eine Nachricht, wie man sie bisher nur in Filmen gesehen hat.<br>;
@@ -197,8 +185,7 @@ Admiral Richter;
 »Und du« Er schaut mir warnend entgegen. »schaust zum ;
 Maschinenraum;
 -clink 222;
-.«;^^
-
+.«;
 ´´221;
 ^^h2;
 Admiral Richter;
@@ -221,17 +208,14 @@ die Systeme herunterfahren;
 -clink 2212;
 , um die Aufladung weiterer Energiespeicher und mögliche Kurzschlüsse zu stoppen, um dann das Schiff schrittweise wieder in Betrieb zu nehmen, wenn die dafür erforderlichen Teile überprüft wurden. Jedoch würde das das Schiff bewegungs- und verteidigungsunfähig gegenüber physischen Piratenangriffen machen, bis wir dort ankommen. Welchen Kompromiss möchten Sie eingehen, Admiral?«
 Ich überlege eine Weile. Beide Optionen klingen unangenehm. Eine sichert das Schiff von innen, riskiert dabei allerdings Angriffe von außen und könnte das Schiff für Monate und im schlimmsten Fall - im Falle eines Angriffs - für immer aus dem Geschäft nehmen. Die andere lässt dem Schiff zwar seine Selbstverteidigung, riskiert jedoch weitere Zwischenfälle, falls auch wichtigste Systeme betroffen sind. Nach einigem Auswiegen der Optionen treffe ich eine schwierige Entscheidung.;
-^^
 
 ´´2211;
 ^^h2;
 Aktive Untersuchung;
-^^
 
 ´´2212;
 ^^h2;
 Die Systeme Herunterfahren;
-^^
 
 ´´222;
 ^^h2;
@@ -246,7 +230,6 @@ Metallgestänge aller Art;
  und der sichere, elendige Tod.
 Nein, weiter komme ich hier nicht. Da müssen wir wohl die Außenbordroboter nach innen holen, um den Brand für uns zu löschen.;
 ^^222a;
-^^
 
 ´´222a;
 ^^h2;
@@ -256,12 +239,10 @@ Im Kontrollraum;
 Ein lauter Knall erschüttert den Raum.;
 ^^22a!;
 ^^222b!;
-^^
 
 ´´222b!;
 ^^span;
 ...;
-^^
 
 ´´23;
 ^^h2;
@@ -269,7 +250,6 @@ Zur Patrouille;
 ^^span;
 Nach einigem Auswiegen der Optionen entschließe ich mich, zu patrouillieren. »Na, der Maschinenraum kann warten. Für die Patrouille ist auf deiner Karte diese rote Linie eingezeichnet.« Max zeigt auf eine dünne, rote Linie, die mit Pfeilspitzen versehen ist. »Wenn du der Linie durch das untere Schiff folgst, solltest du gegen Schichtende, je nachdem, wie schnell du läufst, einige Male wieder hier gewesen sein. Solltest du das Gefühl haben, hier unten sei nichts los, kannst du auch weiter oben der orangen Linie folgen. Dann solltest du gegen Schichtende zum ersten Mal hier wieder ankommen. Ich muss sagen, das haben die Schichtplaner sehr gut koordiniert.«;
 ^^23a;
-^^
 
 ´´23a;
 ^^h2;
@@ -283,7 +263,6 @@ die rote Linie;
 der orangen, welche die Treppen hinauf läuft;
 -clink 232;
 .;
-^^
 
 ´´231;
 ^^h2;
@@ -294,12 +273,10 @@ Als ich mich dem Maschinenraum 1 nähere, spüre ich eine gewisse Spannung in de
 Ich werfe einen prüfenden Blick in alle Ecken des Maschinenraums, doch von Max gibt es keine Spur. Die üblichen Geräusche und Bewegungen des Maschinenraums gehen unvermindert weiter, aber das Fehlen meines Kollegen wirft Fragen auf.
 Entschlossen beschließe ich, den Maschinenraum genauer zu durchsuchen. Ich gehe zu verschiedensten Kontrollstationen und überprüfe die Anzeigen auf mögliche Probleme oder Unregelmäßigkeiten, die ihn weggeschickt haben könnten. Alles scheint normal zu sein. Die Temperaturen liegen im normalen Bereich und die anderen Anzeigen zeigen keinen Alarm an. Ich überprüfe auch die Überwachungskameras, die den Bereich um den Maschinenraum überwachen, aber auch an ihnen ist nichts Auffälliges zu erkennen. Man müsste die Aufnahmen überprüfen. Ich frage einige der Ingenieure, die in der Nähe arbeiten, ob sie Max gesehen haben, aber niemand scheint ihn bemerkt zu haben. Einige zucken nur mit den Schultern, während andere behaupten, sie hätten ihn schon seit Stunden nicht mehr gesehen. Angesichts der Tatsache, dass die Schicht bereits weit fortgeschritten ist und Max nicht auffindbar ist, beschließe ich, Karr darüber zu informieren.;
 ^^231a;
-^^
 
 ´´231a;
 ^^h2;
 Verschwunden;
-^^
 
 ´´232;
 ^^h2;
@@ -319,7 +296,6 @@ die nächsten beiden Stockwerke zu durchlaufen;
 in meine Kabine zurückkehren;
 -clink 232a;
  zu können.;
-^^
 
 ´´232-a;
 ^^h2;
@@ -328,11 +304,9 @@ Mehr Patrouille;
 …
 Als ich die Uhr über dem Türrahmen erblicke, fällt mir auf, dass meine Schicht in wenigen Minuten endet. So begebe ich mich auf den Weg zurück.;
 ^^232a;
-^^
 
 ´´232-;
 ^^232a;
-^^
 
 ´´232a;
 ^^h2;
@@ -343,7 +317,6 @@ Karr meinte, wir treffen uns nach der Schicht in der Kantine. Wahrscheinlich sin
 Also gehe ich, da man nicht außerhalb der Arbeitszeiten in Uniform unterwegs sein sollte, vorerst zurück zu den Fahrstühlen und fahre auf das Kabinendeck, um mir Zivilkleidung anzuziehen.
 Ich hole meine Schlüsselkarte aus der Tasche und lese »Security 1-3«. Direkt neben dem Raum mit der Aufschrift »Security 1-1«, gegenüber von »Security 1-4«, finde ich meine Kabine. Ich halte die Zimmerkarte an das Schloss, die Tür schwenkt selbstständig auf und ich schaue hinein.;
 ^^232b;
-^^
 
 ´´232b;
 ^^h2;
@@ -355,7 +328,6 @@ Trotz des geringen Platzes haben meine wenigen persönlichen Gegenstände direkt
 Eine schmale, aber praktische Schrankwand enthält meine Uniformen und wenigen persönlichen Kleidungsstücke. Neben dem Bett befindet sich ein kleines Regal mit ein paar Büchern, die ich vielleicht in den nächsten Monaten lesen könnte. Auf der gegenüberliegenden Seite stehen ein schmaler Kühlschrank und eine Mikrowelle.
 Ich öffne die Schrankwand und nehme mir einen schwarzen Hoodie und eine ebenfalls schwarze Hose heraus. Wenige Augenblicke später verlasse ich die Kabine bereits in meiner Zivilkleidung und eile zur Kantine, in der die Anderen bestimmt schon warten.;
 ^^232c;
-^^
 
 ´´232c;
 ^^h2;
@@ -366,19 +338,16 @@ Ich steige in den Aufzug und fahre auf das oberste Deck. Die Kantine befindet si
 Wir sitzen also am Tisch in der Kantine und warten, bis wir unser Essen aus der Küche abholen können. Karr spricht mit Max weiter über den Generator und witzelt, wie wenig die Installateure bezahlt worden sein müssen, um den Temperatursensor nicht korrekt anzubringen.;
 ^^232d!;
 ^^232e!;
-^^
 
 ´´232d!;
 ^^span;
 Karr sitzt am Fenster und schaut gelegentlich heraus in die Sterne. Die Atmosphäre ist gelassen, das Gemurmel der anderen Gäste füllt den Raum.<br>Er steht nach einiger Zeit der Stille auf und richtet einen fragenden Blick auf uns. »Wir haben die Nummer 225«, antwortet Max, während wir Anderen nur lächeln und mit einem Nicken zustimmen.<br>Karr wendet sich zur Küchentür, tritt ein und plaudert kurz mit dem Koch, bevor er die Tabletts mit seinem und den anderen Gerichten aufnimmt. Als er zum Tisch zurückgeht, hält er die Tabletts vorsichtig, um nichts zu verschütten. Er bleibt ohne Vorwarnung mitten im Raum stehen und schaut erstaunt in unsere Richtung. Atena verfolgt seinen Blick und schaut aus dem Fenster. Max steht frustriert auf und will ihm etwas abnehmen, wobei auch er erstarrt, als er in der Sonnenbrille von Karr etwas zu sehen scheint. Ich verfolge ebenfalls ihre Blicke und sehe aus dem Fenster. Ein Schimmer von Sternen funkelt wie winzige Diamanten in der Ferne. Doch etwas zieht meine Aufmerksamkeit auf sich - etwas, das sich in der Dunkelheit jenseits des Glitzerns versteckt.
 Mein Blick verharrt auf diesem einen Punkt am Horizont. Eine Ahnung von Unbehagen kriecht in mir hoch, als ob etwas nicht stimmt. Die gesamte Kantine wird leiser, als mehr und mehr Leute erstaunt aus den Fenstern blicken. Die Luft scheint stillzustehen, als ob die Zeit selbst eine Pause einlegt.<br>;
-^^
 
 ´´232e!;
 ^^span;
 Dieses funkelnde Etwas in der Ferne scheint größer zu werden - und das unglaublich schnell. »Überprüfen die auf der Brücke denn gar nicht, ob uns Asteroiden über den Weg laufen?« Karr wirft besorgte Blicke zu Atena, die ihre Schicht auf der Brücke verbracht hat. »Doch, das tun sie - das habe ich heute selbst miterlebt.« »Und wie erklärt sich dann das Ding da?!« Max hat sich inzwischen umgedreht und schaut, wie alle Anderen in der Kantine, panisch aus den großen Heckfenstern. »Kollegen?« Die Gruppe schaut Atena entsetzt an. »Ich vermute, dass das da kein normaler Asteroid ist.« Inzwischen kann man die Oberfläche des Objektes genauer erkennen - wenn man das so nennen darf. Es ist nämlich unfassbar... glatt? Nur ein leichtes Schimmern von etwas, das wie flüssiges Gallium aussieht, lässt sich erkennen. »Das Ding ist ja aus Metall«, meine ich entsetzt. »Und es dreht sich. Schnell.« Die Worte von Atena sorgen dafür, dass wir alle einen erneuten Blick auf das seltsame Objekt werfen, das inzwischen deutlich erkennbar entlang seines Äquators ausgebeult ist. Jedoch, je länger wir hinschauen, wird es immer schwieriger, genauere Details des Objekts zu erkennen. »Beschlagen etwa die Scheiben?« »Das ist mir auch aufgefallen, aber das kann eigentlich gar nicht sein. Schließlich gibt es auf der anderen Seite der Scheibe nichts, das daran kondensieren könnte.« Wir richten alle verwirrte Blicke in die Runde. »Was glaubt ihr, ist das?« »Nichts Gutes, vermute ich.« Ich richte meinen Blick wieder auf das seltsame Objekt. »Wo ist es hin?!« Max klingt erschüttert. Aber das frage ich mich auch - es ist einfach verschwunden, als ich wegsah. Die Fenster werden immer grauer. »Und die Fenster, was ist mit denen los?« Ich bringe meine Hand näher an die Scheibe, um zu fühlen, ob sie plötzlich kalt geworden und eventuell durch Kondensation des Wassers aus der innenliegenden Luft beschlagen ist. Allerdings sind die Fenster warm - und …;
 ^^232f;
-^^
 
 ´´232f;
 ^^h2;
@@ -397,7 +366,6 @@ Wir gehen zu den Aufzügen, um zu unseren Kabinen zurückzukehren. Schließlich 
 »Was ist das denn schon wieder?!« Atena ist schockiert, aber wir haben uns trotz des unerwarteten Sturzes noch gut fangen können. ;
 »Glücklicherweise haben wir diese Haltestangen in den Fahrstühlen. Ohne die lägen wir jetzt alle auf dem Boden. Einer von uns wäre womöglich ...«;
 ^^232g1;
-^^
 
 ´´232g1;
 ^^h2;
@@ -416,7 +384,6 @@ den Anderen;
 erfahren;
 -clink 232h;
 .;
-^^
 
 ´´232g2;
 ^^h2;
@@ -431,7 +398,6 @@ Ich hab den Notrufknopf schon gedrückt, als ihr euch noch gestritten habt.«;
 Alles wird still. Das Licht im Fahrstuhl flackert leicht. Dann ist alles wieder normal. Der Fahrstuhl fährt weiter, als wäre nichts gewesen. Wir sind immer noch schockiert.
 »Das sollte eigentlich ja gar nicht möglich sein. Ich kann es nicht fassen. Unglaublich.« »Aber es ist ja passiert.« Max schaut mich gleichgültig an. »Verwirrt das denn niemanden außer mich?« Erwartungsvoll blicke ich zu Karr. Wenigstens er sollte begreifen, dass das unbegreifbar ist. »Ich bin sprachlos. Was soll ich sagen? Unglaublich.«<br>;
 ^^232n!;
-^^
 
 ´´232h;
 ^^h2;
@@ -445,7 +411,6 @@ What? I didn't say that out loud. In fact, I haven't said anything this entire t
 ^^img;
 images/232h.png;
 ^^232i3;
-^^
 
 ´´232i3;
 ^^h2;
@@ -466,7 +431,6 @@ And there is nothing we can do about it.;
 ^^span;
 Nothing can leave the hivemind. And now another creature has joined. We are doomed if whatever it is can't handle itself. And whatever created it probably found us a long, long time ago.;
 ^^232i1;
-^^
 
 ´´232i1;
 ^^h2;
@@ -480,7 +444,6 @@ Keeping still - I probably did that the whole time I was out cold. Why do I need
 Subjects? You took me as a subject? What did you subject me to? What did you do to me?
 \"Calm down. I said you need to rest. You're safe with me. Explore what I made your mind capable of.\";
 ^^232j;
-^^
 
 ´´232j;
 ^^h2;
@@ -495,7 +458,6 @@ I probably did. And there's no tracks of you. You must be the silent type.
 \"No, not at all. I like sharing my thoughts with others. And they definitely do too. But <bold>you</bold> made them go quiet. Go test your new self out. Give them a visit, why don't you.\"
 At it.;
 ^^232k;
-^^
 
 ´´232k;
 ^^h2;
@@ -511,7 +473,6 @@ Nano;
 them;
 -clink 232l3;
 ? Everyone.;
-^^
 
 ´´232l1;
 ^^h2;
@@ -522,20 +483,17 @@ I'll watch over you. And you can try to keep up with me.
 ^^h3;
 You, project Datōbeshi.;
 ^^232m;
-^^
 
 ´´232m;
 ^^h1;
 Bis bald.;
 -unclink 232m;
 ^^232n!;
-^^
 
 ´´232n!;
 ^^span;
 Die Fahrstuhltüren öffnen sich, als der Fahrstuhl das Kabinenstockwerk erreicht.
 <bold>»Wie bist du hier?«</bold>;
-^^
 
 ´´232l3;
 ^^h2;
@@ -544,14 +502,12 @@ Hello, creators of this universe.;
 Already?
 Sadly, but,
 at least it's not unstable.;
-^^
 
 ´´3; +StratCorp™+
 ^^h2;
 StratCorp™;
 ^^span;
 ...;
-^^
 
 ´´test; +Testseite für Features+
 ^^h2;
@@ -576,7 +532,3 @@ Pretend I just said something terrible.;
 -class bubble sms received;
 ^^img;
 images/test.webp;
-
-
-^^
-´´

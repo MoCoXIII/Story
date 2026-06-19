@@ -112,7 +112,7 @@ function removeComments(storyText) {
 
 function splitChapters(storyText) {
     return Object.fromEntries(
-        Array.from(storyText.matchAll(/´´(.+?);(.*?)(?=´´)/gms))
+        Array.from(storyText.matchAll(/´´([^;]+?);([^´]*)/gms))
             .map(m => [m[1], m[2].trim()])
     );
 }
@@ -130,9 +130,9 @@ function display(data, chapterIndex, parentChapter = document.body) {
     newChapterDiv.innerHTML = "";
     parentChapter.appendChild(newChapterDiv);
 
-    for (const match of chapter.matchAll(/(?<=\s*?)\^\^([^;]+?);(.*?)(?=\s*?\^\^)/gms)) {
-        const elementType = match[1];
-        const content = match[2];
+    for (const element of chapter.matchAll(/\^\^([^;]*);([^^]*)/gms)) {
+        const elementType = element[1];
+        const content = element[2];
         if (content === "") {
             display(data, elementType, newChapterDiv);
             continue;
