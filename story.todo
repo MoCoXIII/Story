@@ -93,7 +93,7 @@ LORE:
                 - Varde Gangh
 
         mining ship's superiors:
-            - Admiral Richter (Julen Void Richter)
+            - Admiral Richter (Julen Void Richter) [»Keine Orientierung im leeren Raum? Void ist mein zweiter Vorname!« ... fr?]
 
         Nanobot Lord:
             - Nano
@@ -112,7 +112,7 @@ LORE:
                 - expected: Upen Zeigen (Son)
             - Baldal
                 - Demen Baldal-Kui (Father) (Born: Demen Kui)
-                - one syllable surnames are a sign of a descendant of a founding family (the wise ones who discovered absolute truth), so keeping the name is important
+                    - one syllable surnames are a sign of a descendant of a founding family (the wise ones who discovered absolute truth), so keeping the name is important
                 - Pikai Baldal (Mother)
                 - Kuzoi Baldal-Kui (Daughter)
             - Vaugi
@@ -121,8 +121,15 @@ LORE:
                 - Beleo Vaugi-Kui-Tau (Son)
                 - Rimai Vaugi-Kui-Tau (Daughter)
             - Tau
-                - Bogo Tau (Grandpa)
+                - Bogo Tau (Grandpa, glassmaker, master)
                 - Bala Lawei-Tau (Grandma) (Born: Bala Lawei)
                 - Dono Tau (Father) (brother of Kasan Vaugi-Tau [Lawei-Tau], decided against Lawei name)
                 - Gina Aber-Tau (Mother) (Born: Inas Aber)
                 - Mina Aber-Tau (Daughter) (INTRO POV)
+            - Kui
+                - Geri Kui (glassmaker, master, alone)
+                    - students:
+                        - Deno Ator (rocket science)
+                        - Yada Kime (glassmaking)
+            - Lai
+                - Huye Lai (glassmaker, master)
