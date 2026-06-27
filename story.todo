@@ -15,50 +15,39 @@
         - all living beings on this planet are found to be one giant hivemind, and everything works as one
         - created nano --with-consideration-for-nano-willingly-"losing"-in-the-fight-against-Max--> final boss planet for Max
 
-    supernaturals:
-        emotions girl:
-            abilities:
-                - feeling emotions of anything with enough physical contact (stronger emotions can already be felt through less, spreads like voltage [high potential spreads more easily])
-                - moving emotions through physical contact and concentration (larger contact surface and more developed skill increases speed)
-            scenarios:
-                - meeting someone with remote aura for the first time (finds out she can feel emotions by just being close [handshake hasn't connected yet, pulls back unexpectedly], if they are stong enough)
-                - meeting someone with immense aura of negative emotions (gets overwhelmed by just being within line of sight)
-        ban (post nano Ben):
-            - playing with peoples minds, feelings and reality
-            - eventually finds someone of the same capabilities as him
-            - turns out he met a clone he created in his sleep (he dreamt about having a friend who is on his level)
-            - so they become friends immediately because the clone is a product of his imagination
-
     Characters:
-        - Human name of the one later to become god:
-        - Ben Zwarm
-        - His nickname when he appears as god:
-        - Ban
+        god:
+            - Ben Zwarm
+            manifestations in any species:
+                - Ban (male form 1)
+                - Bun (female form 1, younger)
+                - Bin (female form 2, older)
+            fate:
+                - eventually finds someone of the same capabilities as him
+                    - turns out it's another him he created in his sleep (he dreamt about having a friend who is on his level)
+                    - so they become friends once they figure that out
 
-        - main Ben surrounding group (during his backstory):
-        - Karr Punt
-        - Max Dex Plink
-        - Atena dei Kades ("dei" is of noble descent, like "van" or "von" in middle ages europe)
+        general ship crew:
+            - Karr Punt
+            - Max Dex Plink
+            - Atena dei Kades ("dei" is of noble descent, like "van" or "von" in middle ages europe)
 
-        alternate timeline, cruise ship:
+        cruise ship exclusive:
             - instructor: Ronald Ringor
 
-        main timeline, mining ship team:
+        mining ship exclusive:
             - other security: Mac (Mako Bides)
             - technicians:
                 - Fari Demiru
                 - Tamo Denko
                 - Varde Gangh
-
-        mining ship's superiors:
             - Admiral Richter (Julen Void Richter) [»Keine Orientierung im leeren Raum? Void ist mein zweiter Vorname!« ... fr?]
 
         Nanobot Lord:
             - Nano
                 - origin had no names: nano is a creation of and connected to the swarm intelligence on hivemind planet (which never had individuals to name)
 
-        Future Names:
-            Planet of Truth, System of Family Names:
+        Planet of Truth, System of Family Names:
             - Aber
                 - Atar Aber (Father)
                 - Eiteis Aber (Mother) (Born: Eiten Zeigen)
@@ -91,3 +80,84 @@
                         - Yada Kime (glassmaking)
             - Lai
                 - Huye Lai (glassmaker, master)
+
+        random abilities planet:
+            emotion sense:
+                name:
+                    - ...
+                abilities:
+                    - feeling and moving emotions (later also thoughts) of anything
+                    conditions:
+                        - sufficient physical contact
+                            - spreads like voltage / high potential spreads more easily
+                    scaling:
+                        - stronger emotions / thoughts can already be felt through less
+                        - larger contact surface, more focused concentration and more developed skill increase flow rate & sensitivity
+                fate:
+                    - meeting someone with remote aura for the first time
+                        - finds out she can feel emotions by just being close
+                            - example: handshake hasn't connected yet, pulls back in shock
+                    - meeting someone with immense aura of negative emotions
+                        - gets overwhelmed by just being within line of sight
+            inherit:
+                name:
+                    - ...
+                abilities:
+                    - applies inheritance like in blender cad
+                        - all parts of the target (child) inherit a given aspect of those parts of the source (parent)
+                    conditions:
+                        - must physically touch (or be within trained distance of) both parent & child at activation
+                        - target mass does not exceed trained limit
+                    growth:
+                        - maximum range of activation
+                        - maximum distance of keeping inheritance active
+                        - maximum mass of applicable entities
+                        - duration of effect
+                fate:
+                    - carries tools to best use ability
+                    example moves:
+                        - low level: shield inherits relative position to caster
+                            - makes shield keep its location relative to the caster fixed, floating in front of him
+                            - as all parts of the shield are affected, it will not even scratch when walking though walls with it
+                        - mid level: enemy inherits relative position to part of the earth
+                            - when that part of the earth (maybe a rock) gets lifted, the whole enemy lifts
+                            - may be applied such that it only affects the average position of the enemy, so they may still fight back even though they cannot move their center of mass
+                            - enemy will then float there like a wireless punching bag
+                        - high level: enemy inherits relative temperature to a rock
+                            - rock heats by 100°C when thrown into a furnace -> enemy heats up by 100°C, evenly
+                        - catastrophic level: enemy inherits absolute temperature of liquid nitrogen (caster carries that with him just for that move)
+                            - enemy immediately freezes and crumbles into pieces
+                        - catastrophic level: planet inherits relative position to held rock
+                            - moving the rock moves the entire planet and thus acts like an engine for the entire planet as a spaceship
+            enchant:
+                name:
+                    - ...
+                abilities:
+                    - can apply various enchantments to physical items
+                    conditions:
+                        - physical touch
+                    growth:
+                        - maximum mass of enchanted object
+                        - maximum size of enchanted object
+                        - maximum range of activation and keeping the enchant active
+                        - maximum duration of keeping the enchant active
+                        - maximum intensity of enchant
+                        - success rate of enchanting working
+                fate:
+                    example moves:
+                        - apply to crown:
+                            - curse of binding: passive effect - once worn, the item cannot be taken off of the wearers body until it breaks or the wearer dies
+                            - thorns: active effect - once hit, will send the same hit back at the attacker
+                            - friendly fire: passive effect - reverses all active effects (inverse-thorns: once-hit, will send the same hit at the victim again; may count as another hit on level 2)
+                        - apply to sword:
+                            - loyalty: returns to owner after losing physical contact
+                            - sharpness: sharpens itself over time with speed according to level of enchant
+                            - flame: anything touched will start burning at the points of contact
+            ghost:
+                name:
+                    - King ...
+                abilities:
+                    - ghost: enables noclip for caster and touch (within trained range)
+                    - soul eater: tries to absorb souls of anything the caster noclips through
+                        - success - grows stronger, absorbs abilities of the soul
+                        - failure - gets kicked out from the soul, never to try that one again (blocked from clipping soul owner)
