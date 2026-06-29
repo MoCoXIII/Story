@@ -229,48 +229,53 @@ function display(data, chapterIndex, parentChapter = document.body) {
                 yield current;
             }
         }
-        for (const token of tokenize(content)) {
+        for (let token of tokenize(content)) {
             if (token.startsWith("-")) {
+                token = token.substring(1);
                 const flag = token.split(" ")[0];
                 const value = token.substring(flag.length + 1);
                 switch (flag) {
-                    case "-title":
+                    case "title":
                         lastElement.title = value;
                         break;
-                    case "-abbr":
+                    case "abbr":
                         lastElement.title = value;
                         applyClasses("abbr", lastElement);
                         break;
-                    case "-class":
+                    case "class":
                         applyClasses(value, lastElement);
                         break;
-                    case "-normlink":
+                    case "normlink":
                         appendAndLink(newChapterDiv, lastElement, value);
                         break;
-                    case "-link":
+                    case "link":
                         applyClasses("link", lastElement);
                         appendAndLink(newChapterDiv, lastElement, value);
                         break;
-                    case "-unlink":
+                    case "unlink":
                         applyClasses("unlink", lastElement);
                         appendAndLink(newChapterDiv, lastElement, value);
                         break;
-                    case "-unclink":
+                    case "unclink":
                         applyClasses("unlink", lastElement);
                         appendAndLink(newChapterDiv, lastElement, "?c=" + value);
                         break;
-                    case "-clink":
+                    case "clink":
                         applyClasses("clink", lastElement);
                         appendAndLink(newChapterDiv, lastElement, "?c=" + value);
                         break;
-                    case "-style":
+                    case "style":
                         lastElement.style.cssText = JSON.parse(value);
                         break;
-                    case "-ID":
+                    case "ID":
                         lastElement.id = value;
                         break;
                     default:
-                        console.log("Uncaught flag: ", flag, "\nwith value: ", value);
+                        try {
+                            lastElement.setAttribute(flag, value);
+                        } catch (e) {
+                            console.log("Uncaught flag: ", flag, "\nwith value: ", value, "\nthrough error: ", e);
+                        }
                         break;
                 }
             } else {
