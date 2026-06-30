@@ -136,7 +136,11 @@ function display(data, chapterIndex, parentChapter = document.body) {
     for (const element of chapter.matchAll(/\^\^([^;]*);([^^]*)/gms)) {
         const elementType = element[1];
         const content = element[2];
-        if (content === "") {
+        let tokens = [];
+        for (const token of tokenize(content)) {
+            tokens.push(token);
+        }
+        if (tokens.length === 0) {
             display(data, elementType, newChapterDiv);
             continue;
         }
@@ -229,7 +233,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
                 yield current;
             }
         }
-        for (let token of tokenize(content)) {
+        for (let token of tokens) {
             if (token.startsWith("-")) {
                 token = token.substring(1);
                 const flag = token.split(" ")[0];
