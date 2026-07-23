@@ -160,6 +160,25 @@ backstory;
 -abbr read some backstory before continuing with the next arc;
 -clink b0;
 
+´´1;
+^^span;
+Text;
+^^div;
+;-nest [
+^^h2;next: fall of the king;
+^^span;(or is it?);
+];
+-clink 1a;
+;-nest [
+^^h2;back;
+^^span;
+everyone always asks »where is bun«
+but no one ever asks »how is bun«;
+];
+-clink 1a_a;
+´´1a_;
+^^1a;
+
 ´´b0;
 ^^b02;
 
