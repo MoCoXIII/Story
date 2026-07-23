@@ -120,22 +120,121 @@ function splitChapters(storyText) {
 }
 
 
-function display(data, chapterIndex, parentChapter = document.body) {
-    let chapter = data[chapterIndex];
-    let error = false;
-    if (!chapter) {
-        chapter = data["error!"];
-        error = true;
+// displays a single chapter
+function display(data, chapterIndex = null, parentChapter = document.body) {
+    let chapter = null;
+    let newChapterDiv = null;
+    if (chapterIndex) {
+        chapter = data[chapterIndex];
+        let error = false;
+        if (!chapter) {
+            chapter = data["error!"];
+            error = true;
+        }
+        newChapterDiv = document.createElement("div");
+        newChapterDiv.classList.add("chapter");
+        newChapterDiv.id = chapterIndex;
+        newChapterDiv.innerHTML = "";
+        parentChapter.appendChild(newChapterDiv);
+    } else {
+        chapter = data;
+        newChapterDiv = parentChapter;
     }
-    let newChapterDiv = document.createElement("div")
-    newChapterDiv.classList.add("chapter");
-    newChapterDiv.id = chapterIndex;
-    newChapterDiv.innerHTML = "";
-    parentChapter.appendChild(newChapterDiv);
 
-    for (const element of chapter.matchAll(/\^\^([^;]*);([^^]*)/gms)) {
-        const elementType = element[1];
-        const content = element[2];
+    function* splitElements(input) {
+        let current = '';
+        let element = '';
+
+        let readingElement = false;
+        let readingContent = false;
+
+        let bracketDepth = 0;
+        let inString = false;
+        let stringChar = null;
+
+        let i = 0;
+        while (i < input.length) {
+            const char = input[i];
+            const nextChar = input[i + 1];
+
+            // look for element
+            if (char === '^' && nextChar === '^' && bracketDepth === 0) {
+                if (readingContent) {
+                    yield [element, current];
+                    element = '';
+                    current = '';
+                    readingContent = false;
+                }
+                readingElement = true;
+                i += 2;
+                continue;
+            }
+
+            // read
+            // escape sequences
+            if (char === '\\' && nextChar) {
+                current += char + nextChar;
+                i += 2;
+                continue;
+            }
+            // string entry
+            if ((char === '"') && !inString) {
+                inString = true;
+                stringChar = char;
+                current += char;
+                i++;
+                continue;
+            }
+            // string exit
+            if (char === stringChar && inString) {
+                inString = false;
+                stringChar = null;
+                current += char;
+                i++;
+                continue;
+            }
+            // count everything inside a string (before checking terminator below)
+            if (inString) {
+                current += char;
+                i++;
+                continue;
+            }
+
+            // opening bracket increases depth
+            if (char === '[') {
+                bracketDepth++;
+                current += char;
+                i++;
+                continue;
+            }
+            // closing bracket decreases depth
+            if (char === ']') {
+                bracketDepth--;
+                current += char;
+                i++;
+                continue;
+            }
+
+            // element terminator
+            if (readingElement && bracketDepth === 0 && char === ';') {
+                element = current;
+                current = '';
+                readingElement = false;
+                readingContent = true;
+                i++;
+                continue;
+            }
+
+            if (readingElement || readingContent) {
+                current += char;
+                i++;
+                continue;
+            }
+            i++;
+        }
+        yield [element, current];
+    }
+    for (const [elementType, content] of splitElements(chapter)) {
         let tokens = [];
         for (const token of tokenize(content)) {
             tokens.push(token);
@@ -242,6 +341,11 @@ function display(data, chapterIndex, parentChapter = document.body) {
                     case "title":
                         lastElement.title = value;
                         break;
+                    case "nest":
+                        // innerHTML is written using plaintext without flags;
+                        // in case we need to re-parse bracket content, append that using -nest
+                        display(value.substring(1, value.length - 1), null, lastElement);
+                        break;
                     case "abbr":
                         lastElement.title = value;
                         applyClasses("abbr", lastElement);
@@ -326,6 +430,10 @@ function display(data, chapterIndex, parentChapter = document.body) {
                     fetch(text)
                         .then(response => response.text())
                         .then(svgContent => lastElement.outerHTML = svgContent);
+                } else if (elementType === "details") {
+                    let summary = document.createElement("summary");
+                    summary.textContent = text;
+                    lastElement.appendChild(summary);
                 } else {
                     lastElement.innerHTML = text;
                 }
@@ -334,7 +442,7 @@ function display(data, chapterIndex, parentChapter = document.body) {
         }
     }
 
-    if (error || chapterIndex == "chapters") {
+    if (chapterIndex && (error || chapterIndex == "chapters")) {
         let closestChapters = null;
         if (chapterIndex == "chapters") {
             closestChapters = Object.keys(data).filter(cid => !cid.includes("!") && !cid.endsWith("-")).sort((a, b) => a.localeCompare(b));
