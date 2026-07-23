@@ -124,9 +124,9 @@ function splitChapters(storyText) {
 function display(data, chapterIndex = null, parentChapter = document.body) {
     let chapter = null;
     let newChapterDiv = null;
+    let error = false;
     if (chapterIndex) {
         chapter = data[chapterIndex];
-        let error = false;
         if (!chapter) {
             chapter = data["error!"];
             error = true;
