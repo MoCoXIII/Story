@@ -49,16 +49,16 @@ fortfahren;
 -clink 0;
 . Viel Spaß beim Suchen.;
 
-´´0; +Intro+
+´´0; +Mina: Prolog, Traum+
 ^^h2;
 Unser Planet.;
 -unclink 0;
 ^^span;
-Da unten, weit entfernt. Daneben, sein Mond. Kleiner, dunkler, ohne Atmosphäre. Dazwischen schwebt jemand. Er scheint kein Problem damit zu haben, keine Luft zu atmen. Im Gegenteil, er scheint sich zu freuen. Auf den Planeten schauend, ein großes Lächeln ziehend. Hinter dem Mond, ein blaues Licht, so hell und doch so schnell wieder verschwunden, wie ein Blitz. Da, wo es her kam, eine rundliche Gestalt, die Person beobachtend. Diese beschleunigt auf den Planeten zu. Die andere folgt.
-Stille. Die ganze Zeit. Nun sind sie außer Sicht, in der Atmosphäre verschwunden. Die Sterne, hinter dem Planeten. Die Sonne, hinter mir. Einige Minuten muss es schon gewesen sein, seit die beiden Gestalten in den Planeten abgetaucht sind.
-Ein Blitz. Diesmal ein gelber, der errötend abklingt. Ein dunkler Rauch, dort, wo die beiden in die Atmosphäre eingetreten sind. Eine Säule, förmlich, die die Oberfläche verlässt und genau auf mich zu führt. Plötzlich erscheint ein Mann, direkt vor mir, sich mit rasantem Tempo auf mich zu bewegend. Sein Gesicht sagt, Angst. Doch er scheint durch mich durch zu blicken. In die Sonne. Gleich kollidieren wir.
+Da unten, weit entfernt. Daneben, sein Mond. Kleiner, dunkler, ohne Atmosphäre. Dazwischen schwebt jemand. Die Figur ähnelt unserer, ist fast mit einem unserer Männer zu verwechseln, doch er scheint kein Problem damit zu haben, keine Luft zu atmen. Im Gegenteil, er scheint sich zu freuen. Einer von uns ist er definitiv nicht. Auf den Planeten schauend zieht er ein großes Lächeln. Plötzlich erscheint ein blaues Licht von hinter dem Mond, so hell und doch so schnell wieder verschwunden, fast wie ein Blitz, nur doch etwas länger. Da, wo es her kam, sehe ich eine kugelförmige, metallene Gestalt, die den Fremden beobachtet. Dieser beschleunigt nun auf den Planeten zu. Die Kugel folgt.
+Es herrschte Stille, die ganze Zeit schon. Doch nun sind auch sie außer Sicht, in der Atmosphäre verschwunden. Mir bleibt nur der stille Planet. Die Sterne rundherum. Die Sonne hinter mir. Einige Minuten muss es schon gewesen sein, seit die beiden Gestalten in den Planeten abgetaucht sind. An der Stelle, an der vorhin der blaue Blitz erschienen ist, auf der dem Planeten zugewandten Seite des Mondes, sitzt eine Frau, die mir, bis auf ihre Frisur, sehr ähnlich sieht. Ich kann sie sehen, klar und deutlich, trotz der Entfernung zu ihr. Sie hockt auf dem Boden, hoch zum Planeten schauend, wendet ihren Kopf ab und dreht ihn zu mir. Sie lächelt mir zu, ein freundliches Lächeln, steht auf und deutet dorthin, wo die anderen Gestalten hingeflogen sind.
+Ein Blitz. Diesmal ein gelber, der errötend abklingt. Ein dunkler Rauch. Eine Säule, förmlich, die die Oberfläche verlässt und genau auf mich zu führt. Plötzlich erscheint ein Mann, direkt vor mir. Ängstlich blickt er durch mich hindurch. In die Sonne.
 
-Mein Wecker klingelt. Ich drehe mich zur Seite, greife nach dem Bildschirm und drücke auf ›stoppen‹. Der Ton hört auf. Ich lasse meine Beine vom Bettrand baumeln und richte mich auf, bis sie den Boden berühren. Auf der Bettkante sitzend schaue ich in den Spiegel, wie jeden Morgen, die Haare verwüstet.
+Mein Wecker klingelt. Ich drehe mich zur Seite, greife nach dem Bildschirm und drücke auf ›stoppen‹. Der Ton hört auf. Was hatte ich da eben geträumt? Von den Sternen? Ich, mit einer anderen Frisur? Ich lasse meine Beine vom Bettrand baumeln und richte mich auf, bis sie den Boden berühren. Warum ich nur meine Träume immer so schnell wieder vergessen muss. Auf der Bettkante sitzend schaue ich in den Spiegel, wie jeden Morgen, die Haare verwüstet.
 Ich stütze mich mit den Armen auf die Bettkante, drücke mich ab und stehe auf. Im Badezimmer der nächste Spiegel, diesmal mit einer Bürste in der Hand. Ein Kamm hätte es auch getan. Heute wehren sich die Haare weniger, ihre Form zu behalten. Nicht wie gestern, als ich eine ganze Weile nur da stand und versuchte, die abstehenden Strähnen wieder in den Fluss der Haare einzugliedern.
 ;^^details; Zeichnung von Mina;
 -nest [^^img; images/0.png;];
