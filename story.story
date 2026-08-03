@@ -626,7 +626,7 @@ Test;
 ^^span;
 This is a text conversation to test some new ;
 ^^abbr;
-features;
+features; +\+ die nützlich sein können+
 -title text message formatting and hint display like this;
 ^^span;
  of the website.;
@@ -639,7 +639,8 @@ Who's <abbr title='the recipient of this message'>this</abbr>?;
 Peter.;
 -class bubble sms received;
 ^^span;
-Pretend I just said something terrible.;
+\+Pretend I just said something terrible\+;
 -class bubble sms received;
++und robust sind+
 ^^img;
 images/test.webp;

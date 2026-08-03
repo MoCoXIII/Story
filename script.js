@@ -173,7 +173,7 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
             // read
             // escape sequences
             if (char === '\\' && nextChar) {
-                current += char + nextChar;
+                current += nextChar;
                 i += 2;
                 continue;
             }
@@ -235,8 +235,9 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
         yield [element, current];
     }
     for (const [elementType, content] of splitElements(chapter)) {
+        const filteredContent = content.replaceAll(/\s*\+(.*[^\\])\+/gm, '')
         let tokens = [];
-        for (const token of tokenize(content)) {
+        for (const token of tokenize(filteredContent)) {
             tokens.push(token);
         }
         if (tokens.length === 0) {
@@ -267,7 +268,7 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
 
                 // escape sequences
                 if (char === '\\' && nextChar) {
-                    current += char + nextChar;
+                    current += nextChar;
                     i += 2;
                     continue;
                 }
@@ -460,10 +461,14 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
         }
         for (let closestChapter of closestChapters) {  // .slice(0, 5)
             const chapterLink = document.createElement("span");
-            const chapterPreviewMatch = data[closestChapter].match(/\+(.*)\+/ms);
+            const chapterPreviewMatches = data[closestChapter].matchAll(/(?<=[^\\]|^)\+(.*?[^\\])\+/gms);
             let chapterPreview = "No chapter preview available.";
-            if (chapterPreviewMatch) {
-                chapterPreview = chapterPreviewMatch[1];
+            const firstMatch = chapterPreviewMatches.next().value;
+            if (firstMatch) {
+                chapterPreview = firstMatch[1] + "<br>";
+                for (let match of chapterPreviewMatches) {
+                    chapterPreview += match[1].replace(/\\(.)/gms, "$1") + "<br>";
+                }
             }
             chapterLink.innerHTML = chapterPreview;
             chapterLink.classList.add("clink")
