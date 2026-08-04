@@ -102,6 +102,10 @@ document.addEventListener("DOMContentLoaded", function () {
             storyText = removeComments(storyText);
             const chapters = splitChapters(storyText);
             display(chapters, chapterIndex);
+            window.addEventListener("scroll", () => {
+                localStorage.setItem(`scroll-${chapterIndex}`, window.scrollY);
+            });
+            window.scroll(0, localStorage.getItem(`scroll-${chapterIndex}`) || 0);
             console.log("Loaded everything.");
         });
 });
