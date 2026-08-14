@@ -89,7 +89,7 @@
         random abilities planet:
             emotion sense:
                 name:
-                    - ...
+                    - Nise Mono (~Impostor)
                 abilities:
                     - feeling and moving emotions (later also thoughts) of anything
                     conditions:
@@ -106,7 +106,7 @@
                         - gets overwhelmed by just being within line of sight
             inherit:
                 name:
-                    - ...
+                    - Bake Mono (~Monster)
                 abilities:
                     - applies inheritance like in blender cad
                         - all parts of the target (child) inherit a given aspect of those parts of the source (parent)
@@ -136,7 +136,7 @@
                             - moving the rock moves the entire planet and thus acts like an engine for the entire planet as a spaceship
             enchant:
                 name:
-                    - ...
+                    - Kake Desu
                 abilities:
                     - can apply various enchantments to physical items
                     conditions:
@@ -160,7 +160,7 @@
                             - flame: anything touched will start burning at the points of contact
             ghost:
                 name:
-                    - King ...
+                    - Queen Nara Sayo (means ~goodbye)
                 abilities:
                     - ghost: enables noclip for caster and touch (within trained range)
                     - soul eater: tries to absorb souls of anything the caster noclips through
@@ -168,27 +168,29 @@
                         - failure - gets kicked out from the soul, never to try that one again (blocked from clipping soul owner)
                     - can materialize inside the enemy and make overlapping parts of them disappear
                 backstory:
-                    - overthrew the old king
-                    - kept control of the throne the longest of any king ever
+                    - overthrew the old ruler
+                    - kept control of the throne the longest of any ruler ever
                         - is undamagable while in ghost and deletes opponents who are too weak (basically everyone else because his power level just happens to be high)
                     throne backstory:
                         - is free to take for whoever is strong enough
-                        - servants of the throne always serve the sitting king so they are not targeted by overthrow attempts
+                        - servants of the throne always serve the sitting ruler so they are not targeted by overthrow attempts
             token:
                 name:
-                    - ...
+                    - Tama Gnocchi
                 abilities:
                     - spends strength tokens on attacks
                     - time based token limit?
                     - can train to get higher token limit
             skizzo:
                 name:
-                    - Skizzo
+                    - Skizzo Fren
                 abilities:
                     - schizoprenia + artist
                     - sees things where there are none
                     - draws and drawings animate
             quantum particle:
+                name:
+                    - Saku Ritsu
                 abilities:
                     - position only known when observed
                     - probability distribution of where they could be
@@ -198,6 +200,58 @@
                     - ...
                 173:
                     - ...
+            but:
+                name:
+                    - Shikar Sci (~shikashi)
+                abilities:
+                    passive:
+                        - anything done to him applies to the causing entity instead (even if positive)
+                    active:
+                        will learn this as the story goes on
+                        - counter proposals with equal strength
+                        (example: gravity ALWAYS pulls down -> [but] gravity DOES NOT ALWAYS pull down {either pulls another direction or does not pull at all - blocks path through spacetime to only follow time, not space})
+            solid shadow:
+                name:
+                    - Dak Kage (~Dark Cage)
+                abilities:
+                    - can treat shadows as if they were solid (hitting the shadow hits the shadow-caster)
+            wandering dreamer:
+                name:
+                    - Yume Tumi (~you met me)
+                abilities:
+                    - can enter, manipulate and cause dreams, including physical effects and reading memories from dreams
+            echo:
+                name:
+                    - Zoku Twida (~so gut wie da)
+                abilities:
+                    - echo throws a copy of the caster wherever they whistle to
+                    - no way to know which copy is the real one and which is an illusion
+                    - can also cast sonic weapons
+            speak:
+                name:
+                    - Marh Daz (~mach das)
+                abilities:
+                    - commands she says get followed, no matter what
+            timer:
+                name:
+                    - Toki Boot
+                abilities:
+                    - stops time to move
+                        - in order to keep seeing, his eyes don't absorb photons but display what would be seen depending on the photons that are there in that instant
+                        - cannot hear, because to prevent him from not being able to move through stopped air he moves the air from where he's going to where he was, but it stays still otherwise
+                            - (this way he also does not make sounds when moving during time stop)
+                    - may drag something else with him
+            swarm:
+                name:
+                    - Mita Soro
+                abilities:
+                    - can disassemble anything (even herself) into microscopic parts and rearrange them
+            puppet:
+                name:
+                    - Ito Ito
+                abilities:
+                    - can make anything (even other people) puppets he controls (either through touch or distanced if trained enough)
+                    - puppets may be returned to original, but they remember what they did (can train to make them not remember)
 
     intermission:
         - story continues through bun
@@ -213,6 +267,15 @@
         - attackers assume he has no magical ability because of low aura
         - Ban asks if strong aura can hurt low aura people? (maybe reference Rimuru Slime he read a story of [which is part of the books he had in his room on the ship])
         ... more main story
+        
+        Shock moment where a seemingly random passerby appears behind Bun mid conversation, grabs her head by the hair and cuts it straight off, her body collapsing to the ground after the other one of the conversation gets splashed by blood propelled by the weapon.
+        Blood splurts out the fallen corpses neck in the direction of the person she talked with and out of her hanging head onto the back of her fallen body, finally coming to a stop once it touches her boots.
+        The attacker tries to run away, Ban sees this in his intentions and precents him from moving at all.
+        Ban weirdly does not freak out, but the conversant does, until he/she sees Ban pull a disgusted face saying "dude, why did you do that? That's weird man"
+        "Really, that is weird to pull off unwarranted, just like my brother said", says Buns Head, seemingly unfazed, as her body gets back up and reattaches to her head.
+        "I.. I..." The attacker tries to mumble an explanation.
+
+        Ban gets slightly angry, traps Aggressor in transparent walls encasing him with Ban, attacks on ban pointless, the witnesses then vote on his execution
 
         ... at some point,
         - Ban & Bun get access to the real world (like reverse isekai)
