@@ -22,6 +22,31 @@ hier;
 ^^h1;
 Kapitel;
 
+´´test; +Testseite für Features+
+^^h2;
+Test;
+^^span;
+This is a text conversation to test some new ;
+^^abbr;
+features; +\+ die nützlich sein können+
+-title text message formatting and hint display like this;
+^^span;
+\ of the website.;
+JIMMU /42/;
+-class bubble received base128 emqjeciv;
+Hello;
+-class bubble sent;
+Who's <abbr title='the recipient of this message'>this</abbr>?;
+-class bubble sms sent;
+Peter.;
+-class bubble sms received;
+^^span;
+\+Pretend I just said something terrible\+;
+-class bubble sms received;
++und robust sind+
+^^img;
+images/test.webp;
+
 ´´0000; +Titelseite+
 ^^h1;
 next;
@@ -150,33 +175,16 @@ VERDONNERT;
 -class emqjeciv3 translate;
 <br>»Verzeihung.«
 Damit ist er so plötzlich verschwunden, wie er aufgetaucht ist. Ein leises Zischen hallt nach. In der Wolke, direkt über ihm, ist nun ein Loch.;
+
 ^^h2;
-next arc: conquest;
--clink 1;
-backstory;
--abbr read some backstory before continuing with the next arc;
+next;
+-clink 1_;
+back;
 -clink b0;
 
-´´1;
-^^span;
-Text;
-^^div;
-;-nest [
-^^h2;next: fall of the king;
-^^span;(or is it?);
-];
--clink 1a;
-;-nest [
-^^h2;back;
-^^span;
-everyone always asks »where is bun«
-but no one ever asks »how is bun«;
-];
--clink 1a_a;
-´´1a_;
-^^1a;
-
 ´´b0;
+^^h2;
+Ben;
 ^^b02;
 
 ´´b01; +Der Kreuzer+
@@ -202,7 +210,7 @@ Einweisung;
 ^^h2;
 Das Bergbauschiff;
 ^^span;
-Das Schiff ist, entgegen meiner Erwartungen, überraschend ästhetisch. Ein Modell von PMMK eben, spärlich eingerichtet und somit innerlich einer Raumstation aus dem 2016 Videospiel »No Man’s Sky« ähnelnd. Außen befindet sich - vermutlich dem Modellnamen entsprechend - groß aufgedruckt der Schriftzug »TCMINERVI-I«.
+Das Schiff ist, entgegen meiner Erwartungen, überraschend ästhetisch. Ein Modell von PMMK eben, spärlich eingerichtet und somit innerlich einer Raumstation aus dem 2016 Videospiel »No Man’s Sky« ähnelnd. Außen befindet sich - vermutlich dem Modellnamen entsprechend - groß aufgedruckt der Schriftzug »TCMINERVI-I«, wie ich auf der Anreise im Shuttle beobachtet habe. Und nur um das bereits im Voraus klar zu stellen, mit »Schiff« meine ich eine frei bewegliche Raumstation. Schließlich lässt sich an einer Wasseroberfläche kaum Bergbau betreiben.
 Am Empfang hat man mich enthusiastisch willkommen geheißen und direkt zum Zentralraum begleitet. Dieser ist ein relativ großer Raum, der seinem Namen beinahe nicht würdig ist, da er sich in einer der Ecken des Schiffes befindet. Zudem liegt er auf dem untersten Deck und hat nur ein relativ großes Fenster, das ungefähr von Hüft- bis Augenhöhe reicht, direkt links von der Eingangstür und kleineren, nicht einmal halb so großen Fenstern über den der Eingangstür gegenüberliegende Tische, an denen drei Wartungstechniker arbeiten. Ich setze mich zu ihnen, bis das restliche Security-Team eintrifft.
 »Hey, habt ihr den neuen Außenbordsensor gesehen? Der hat 'ne Macke - immer wenn er zur Sonne ausgerichtet ist, glaubt er, wir wären unter Beschuss«, scherzt Fari, während sie auf ihrer Armbanduhr nach Neuigkeiten Ausschau hält.
 »Wahrscheinlich hält er das Leuchten der Sonne für den Antrieb einer Rakete«, lacht Varde, während er ebenfalls seine Uhr überprüft.
@@ -608,27 +616,17 @@ StratCorp™;
 ^^span;
 ...;
 
-´´test; +Testseite für Features+
+´´1_; +Platz für eine Überleitung+
+^^1;
+
+´´1; +Die magische Welt+
 ^^h2;
-Test;
+Auf einer anderen Welt;
 ^^span;
-This is a text conversation to test some new ;
-^^abbr;
-features; +\+ die nützlich sein können+
--title text message formatting and hint display like this;
+Ich schiebe den Auflauf in den Backofen. Mit seiner typisch tiefen Stimme sagt er, »Zum Abendessen ist der Strom immer teurer.« Ok, Backofen. Was soll ich jetzt mit dieser Information? Mir eine Batterie anlegen, um ein paar Tausendstel auf den Megajoule zu sparen? Nicht jeden Tag gehorchen einem die Gaben. Na, zumindest mir nicht. Ich bin mir immer noch nicht ganz sicher, warum das hier wirklich als Gabe durchgeht, schizophren zu sein.
+Als das Kreuzfahrtschiff nach einem Angriff in Brand geraten ist, bin ich mit einer Fluchtkapsel auf diesen Planeten gestürzt. Wunderlicherweise sind die Menschen, die sich hier sesshaft gemacht haben, dazu prädestiniert, im Verlauf ihres Lebens eine individuelle Art von Superkraft zu entwickeln. Da sie sich im Dank für ihre Fähigkeiten nicht von diesem Planeten trennen möchten, gibt es für mich keinen Weg mehr weg von hier. Aber ich habe auch nichts dagegen, da auch ich langsam die Verstärkung meiner besonderen Fähigkeit spüre. Die Haushaltsgeräte reden inzwischen nämlich in ganzen Sätzen.
+»Me too«, sagt das Fenster. Ich vermute, dass das Fenster mit seinem Kontakt zum Außenbereich die einheimische Sprache gelernt hat. Anders kann ich mir nicht erklären, warum das nicht in meiner Sprache spricht. Aber in meiner Zeit hier habe ich mir immerhin auch selbst die einheimische Sprache beigebracht. Da hat sich die Schizophrenie irgendwie nützlich gemacht, weil ich bei Schwierigkeiten immer die richtige Formulierung vor mir sehe.
+Es klingelt an der Tür. »A package for Mr. Fren.« »Yeah, that's me. Thanks.«;
+^^h3; I'll keep it in native from now on. This back and forth is making me dizzy.;
 ^^span;
-\ of the website.;
-JIMMU /42/;
--class bubble received base128 emqjeciv;
-Hello;
--class bubble sent;
-Who's <abbr title='the recipient of this message'>this</abbr>?;
--class bubble sms sent;
-Peter.;
--class bubble sms received;
-^^span;
-\+Pretend I just said something terrible\+;
--class bubble sms received;
-+und robust sind+
-^^img;
-images/test.webp;
+(to be continued);

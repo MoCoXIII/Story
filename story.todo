@@ -21,12 +21,12 @@
             subpersonalities:
                 (mothers x chromosomes)
                 1:
-                    - Ban (male form 1) (original, who was born from y chromosome of father)
-                    - Bun (female form 1) (as if born from x chromosome of father and personality as if raised the same way)
+                    - Ban (male form 1, Y1) (original, who was born from y chromosome of father)
+                    - Bun (female form 1, X1) (as if born from x chromosome of father and personality as if raised the same way)
                     basically like twins
                 2:
-                    - Bin (female form 2)
-                    - Bon (male form 2)
+                    - Bin (female form 2, X2)
+                    - Bon (male form 2, Y2)
             fate:
                 - eventually finds someone of the same capabilities as him
                     - turns out it's another him he created in his sleep (he dreamt about having a friend who is on his level)
@@ -119,6 +119,7 @@
                         - maximum mass of applicable entities
                         - duration of effect
                 fate:
+                    - used as a tool by a big group
                     - carries tools to best use ability
                     example moves:
                         - low level: shield inherits relative position to caster
@@ -134,6 +135,7 @@
                             - enemy immediately freezes and crumbles into pieces
                         - catastrophic level: planet inherits relative position to held rock
                             - moving the rock moves the entire planet and thus acts like an engine for the entire planet as a spaceship
+                            - also controls rotation, may change the length of days this way
             enchant:
                 name:
                     - Kake Desu
@@ -146,9 +148,12 @@
                         - maximum size of enchanted object
                         - maximum range of activation and keeping the enchant active
                         - maximum duration of keeping the enchant active
+                            (depending on the level - weak enchants may be permanent when the caster is high level) 
                         - maximum intensity of enchant
                         - success rate of enchanting working
                 fate:
+                    - sells permanently enchanted items
+                    - hosts game shows (for the amusement of the throne), special items as prizes
                     example moves:
                         - apply to crown:
                             - curse of binding: passive effect - once worn, the item cannot be taken off of the wearers body until it breaks or the wearer dies
@@ -174,6 +179,11 @@
                     throne backstory:
                         - is free to take for whoever is strong enough
                         - servants of the throne always serve the sitting ruler so they are not targeted by overthrow attempts
+                            - one unnamed servant keeps trying to get money from people who enter the castle, calling it tariffic
+                fate:
+                    - orders a reverse game show for each one the enchanter hosts
+                        (instead of winning something for winning, participants lose something for losing)
+                    - overthrow attempt by enchanter
             token:
                 name:
                     - Tama Gnocchi
@@ -187,7 +197,8 @@
                 abilities:
                     - schizoprenia + artist
                     - sees things where there are none
-                    - draws and drawings animate
+                    - but things he sees turn into reality
+                    -- learns to control what he sees over time
             quantum particle:
                 name:
                     - Saku Ritsu
@@ -273,9 +284,13 @@
         The attacker tries to run away, Ban sees this in his intentions and precents him from moving at all.
         Ban weirdly does not freak out, but the conversant does, until he/she sees Ban pull a disgusted face saying "dude, why did you do that? That's weird man"
         "Really, that is weird to pull off unwarranted, just like my brother said", says Buns Head, seemingly unfazed, as her body gets back up and reattaches to her head.
-        "I.. I..." The attacker tries to mumble an explanation.
+        The attacker turns out to be Y2 pulling a harmful prank on his older sister.
+        The situation was sealed from the public and for the conversant it looked as if he had a schizophrenic episode,
+        like he was imagining that Bun was attacked, but then he returns in shock to see her completely fine, making him think it never happened.
+        (even though it did and the three just hid that fact from him, making him think he's going schizo again [this goes along with his abilities as skizzo])
+        Y2 then continues acting as a big brother / bodyguard.
 
-        Ban gets slightly angry, traps Aggressor in transparent walls encasing him with Ban, attacks on ban pointless, the witnesses then vote on his execution
+        (at some point) Ban gets slightly angry, traps Aggressor in transparent walls encasing him with Ban, attacks on ban pointless, the witnesses then vote on his execution
 
         ... at some point,
         - Ban & Bun get access to the real world (like reverse isekai)
