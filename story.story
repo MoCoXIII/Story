@@ -32,16 +32,13 @@ next;
 Info;
 ^^span;
 Dieses Buch ist interaktiv, was bedeutet, dass du bestimmen kannst, wie die Geschichte weitergeht. Links sehen in Dokumenten normalerweise ;
-so;
--normlink ?c=help;
- aus, aber ich habe sie ;
-so;
--link ?c=help;
- formatiert, damit du nicht von den Farben abgelenkt wirst. Wenn du kursiv geschriebene Wörter oder Wortgruppen findest, kannst du diese anklicken. ;
+so; -normlink ?c=help;
+\ aus, aber ich habe sie ;
+so; -link ?c=help;
+\ formatiert, damit du nicht von den Farben abgelenkt wirst. Wenn du kursiv geschriebene Wörter oder Wortgruppen findest, kannst du diese anklicken. ;
 Beachte jedoch, dass du durch ;
-so markierte Textabschnitte;
--class clink;
- den Lauf der Geschichte ändern kannst.
+so markierte Textabschnitte; -class clink;
+\ den Lauf der Geschichte ändern kannst.
 ;
 Um den Link zu einem bestimmten Kapitel zu erhalten, kopiere die ChapterID hinter ?c=... in der URL. Dort kannst du auch eine beliebige CID eingeben, um zu einem bestimmten Kapitel zu springen. Wenn mehrere Kapitel auf einer Seite zu sehen sind, kannst du auch auf den Titel eines unteren Kapitels drücken, um Kapitel oberhalb davon auszublenden und den Link zu aktualisieren.;
 Jetzt kannst du mit dem restlichen Buch ;
@@ -63,7 +60,7 @@ Ich stütze mich mit den Armen auf die Bettkante, drücke mich ab und stehe auf.
 ;^^details; Zeichnung von Mina;
 -nest [^^img; images/0.png;];
 ^^span;
-\nHeute ist Gedenktag. Wartet Vater schon? Nein, gut. Es ist noch früh. Ich kann mir Zeit lassen. Heute wird ein guter Tag. Ein guter Tag, weil ich heute gut aussehe, nicht wahr? Natürlich ist das subjektiv, ich hab auch keine Antwort erwartet. Es klopft an meiner Zimmertür.
+\\nHeute ist Gedenktag. Wartet Vater schon? Nein, gut. Es ist noch früh. Ich kann mir Zeit lassen. Heute wird ein guter Tag. Ein guter Tag, weil ich heute gut aussehe, nicht wahr? Natürlich ist das subjektiv, ich hab auch keine Antwort erwartet. Es klopft an meiner Zimmertür.
 »Ja?« »Deine Mutter ist gleich hier, komm' schon mal zum Frühstück.« Das lasse ich mir nicht zwei Mal sagen. Ein kurzer Halt am Kleiderschrank, dann auf in die Küche. »Wann ist Mutter denn zu erwarten?«, frage ich. Meine wunderbare Mutter, die schon oft als schönste Frau der Region bezeichnet wurde. Jeden Morgen geht sie schon früh in die Stadt, um uns Frühstück zu besorgen. »Sie ist jetzt hier, genau pünktlich.« Kurz darauf öffnet sich die Haustür. Gina Aber-Tau, schön wie immer, begrüßt uns mit ihrem segnenden Lächeln. »Ich habe Brötchen mitgebracht, ein helles und ein dunkles für jeden, und deinen Lieblingsaufstrich, Mina.« Sie platziert die Brötchen in ein geflochtenes Holzkörbchen, das sie mitten auf dem Esstisch abstellt. »Freust du dich schon, deine Großeltern wiederzusehen?« Ich schaue sie kurz schmunzelnd schräg an. »Natürlich! Sie freuen sich doch bestimmt auch schon auf mich, ja?« »Das tun sie mit Sicherheit, Lieblingsenkelin.« Vater grinst sein nun belegtes Brötchen an. »Aber mit leerem Magen schaffst du den Weg zu ihnen nicht. Also greif endlich zu! Die Sonne wartet nicht ewig auf dich.«
 Zum Sonnenaufgang gehen wir los, die Straße hinauf in die Richtung, in der gleich die Sonne aufgehen wird. Auf dem unebenen Fußweg sind statt des innerstädtischen Kopfsteinpflasters zwei Reihen von flachen, schiefen Steinplatten genutzt worden, die noch aus alter Zeit stammen. Alle paar Schritte trete ich auf eine lose Platte, die unter meinem Gewicht beim Kontakt mit dem unterliegenden Kies einige leise Klickgeräusche von sich gibt. Endlich beginnt die Stadt. Der Fußweg geht in gepflasterte Steinmuster über, auf denen ich geräuschlos laufen kann. Die Häuser hier sind höher, größer und näher aneinander, haben dafür allerdings kaum Gärten. Die erste Haltestelle. Ich setze mich auf die Bank und schaue in den Himmel. Die Sonne ist inzwischen komplett über dem Horizont sichtbar. So lange Wege sind nur noch auf dem Dorf üblich, wenn man in die Stadt möchte. Nur die Städte haben die nötigen Ressourcen, um Maschinen zu bauen, mit denen man sich schneller als zu Fuß fortbewegen kann. Ein Forscher hat es letztes Jahr erstmals geschafft, Stein präzise genug zu bearbeiten, dass man daraus mit nur sehr wenig Metall ein von Körperkraft betriebenes Zweirad fertigen kann. So eins hätte ich jetzt gerne gehabt. Doch der Ressourcenmangel plagt uns alle, die auf diesem versteinten Ball leben. Ein Wunder, dass in den Städten Fahrzeuge wie Busse existieren. So ein Bus ist riesig, aber wenn du nicht siehst, dass er kommt, hörst du ihn kaum.
 »Mina?« Mutter deutet vor mich auf die Straße. Ich hebe meinen Kopf an, nachdem ich eben eine ganze Weile auf den Boden gestarrt habe. Tatsächlich, der Bus hat sich angeschlichen.
@@ -85,7 +82,7 @@ Die große rote Rauchwolke trennt sich entzwei, die beiden Hälften sich in der 
 ;^^details; Minas Sicht, stark vergößert;
 -nest [^^img; images/5.png;];
 ^^span;
-\nDie Arme fahren wieder ein. Dann wieder aus. Als drehe sich da jemand im Kreis, mit ausgestreckten Armen um die eigene Achse.<br>»;
+\\nDie Arme fahren wieder ein. Dann wieder aus. Als drehe sich da jemand im Kreis, mit ausgestreckten Armen um die eigene Achse.<br>»;
 VOLK.;-class emqjeciv translate;
 «<br>»;
 VOLK DIESES PLANETEN, KNIET NIEDER.;-class emqjeciv2 translate;
@@ -97,7 +94,7 @@ Die Worte einer fremden Sprache, von der ich nichts verstehen kann. Geräusche, 
 
 Mich erschüttert der Gedanke, der mir plötzlich in den Kopf gepflanzt scheint. ›Den Mond abtreten, oder abgetreten werden.‹ Das ist seine Forderung. Morgen sollen wir uns einig sein. Wir alle, sonst beides. Deno und Yada blicken mich entsetzt an. Nachdem wir einen lauten Knall aus dem Himmel gehört haben, sind wir aus der Manufaktur gelaufen und haben in den Himmel geschaut. Eine zerrissene Wolke, dahinter ein schwebendes Wesen, Arme seitlich ausgestreckt, sich um sich selbst drehend. Dann diese Stimme. Der gepflanzte Gedanke. »Das erfordert eine Großversammlung.« »Mit allem Glas, das es gibt.«
 
-Die Person dort oben geht von horizontaler zu vertikaler Drehung über, überschlägt sich einige Male, langsam. Dann bleibt sie kopfüber stehen, legt die Arme seitlich an. Hinter ihr schwebt eine deutlich rundere Figur, die zwei Arme vor sich ausgestreckt hält, die Hände verschränkt. Eine dünne Rauchwolke bildet sich um diese Hände, die sie langsam anzuheben scheint.\n;
+Die Person dort oben geht von horizontaler zu vertikaler Drehung über, überschlägt sich einige Male, langsam. Dann bleibt sie kopfüber stehen, legt die Arme seitlich an. Hinter ihr schwebt eine deutlich rundere Figur, die zwei Arme vor sich ausgestreckt hält, die Hände verschränkt. Eine dünne Rauchwolke bildet sich um diese Hände, die sie langsam anzuheben scheint.\\n;
 ^^details; Künstlerische Darstellung einer Nahaufnahme;
 -nest [
 ^^video;
@@ -106,7 +103,7 @@ hands;
 -controls;
 ];
 ^^span;
-\nVon einem Moment auf den nächsten wird es plötzlich hell. Hell und warm. Ein streifen aus Flammen, so breit wie ein Haus, läuft von der Position, wo eben noch die Gestalt zu sehen war, direkt auf den Boden. Ein lauter Knall, leicht verspätet. Die Flammen verwirbeln, als etwas sie rasant zu durchfliegen scheint, ebenfalls auf den Boden zu. Der zweite Knall, mit der gleichen Verspätung. Einen kurzen Augenblick ist es still, der Rauch der Flammen verdünnt sich in der Luft. Dann wird es wieder warm, als ein zweiter Flammenstreifen erscheint, schräg in den Himmel aufsteigend, kein Ende in Sicht. Der dritte Knall, mit der gleichen Verspätung, aber dieser ist eher ein längeres, dumpfes Zischen, das sich langsam von uns entfernt.
+\\nVon einem Moment auf den nächsten wird es plötzlich hell. Hell und warm. Ein streifen aus Flammen, so breit wie ein Haus, läuft von der Position, wo eben noch die Gestalt zu sehen war, direkt auf den Boden. Ein lauter Knall, leicht verspätet. Die Flammen verwirbeln, als etwas sie rasant zu durchfliegen scheint, ebenfalls auf den Boden zu. Der zweite Knall, mit der gleichen Verspätung. Einen kurzen Augenblick ist es still, der Rauch der Flammen verdünnt sich in der Luft. Dann wird es wieder warm, als ein zweiter Flammenstreifen erscheint, schräg in den Himmel aufsteigend, kein Ende in Sicht. Der dritte Knall, mit der gleichen Verspätung, aber dieser ist eher ein längeres, dumpfes Zischen, das sich langsam von uns entfernt.
 Großvater steht langsam auf, seinen Kopf mit einer Hand haltend. Auch die anderen lösen sich allmählich aus ihrer Schockstarre. »Einer droht uns, zieht eine große Show ab, und wird dann vom anderen bekämpft? Habe ich das richtig gesehen?« »Sah ganz so aus. Mein Taschenglas bestätigt das. Er hat nicht erwartet, dabei angegriffen zu werden.« »Wenn es solche Feuerstreifen in die Luft zieht, wenn sie sich bekämpfen..« »..haben sie etwa die Feuerblume gebändigt?«, vervollständigt Vater den Satz seiner Schwester. Die Feuerblume ist dafür bekannt, dünne Fäden um sich zu haben, die bei Berührung dafür sorgen, dass aus der zentralen Blüte Saft schießt, der sich in der Luft entzündet und die Gefahr verbrennen lässt, bevor sie die Pflanze erreichen kann. Da die Wurzeln der Pflanze bis unter die Fäden verlaufen, können sie schnell um das Opfer der Flammen herum wachsen und es als Nahrung aufnehmen, bevor sie sich wieder zurückziehen. »Sie kommen offensichtlich nicht von unserem Planeten, also ist es gut möglich, dass ihre Feuerblumen nicht so unmöglich zu umgehen sind wie unsere.« »Ressourcenmangel hatten sie sicher auch nicht in unserem Ausmaß, aber bei seiner Forderung könnte man denken, sie bräuchten unseren Mond dringender als wir.« »Aber das stimmt natürlich nicht. Wir haben bis morgen, uns auf eine Lösung zu einigen.« Zurück in der Werkstatt geht Großvater wieder an sein großes Glas. »Was sollten wir jetzt tun? Alle Glasmachermeister werden sich heute in der Hauptstadt treffen, ihr Glas vereinen und eine Lösung suchen.« »Dürfen wir mitkommen?« Beleo fragt das so, als ob seine Eltern ihn alleine mit Großvater in die Hauptstadt lassen würden. »Nein Beleo, wir haben zu hause noch zu tun. Du kannst deinem Vater im Garten helfen.« Meine Mutter tritt vor zu Großvater, um ihm etwas ins Ohr flüstern. »Gut, ja. Mina, du kannst mitkommen, wenn du deinem Vater und mir beim Tragen der Kugel hilfst.« Mich würde schon interessieren, wie es in der Hauptstadt aussieht. Also, »Ja, gerne.« Großvater scheint froh zu sein, dass ich einverstanden bin. »Na dann, direkt los!« »Mina, wir müssen den Untergrund der Kugel, das Holzgestell, nur so weit anheben, dass wir einen der runden Stämme darunter legen können. Dann lässt es sich einfach auf den Bus rollen.« Gesagt, getan. Die Kugel ist leichter, als ich erwartet hatte. Deutlich leichter als ein normaler Stein dieser Größe, definitiv. Daher war es nicht allzu schwer, den Rollbalken darunter zu bekommen. Nachdem das Gestell so weit gerollt war, dass der erste Balken hinten wieder herausrollte, wurde er vorne wieder untergelegt. Genau, als wir das Gestell an den Straßenrand geschafft haben, hält vor uns ein Bus, der sich auf die Höhe des Bordsteins absenkt, sodass wir das Glas einfach hineinrollen können. Wir verabschieden uns von meiner Mutter, Tante, Onkel, Beleo und Rimai. Großvater, Großmutter, Vater und ich verteilen uns auf die zwei Bänke links und rechts der Kugel, um sie bei der Beschleunigung festzuhalten.
 Deno, Yada und ich rollen unser Glas in den Bus, der vor unserer Werkstatt angehalten ist. Darin sitzen bereits vier Personen. Meister Tau, Frau Tau, ein Mann, der eine hohe Ähnlichkeit zu Meister Tau aufweist, als er noch jung war, der also sein Sohn sein könnte, und eine junge, hübsche Frau, ungefähr im Alter meiner Schülerin Yada. Wir setzen uns ihnen gegenüber, unsere Kugel ebenso wie sie ihre festhaltend. »Bogo, mein Bester. Wie lief die letzte Erweiterung?« »Unbeschwert, werter Geri. Aber das wird natürlich von dem feurigen Spektakel und der Ankündigung des Fremden in den Schatten gestellt, nicht wahr?« »Wohl wahr.«
 
@@ -149,7 +146,7 @@ MEIN BOSS HAT MICH DAZU ;
 -class emqjeciv translate;
 VERDONNERT;
 -class emqjeciv2 translate;
- EUCH IN RUHE ZU LASSEN.;
+\ EUCH IN RUHE ZU LASSEN.;
 -class emqjeciv3 translate;
 <br>»Verzeihung.«
 Damit ist er so plötzlich verschwunden, wie er aufgetaucht ist. Ein leises Zischen hallt nach. In der Wolke, direkt über ihm, ist nun ein Loch.;
@@ -221,19 +218,15 @@ Ich höre die Tür aufschwenken und schaue erstaunt in ihre Richtung - »Karr?!�
 »Jetzt, da wir alle da sind, fangen wir mit der Arbeit an, korrekt?« Atena scheint wirklich unauffällig gewesen zu sein, da Max aufschreckt. Er schaut sich kurz im Raum um, bis er nach einiger Überlegung antwortet. »Einer überwacht alles auf dem Monitor und die Anderen verteilen sich auf ihre Wachposten. Uns stehen die Brücke und die Ladebucht als reguläre Wachposten zur Verfügung. Wir haben im Maschinenraum 1 in letzter Zeit auch erhöhte Temperaturschwankungen festgestellt, die bis jetzt noch nicht untersucht wurden. Wer jeweils was übernimmt, ist uns überlassen.« »Klingt logisch. Ich bleibe definitiv hier und passe auf« Karr dreht sich zum Bildschirm. »So sehe ich hier immer, wo ihr seid.«
 Wir stehen auf und gehen zur Tür, während Karr wieder anfängt, mit den Kollegen zu reden und gelegentlich den Bildschirm kontrolliert.
 »Ihr findet mich auf der Brücke.«, versichert Atena, tritt in den Flur zum Aufzug und fährt hoch. »Und, wo gehst du hin?« Max scheint eine Antwort von mir zu erwarten. »Ich weiß nicht, lass mich nachschauen.« Ich ziehe einen Lageplan aus der Tasche und überlege.
-»Hier ist die Brücke, und hier ist der Maschinenraum. Ganz am Heck findest du die Ladebucht.«\n;
-Die Brücke;
--unclink b02x;
- ist bereits besetzt und ;
-der Maschinenraum;
--clink b021;
- ist sowieso immer abgeschlossen, weshalb die Messwerte auf einen technischen Fehler mit dem Sensor oder der Belüftung hindeuten, wobei das eher eine Aufgabe für unsere Mechaniker wäre, solange darin niemand wohnt. Aber das einfache Kontrollieren sollte noch in meinem Aufgabenbereich liegen. ;
-Die Ladebucht;
--clink b022;
- könnte auch so einige Überraschungen bereithalten, falls etwas mit der Ware los ist. Mir fällt eine dünne, rote Linie auf, die die Flure der unteren Decks durchläuft. ;
-Eine Patrouille;
--clink b023;
- wäre also auch eine Option - und würde sogar viele der langen Gänge umfassen, sodass irgendwas Spannendes bestimmt garantiert ist.;
+»Hier ist die Brücke, und hier ist der Maschinenraum. Ganz am Heck findest du die Ladebucht.«\\n;
+Die Brücke; -unclink b02x;
+\ ist bereits besetzt und ;
+der Maschinenraum; -clink b021;
+\ ist sowieso immer abgeschlossen, weshalb die Messwerte auf einen technischen Fehler mit dem Sensor oder der Belüftung hindeuten, wobei das eher eine Aufgabe für unsere Mechaniker wäre, solange darin niemand wohnt. Aber das einfache Kontrollieren sollte noch in meinem Aufgabenbereich liegen. ;
+Die Ladebucht; -clink b022;
+\ könnte auch so einige Überraschungen bereithalten, falls etwas mit der Ware los ist. Mir fällt eine dünne, rote Linie auf, die die Flure der unteren Decks durchläuft. ;
+Eine Patrouille; -clink b023;
+\ wäre also auch eine Option - und würde sogar viele der langen Gänge umfassen, sodass irgendwas Spannendes bestimmt garantiert ist.;
 
 ´´b021;
 ^^h2;
@@ -338,7 +331,7 @@ Am unteren Ende des Treppenhauses, das glücklicherweise nicht allzu weit nach u
 Als ich die Brandschutztür des untersten Decks leicht öffne, fließt dichter, schwarzer Rauch ins Treppenhaus und steigt in die Höhe. Ich schließe die Tür so schnell wie möglich, sobald ich auf der anderen Seite bin. Hier sehe ich nichts mehr. Ich versuche, mich zu ducken, um zu testen, ob der Rauch weiter unten weniger Dicht wird. Und tatsächlich kann man, auf dem Boden kriechend, einen ganzen Meter weit schauen. Langsam krieche ich den Boden entlang, der Wand zu meiner Linken bis zum Knick folgend. Als ich um die Ecke schaue, blockiert ein roter Feuerlöscher meine Sicht. »Dass ich da nicht gleich dran gedacht habe.« Ich stelle mich wieder auf, nehme geduckt den Feuerlöscher in die rechte Hand und erblicke, während ich ihn beiseite ziehe, ein helles, gelb-rotes, flackerndes Leuchten im Rauch. Genau dort, wo es herzukommen scheint, muss vorher der Generator gestanden haben. Ich setze zu einem Schritt in diese Richtung an, in der Hoffnung, das Feuer zu löschen, bevor es sich ausbreitet, doch zu meinem Glück schaue ich genau in diesem Moment nach unten. Der Boden vor mir ist in die Tiefe gesenkt und öffnet sich in die abgeschotteten Bereiche, in denen das Fahrgestell lagert. Falle ich nach da unten, erwartet mich ;
 Metallgestänge aller Art;
 -abbr diverse Stützen, um diesen Koloss von Schiffen auf massearmen Himmelskörpern abzusetzen;
- und der sichere, elendige Tod.
+\ und der sichere, elendige Tod.
 Nein, weiter komme ich hier nicht. Da müssen wir wohl die Außenbordroboter nach innen holen, um den Brand für uns zu löschen.;
 ^^b0222a;
 
@@ -368,11 +361,9 @@ Auf Patrouille;
 -unclink b023a;
 ^^span;
 »Na dann mal los.« Ich orientiere mich entlang der Pfeile auf der Linie. »Hier lang also.« Das unterste Deck ist kleiner als die Obigen, da man bei diesem Schiff zwar hauptsächlich auf Funktion geachtet zu haben scheint, aber Designer vermutlich trotzdem nicht vernachlässigt wurden. So geht es schnell, das unterste Deck ein Mal zu durchlaufen, ohne jemandem zu begegnen, da hier sowieso kaum jemand arbeitet - und die, die hier arbeiten, direkt vom Fahrstuhl in die Zentrale gehen, ohne das restliche Deck zu beachten. Höchstens Mechanikern, die etwas an der Schiffshülle reparieren oder ausbessern, würde man hier begegnen, aber auch diese haben momentan anscheinend keinen Grund hier zu sein. Kurz bevor ich wieder am Fahrstuhl vorbeiliefe, teilt sich ;
-die rote Linie;
--clink b0231;
- von ;
-der orangen, welche die Treppen hinauf läuft;
--clink b0232;
+die rote Linie; -clink b0231;
+\ von ;
+der orangen, welche die Treppen hinauf läuft; -clink b0232;
 .;
 
 ´´b0231;
@@ -404,9 +395,8 @@ Ich werfe einen Blick auf meine Uhr. Die halbe Schicht liegt noch vor mir. Also 
 die nächsten beiden Stockwerke zu durchlaufen;
 -clink b0232-a;
 , um dann endlich ;
-in meine Kabine zurückkehren;
--clink b0232a;
- zu können.;
+in meine Kabine zurückkehren; -clink b0232a;
+\ zu können.;
 
 ´´b0232-a;
 ^^h2;
@@ -489,11 +479,9 @@ Alle Eindrücke sind überdeutlich. Ich spüre meinen Puls laut pochen.
 Warum spricht da jemand Englisch? Und mit so einem posh-britischen Akzent. Wo bin ich hier nur gelandet?
 \"I know you can understand me, so please switch to English when you talk to me.\"
 Schnösel. Was wohl mit ;
-den Anderen;
--clink b0232g2;
- ist? Das werde ich wohl schon früh genug ;
-erfahren;
--clink b0232h;
+den Anderen; -clink b0232g2;
+\ ist? Das werde ich wohl schon früh genug ;
+erfahren; -clink b0232h;
 .;
 
 ´´b0232g2;
@@ -629,7 +617,7 @@ This is a text conversation to test some new ;
 features; +\+ die nützlich sein können+
 -title text message formatting and hint display like this;
 ^^span;
- of the website.;
+\ of the website.;
 JIMMU /42/;
 -class bubble received base128 emqjeciv;
 Hello;

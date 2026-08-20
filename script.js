@@ -239,7 +239,7 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
         yield [element, current];
     }
     for (const [elementType, content] of splitElements(chapter)) {
-        const filteredContent = content.replaceAll(/\s*\+(.*[^\\])\+/gm, '')
+        const filteredContent = content.replaceAll(/\s*\+(.*[^\\])\+/gm, '');
         let tokens = [];
         for (const token of tokenize(filteredContent)) {
             tokens.push(token);
@@ -338,8 +338,9 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
             }
         }
         for (let token of tokens) {
-            if (token.startsWith("-")) {
-                token = token.substring(1);
+            let trimmedToken = token.trimLeft();
+            if (trimmedToken.startsWith("-")) {
+                token = trimmedToken.substring(1);
                 const flag = token.split(" ")[0];
                 const value = token.substring(flag.length + 1);
                 switch (flag) {
@@ -394,9 +395,7 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
             } else {
                 let text = token
                     .replace(/\r?\n|\\n/g, '<br>')
-                    .replace(/#cid#/g, chapterIndex)
-                    .replace(/\\;/g, ";")
-                    .replace(/\\"/g, "\"");
+                    .replace(/#cid#/g, chapterIndex);
                 lastElement = document.createElement(elementType);
 
                 // if (elementType === "music") {
