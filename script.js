@@ -272,7 +272,7 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
 
                 // escape sequences
                 if (char === '\\' && nextChar) {
-                    current += nextChar;
+                    current += '\\' + nextChar;
                     i += 2;
                     continue;
                 }
@@ -338,7 +338,7 @@ function display(data, chapterIndex = null, parentChapter = document.body) {
             }
         }
         for (let token of tokens) {
-            let trimmedToken = token.trimLeft();
+            let trimmedToken = token.trimStart();
             if (trimmedToken.startsWith("-")) {
                 token = trimmedToken.substring(1);
                 const flag = token.split(" ")[0];
