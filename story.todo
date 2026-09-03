@@ -2,18 +2,18 @@
 
 (unwritten) LORE:
     Max Lore:
-        ☐ Max turns out to be a spy and Nanos right hand man
+        ☐ Max turns out to be a spy on the ship and Nanos right hand man
         ☐ but plans to overthrow Nano
-        ☐ Max goes to find and enslave planets of other systems
+        ☐ Max goes to find and enslave planets of other systems (using nanotechnology from his boss) for his own enjoyment
         ☐ this upsets nano -> fight
         ☐ Max wins barely
-        ☐ secretly, Nano sees all this coming and retreats, assuming Max will change if he wins
-        ☐ Max doesn't change, but nano only finds out when he gets to the hivemind planet
-        ☐ Nano returns and ends Max after max did the most terrible thing
+        ☐ Nano anticipated a better future if he retreated, so he let him win (knows he can't beat max completely if not at home)
+        ☐ Max doesn't change until he gets to the hivemind planet
+        ☐ Nano awaits him there and ends Max with the help of his home ecosystem after everything max unpreventably did
 
     hivemind planet:
         - all living beings on this planet are found to be one giant hivemind, and everything works as one
-        - created nano --with-consideration-for-nano-willingly-"losing"-in-the-fight-against-Max--> final boss planet for Max
+        - "created" nano --> final boss planet for Max
 
     Characters:
         god:
@@ -28,9 +28,9 @@
                     - Bin (female form 2, X2)
                     - Bon (male form 2, Y2)
             fate:
-                - eventually finds someone of the same capabilities as him
+                - eventually finds someone of the same capabilities as him (subpersonality origin story)
                     - turns out it's another him he created in his sleep (he dreamt about having a friend who is on his level)
-                    - so they become friends once they figure that out
+                    --> basically twins
 
         general ship crew:
             - Karr Punt
@@ -184,13 +184,17 @@
                     - orders a reverse game show for each one the enchanter hosts
                         (instead of winning something for winning, participants lose something for losing)
                     - overthrow attempt by enchanter
-            token:
+            token twins:
                 name:
-                    - Tama Gnocchi
+                    - Tama Gnocchi [m] (toke, big noodle) & Pana Gnocchi (bit)
                 abilities:
-                    - spends strength tokens on attacks
-                    - time based token limit?
-                    - can train to get higher token limit
+                    - spends strength tokens on attack, defense & misc
+                    - time based token limit:
+                        - toke: refill limit at midnight
+                        - bit: refill one after trainable time
+                    - can train (or pass out from token exhaustion) to get higher token limit & lower regen time
+                    - can use token storage box enchanted by enchant to store tokens
+                    - can use token regen potion from enchant to instant refill some amount once per potion
             skizzo:
                 name:
                     - Skizzo Fren
@@ -201,10 +205,17 @@
                     -- learns to control what he sees over time
             quantum particle:
                 name:
-                    - Saku Ritsu
+                    - Saku Ritsu (quant)
                 abilities:
                     - position only known when observed
                     - probability distribution of where they could be
+            qbit:
+                name:
+                    - Para Ritsu
+                abilities:
+                    - can crack any code instantly (quantumly trying all combinations)
+                lore:
+                    - child of quant & bit
             scps:
                 ban plays as scps
                 096:
@@ -217,6 +228,7 @@
                 abilities:
                     passive:
                         - anything done to him applies to the causing entity instead (even if positive)
+                        - min 1 hp: can never actually die, just get very damaged (possibly beyond repair but healing is a thing)
                     active:
                         will learn this as the story goes on
                         - counter proposals with equal strength
@@ -226,18 +238,23 @@
                     - Dak Kage (~Dark Cage)
                 abilities:
                     - can treat shadows as if they were solid (hitting the shadow hits the shadow-caster)
+                    - anyone touched by his shadow may disappear (if intended, but accidents happen and are irreversable) [clothes fall onto the ground empty, possible powers get transferred]
             wandering dreamer:
                 name:
                     - Yume Tumi (~you met me)
                 abilities:
                     - can enter, manipulate and cause dreams, including physical effects and reading memories from dreams
+                    - trauma dump: triggers the most traumatizing sensation to make the victim seize fighting / give up
             echo:
                 name:
-                    - Zoku Twida (~so gut wie da)
+                    - Zoku Twida (~so gut wie da, ekko)
                 abilities:
                     - echo throws a copy of the caster wherever they whistle to
                     - no way to know which copy is the real one and which is an illusion
                     - can also cast sonic weapons
+                lore:
+                    - behind skizzo abduction
+                    - imitates queen to make skizzo hate her (using him as weapon against her)
             speak:
                 name:
                     - Marh Daz (~mach das)
@@ -252,6 +269,9 @@
                         - cannot hear, because to prevent him from not being able to move through stopped air he moves the air from where he's going to where he was, but it stays still otherwise
                             - (this way he also does not make sounds when moving during time stop)
                     - may drag something else with him
+                        - may also see the history of touched
+                    - phoenix: if dead, rise from the ashes
+                    - r3531: reset to how he was at any point in time with memories (everyone else gets returned to their original state too, just the gods are exempt but may choose to comply)
             swarm:
                 name:
                     - Mita Soro
@@ -263,8 +283,27 @@
                 abilities:
                     - can make anything (even other people) puppets he controls (either through touch or distanced if trained enough)
                     - puppets may be returned to original, but they remember what they did (can train to make them not remember)
+            complex:
+                name:
+                    - Isek Comp
+                abilities:
+                    - travels 2 spacial dimensions for each normal spacial dimension
+                    (each axis is a complex plane)
+                    (shadows can fall through dimensions)
+                    (schizophrenia can imagine these and more dimensions)
+                    (sound can travel dimensions if thrown with intent)
+                    - ultimate prison (solitary confinement even): parallel planes (isekai?)
+                        - can move others there
+                        where no humans exist
+                        animals are different
+                        buildings exist, don't or are different
+                        geography may even be different
+                lore:
+                        - is a hired mercenary
+                        - signature quote "today, we have a list: ..."
 
     intermission:
+        # skipped for now
         - story continues through bun
         - meeting with other selves in universe-cloud-subdomain or something like that
         - move to abilities planet
@@ -291,6 +330,13 @@
         Y2 then continues acting as a big brother / bodyguard.
 
         (at some point) Ban gets slightly angry, traps Aggressor in transparent walls encasing him with Ban, attacks on ban pointless, the witnesses then vote on his execution
+
+        (after experiencing Toki Boot r3531) try time travel themselves
+        Same timeline where if you don't mess up everything happens as you knew it did;
+        if you do mess up,
+        Alternate timeline where you don't affect your original timeline (and thus self)
+        but if forced to be the same timeline,
+        an origin paradox will continue if nothing breaks BUT impossible future paradox terminates story branch (the universe crashes)
 
         ... at some point,
         - Ban & Bun get access to the real world (like reverse isekai)
