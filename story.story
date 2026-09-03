@@ -629,4 +629,19 @@ Als das Kreuzfahrtschiff nach einem Angriff in Brand geraten ist, bin ich mit ei
 Es klingelt an der Tür. »A package for Mr. Fren.« »Yeah, that's me. Thanks.«;
 ^^h3; I'll keep it in native from now on. This back and forth is making me dizzy.;
 ^^span;
-(to be continued);
+Speaking of dizzy, ... where.. is the... light going?\\n;
+^^spoiler; Warning: slight profanity ahead.;
+^^span;
+\\n»He's out cold.« »You sure?« »Pretty sure. The laced package that guy sold us wouldn't have had any effect on him if it didn't work as intended.« »Aight. Let's get him to the van before anyone sees us. I'm still taking whatever he just put into the oven tho. Don't want the house burning down to cause any unwanted attention, right?« »You do you. All that matters is that we get paid, might as well take some souvenirs while we're at it.«
+The unlucky Skizzo gets laid down in the back of the van, though gently. He won't get to enjoy his dinner today.
+»Ritsu, swing your ass over here already!« »I got the message, but don't stress me, big noodle.« »I'm leaving without you if you don't finish whatever you're doing in there!«;
+^^h4; »You can't leave without me though.«;
+^^span;
+»I forgot you could do that. Now get away from my ear, we're leaving.«
+^^h3;
+»Today, we have a list.«
+^^span;
+»He doesn't use his gift. The man will be missed. But he will survive, he will be fine.«
+
+»Umm.. big noodle?« »What's wrong? He dead?« »No.. he gone.« »He what?« »He gone.« »You know we're not gonna get paid if we don't deliver him intact, right?« »I know that.« »Then go find him.« »How am I supposed to do <bold>that</bold>?« »I dunno, do your thing I guess.« »And my thing says he gone.« »Yours does? Mine says he's fine. He's gotta be somewhere.« »If yours says he's fine, ask it where he's at.« »Alright, but this might cost me, so take over driving for me. He can't be far, we'll just catch up to him.« »I'd actually prefer if we stopped when you run low on tokens.« »Alright, I'll stop here.« »Now <bold>you</bold> find him.« »Give me a minute. I got six of my ten tokens left for today, so I can only do this once.« »It only takes one per direction, right? You'll be fine. And in case you do it twice, we still got the bag.«
+Tama, jokingly called big noodle, touches his forehead with three fingers. Each finger will retrieve the target coordinates, one at a time. Still, he faints.
